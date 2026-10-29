@@ -1,0 +1,1474 @@
+JiangnanCornDryingMat:
+  ProductionPriority:
+    Priority1: many
+    Priority2: rich
+    Priority3: some
+    Priority4: little
+  ProductionBatchSettings:
+    Priority1: many
+    Priority2: rich
+    Priority3: some
+    Priority4: little
+JiangnanSignin:
+  Scheduler:
+    Enable: true
+JiangnanTaskReward:
+  Scheduler:
+    Enable: true
+JiangnanCityAllocation:
+  Scheduler:
+    Enable: true
+JiangnanWarehouseInventory:
+  Scheduler:
+    Enable: true
+JiangnanDockHarvest:
+  Scheduler:
+    Enable: true
+JiangnanTaxHarvest:
+  Scheduler:
+    Enable: false
+JiangnanYingtianPostStation:
+  Scheduler:
+    Enable: false
+JiangnanChaomuDrum:
+  Scheduler:
+    Enable: true
+JiangnanYingtianfuProduction: &id001
+  Scheduler:
+    Enable: true
+JiangnanSuzhoufuProduction: *id001
+JiangnanHangzhoufuProduction: *id001
+JiangnanSongjiangfuProduction: *id001
+JiangnanJimingshanProduction: *id001
+JiangnanHuizhoufuProduction: *id001
+JiangnanYangzhoufuProduction: *id001
+JiangnanShaoxingfuProduction: *id001
+JiangnanNingbofuProduction: *id001
+JiangnanJiangningxianProduction: *id001
+JiangnanBaixuezhenProduction: *id001
+JiangnanZongyingdaoProduction: *id001
+JiangnanLonggongProduction: *id001
+JiangnanFarmProduction:
+  ProductionFacilitySettings:
+    Enable: true
+  farm_jimingshan:
+    Enable: true
+  farm_jiangningxian:
+    Enable: true
+  farm_baixuezhen:
+    Enable: true
+  farm_zongyingdao:
+    Enable: true
+  farm_longgong:
+    Enable: true
+JiangnanRestaurantProduction:
+  ProductionFacilitySettings: &id002
+    Enable: true
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_jimingshan: &id003
+    Enable: true
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanLoggingCampProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: many
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanFishPondProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanSawmillProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanPaperMillProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: many
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanCottonFieldProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: many
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanWeavingWorkshopProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: many
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanTailorShopProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanClayMineProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanPorcelainKilnProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: many
+    Priority2: rich
+    Priority3: some
+    Priority4: little
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanCharcoalKilnProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: many
+    Priority2: rich
+    Priority3: some
+    Priority4: little
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanHerbFieldProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanAlchemyFurnaceProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: many
+    Priority2: rich
+    Priority3: some
+    Priority4: little
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanTungOilPlantationProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanOilPaperWorkshopProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanUmbrellaWorkshopProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: rich
+    Priority4: many
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanBrocadeWorkshopProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanLacquerForestProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanLacquerWorkshopProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: rich
+    Priority4: many
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanMotherOfPearlWorkshopProduction:
+  ProductionFacilitySettings: *id002
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+  production_jimingshan: *id003
+  production_jiangningxian:
+    Enable: true
+  production_baixuezhen:
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+JiangnanSilkwormFarmProduction:
+  ProductionFacilitySettings: &id004
+    Enable: true
+  ProductionPriority:
+    Priority1: rich
+    Priority2: some
+    Priority3: many
+    Priority4: little
+  production_yingtianfu: &id005
+    Enable: true
+  production_suzhoufu: &id006
+    Enable: true
+  production_hangzhoufu: &id007
+    Enable: true
+  production_songjiangfu: &id008
+    Enable: true
+  production_huizhoufu: &id009
+    Enable: true
+  production_yangzhoufu: &id015
+    Enable: true
+  production_shaoxingfu: &id016
+    Enable: true
+  production_ningbofu: &id017
+    Enable: true
+  production_jimingshan: &id010
+    Enable: true
+  production_jiangningxian: &id011
+    Enable: true
+  production_baixuezhen: &id012
+    Enable: true
+  production_zongyingdao: &id013
+    Enable: true
+  production_longgong: &id014
+    Enable: true
+JiangnanWaterCaltropPondProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: many
+    Priority4: rich
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong: *id014
+JiangnanSilkWorkshopProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu: *id015
+  production_shaoxingfu: *id016
+  production_ningbofu: *id017
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong: *id014
+JiangnanEmbroideryWorkshopProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: many
+    Priority2: rich
+    Priority3: some
+    Priority4: little
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu: *id015
+  production_shaoxingfu: *id016
+  production_ningbofu: *id017
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong: *id014
+JiangnanDuckFarmProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu: *id015
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong: *id014
+JiangnanIronMineProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong:
+    Enable: true
+JiangnanIronWorkshopProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong:
+    Enable: true
+JiangnanWeaponWorkshopProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong:
+    Enable: true
+JiangnanHairpinWorkshopProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong: *id014
+JiangnanCopperMineProduction:
+  ProductionFacilitySettings: *id004
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_yingtianfu: *id005
+  production_suzhoufu: *id006
+  production_hangzhoufu: *id007
+  production_songjiangfu: *id008
+  production_huizhoufu: *id009
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id010
+  production_jiangningxian: *id011
+  production_baixuezhen: *id012
+  production_zongyingdao: *id013
+  production_longgong: *id014
+JiangnanRoundFanWorkshopProduction:
+  ProductionFacilitySettings: &id018
+    Enable: true
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_yingtianfu: &id019
+    Enable: true
+  production_suzhoufu: &id020
+    Enable: true
+  production_hangzhoufu: &id021
+    Enable: true
+  production_songjiangfu: &id022
+    Enable: true
+  production_huizhoufu: &id023
+    Enable: true
+  production_yangzhoufu: &id024
+    Enable: true
+  production_shaoxingfu: &id030
+    Enable: true
+  production_ningbofu: &id031
+    Enable: true
+  production_jimingshan: &id025
+    Enable: true
+  production_jiangningxian: &id026
+    Enable: true
+  production_baixuezhen: &id027
+    Enable: true
+  production_zongyingdao: &id028
+    Enable: true
+  production_longgong: &id029
+    Enable: true
+JiangnanTeaGardenProduction:
+  ProductionFacilitySettings: *id018
+  ProductionPriority:
+    Priority1: many
+    Priority2: rich
+    Priority3: some
+    Priority4: little
+  production_yingtianfu: *id019
+  production_suzhoufu: *id020
+  production_hangzhoufu: *id021
+  production_songjiangfu: *id022
+  production_huizhoufu: *id023
+  production_yangzhoufu: *id024
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id025
+  production_jiangningxian: *id026
+  production_baixuezhen: *id027
+  production_zongyingdao: *id028
+  production_longgong: *id029
+JiangnanFoldingFanWorkshopProduction:
+  ProductionFacilitySettings: *id018
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_yingtianfu: *id019
+  production_suzhoufu: *id020
+  production_hangzhoufu: *id021
+  production_songjiangfu: *id022
+  production_huizhoufu: *id023
+  production_yangzhoufu: *id024
+  production_shaoxingfu: *id030
+  production_ningbofu: *id031
+  production_jimingshan: *id025
+  production_jiangningxian: *id026
+  production_baixuezhen: *id027
+  production_zongyingdao: *id028
+  production_longgong: *id029
+JiangnanBambooForestProduction:
+  ProductionFacilitySettings: *id018
+  ProductionPriority:
+    Priority1: some
+    Priority2: many
+    Priority3: little
+    Priority4: rich
+  production_yingtianfu: *id019
+  production_suzhoufu: *id020
+  production_hangzhoufu: *id021
+  production_songjiangfu: *id022
+  production_huizhoufu: *id023
+  production_yangzhoufu: *id024
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu:
+    Enable: true
+  production_jimingshan: *id025
+  production_jiangningxian: *id026
+  production_baixuezhen: *id027
+  production_zongyingdao: *id028
+  production_longgong:
+    Enable: true
+JiangnanCrabPondProduction:
+  ProductionFacilitySettings: &id032
+    Enable: true
+  production_yingtianfu: &id033
+    Enable: true
+  production_suzhoufu: &id034
+    Enable: true
+  production_hangzhoufu: &id035
+    Enable: true
+  production_songjiangfu: &id036
+    Enable: true
+  production_huizhoufu: &id037
+    Enable: true
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu: &id038
+    Enable: true
+  production_ningbofu: &id039
+    Enable: true
+  production_jimingshan: &id040
+    Enable: true
+  production_jiangningxian: &id041
+    Enable: true
+  production_baixuezhen: &id042
+    Enable: true
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+JiangnanSaltFieldProduction:
+  ProductionFacilitySettings: *id032
+  production_yingtianfu: *id033
+  production_suzhoufu: *id034
+  production_hangzhoufu: *id035
+  production_songjiangfu: *id036
+  production_huizhoufu: *id037
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu: *id038
+  production_ningbofu: *id039
+  production_jimingshan: *id040
+  production_jiangningxian: *id041
+  production_baixuezhen: *id042
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+JiangnanStandardClothWorkshopProduction:
+  ProductionFacilitySettings: *id032
+  production_yingtianfu: *id033
+  production_suzhoufu: *id034
+  production_hangzhoufu: *id035
+  production_songjiangfu: *id036
+  production_huizhoufu: *id037
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu: *id038
+  production_ningbofu: *id039
+  production_jimingshan: *id040
+  production_jiangningxian: *id041
+  production_baixuezhen: *id042
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+JiangnanShoeWorkshopProduction:
+  ProductionFacilitySettings: *id032
+  production_yingtianfu: *id033
+  production_suzhoufu: *id034
+  production_hangzhoufu: *id035
+  production_songjiangfu: *id036
+  production_huizhoufu: *id037
+  production_yangzhoufu:
+    Enable: true
+  production_shaoxingfu: *id038
+  production_ningbofu: *id039
+  production_jimingshan: *id040
+  production_jiangningxian: *id041
+  production_baixuezhen: *id042
+  production_zongyingdao:
+    Enable: true
+  production_longgong:
+    Enable: true
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+JiangnanImprovedFarmProduction:
+  ProductionFacilitySettings:
+    Enable: true
+  improved_farm_yingtianfu: &id043
+    Enable: true
+    VegetablePriority1: many
+    VegetablePriority2: some
+    VegetablePriority3: little
+    VegetablePriority4: rich
+    CottonPriority1: little
+    CottonPriority2: some
+    CottonPriority3: rich
+    CottonPriority4: many
+  improved_farm_suzhoufu: *id043
+  improved_farm_hangzhoufu: *id043
+  improved_farm_songjiangfu: *id043
+  improved_farm_huizhoufu: *id043
+  improved_farm_yangzhoufu: *id043
+  improved_farm_shaoxingfu: *id043
+  improved_farm_ningbofu: *id043
+  improved_farm_jimingshan: *id043
+  improved_farm_jiangningxian: *id043
+  improved_farm_baixuezhen: *id043
+  improved_farm_zongyingdao: *id043
+  improved_farm_longgong: *id043
+JiangnanRapeseedFieldProduction:
+  ProductionFacilitySettings: &id044
+    Enable: true
+  production_yingtianfu: &id045
+    Enable: true
+  production_suzhoufu: &id046
+    Enable: true
+  production_hangzhoufu: &id047
+    Enable: true
+  production_songjiangfu: &id048
+    Enable: true
+  production_huizhoufu: &id049
+    Enable: true
+  production_yangzhoufu: &id050
+    Enable: true
+  production_shaoxingfu: &id051
+    Enable: true
+  production_ningbofu: &id052
+    Enable: true
+  production_jimingshan: &id053
+    Enable: true
+  production_jiangningxian: &id054
+    Enable: true
+  production_baixuezhen: &id055
+    Enable: true
+  production_zongyingdao: &id056
+    Enable: true
+  production_longgong: &id057
+    Enable: true
+  ProductionPriority:
+    Priority1: little
+    Priority2: many
+    Priority3: some
+    Priority4: rich
+JiangnanPigFarmProduction:
+  ProductionFacilitySettings: *id044
+  production_yingtianfu: *id045
+  production_suzhoufu: *id046
+  production_hangzhoufu: *id047
+  production_songjiangfu: *id048
+  production_huizhoufu: *id049
+  production_yangzhoufu: *id050
+  production_shaoxingfu: *id051
+  production_ningbofu: *id052
+  production_jimingshan: *id053
+  production_jiangningxian: *id054
+  production_baixuezhen: *id055
+  production_zongyingdao: *id056
+  production_longgong: *id057
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+JiangnanInkWorkshopProduction:
+  ProductionFacilitySettings: *id044
+  production_yingtianfu: *id045
+  production_suzhoufu: *id046
+  production_hangzhoufu: *id047
+  production_songjiangfu: *id048
+  production_huizhoufu: *id049
+  production_yangzhoufu: *id050
+  production_shaoxingfu: *id051
+  production_ningbofu: *id052
+  production_jimingshan: *id053
+  production_jiangningxian: *id054
+  production_baixuezhen: *id055
+  production_zongyingdao: *id056
+  production_longgong: *id057
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+JiangnanChengPaperWorkshopProduction:
+  ProductionFacilitySettings: *id044
+  production_yingtianfu: *id045
+  production_suzhoufu: *id046
+  production_hangzhoufu: *id047
+  production_songjiangfu: *id048
+  production_huizhoufu: *id049
+  production_yangzhoufu: *id050
+  production_shaoxingfu: *id051
+  production_ningbofu: *id052
+  production_jimingshan: *id053
+  production_jiangningxian: *id054
+  production_baixuezhen: *id055
+  production_zongyingdao: *id056
+  production_longgong: *id057
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+JiangnanSheInkstoneWorkshopProduction:
+  ProductionFacilitySettings: *id044
+  production_yingtianfu: *id045
+  production_suzhoufu: *id046
+  production_hangzhoufu: *id047
+  production_songjiangfu: *id048
+  production_huizhoufu: *id049
+  production_yangzhoufu: *id050
+  production_shaoxingfu: *id051
+  production_ningbofu: *id052
+  production_jimingshan: *id053
+  production_jiangningxian: *id054
+  production_baixuezhen: *id055
+  production_zongyingdao: *id056
+  production_longgong: *id057
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+JiangnanSpecialtyShopProduction:
+  ProductionFacilitySettings: *id044
+  production_yingtianfu: *id045
+  production_suzhoufu: *id046
+  production_hangzhoufu: *id047
+  production_songjiangfu: *id048
+  production_huizhoufu: *id049
+  production_yangzhoufu: *id050
+  production_shaoxingfu: *id051
+  production_ningbofu: *id052
+  production_jimingshan: *id053
+  production_jiangningxian: *id054
+  production_baixuezhen: *id055
+  production_zongyingdao: *id056
+  production_longgong: *id057
+JiangnanCarvingWorkshopProduction:
+  ProductionFacilitySettings: *id044
+  production_yingtianfu: *id045
+  production_suzhoufu: *id046
+  production_hangzhoufu: *id047
+  production_songjiangfu: *id048
+  production_huizhoufu: *id049
+  production_yangzhoufu: *id050
+  production_shaoxingfu: *id051
+  production_ningbofu: *id052
+  production_jimingshan: *id053
+  production_jiangningxian: *id054
+  production_baixuezhen: *id055
+  production_zongyingdao: *id056
+  production_longgong: *id057
+JiangnanJadeWorkshopProduction:
+  ProductionFacilitySettings: &id058
+    Enable: true
+  production_yingtianfu: &id059
+    Enable: true
+  production_suzhoufu: &id060
+    Enable: true
+  production_hangzhoufu: &id061
+    Enable: true
+  production_songjiangfu: &id062
+    Enable: true
+  production_huizhoufu: &id063
+    Enable: true
+  production_yangzhoufu: &id064
+    Enable: true
+  production_shaoxingfu: &id065
+    Enable: true
+  production_ningbofu: &id066
+    Enable: true
+  production_jimingshan: &id067
+    Enable: true
+  production_jiangningxian: &id068
+    Enable: true
+  production_baixuezhen: &id069
+    Enable: true
+  production_zongyingdao: &id070
+    Enable: true
+  production_longgong: &id071
+    Enable: true
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+JiangnanFragrancePowderFactoryProduction:
+  ProductionFacilitySettings: *id058
+  production_yingtianfu: *id059
+  production_suzhoufu: *id060
+  production_hangzhoufu: *id061
+  production_songjiangfu: *id062
+  production_huizhoufu: *id063
+  production_yangzhoufu: *id064
+  production_shaoxingfu: *id065
+  production_ningbofu: *id066
+  production_jimingshan: *id067
+  production_jiangningxian: *id068
+  production_baixuezhen: *id069
+  production_zongyingdao: *id070
+  production_longgong: *id071
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+JiangnanWineYeastFieldProduction:
+  ProductionFacilitySettings: &id072
+    Enable: true
+  production_yingtianfu: &id073
+    Enable: true
+  production_suzhoufu: &id074
+    Enable: true
+  production_hangzhoufu: &id075
+    Enable: true
+  production_songjiangfu: &id076
+    Enable: true
+  production_huizhoufu: &id077
+    Enable: true
+  production_yangzhoufu: &id078
+    Enable: true
+  production_shaoxingfu: &id079
+    Enable: true
+  production_ningbofu: &id080
+    Enable: true
+  production_jimingshan: &id081
+    Enable: true
+  production_jiangningxian: &id082
+    Enable: true
+  production_baixuezhen: &id083
+    Enable: true
+  production_zongyingdao: &id084
+    Enable: true
+  production_longgong: &id085
+    Enable: true
+  ProductionPriority:
+    Priority1: little
+    Priority2: some
+    Priority3: rich
+    Priority4: many
+JiangnanCopperMirrorFactoryProduction:
+  ProductionFacilitySettings: *id058
+  production_yingtianfu: *id059
+  production_suzhoufu: *id060
+  production_hangzhoufu: *id061
+  production_songjiangfu: *id062
+  production_huizhoufu: *id063
+  production_yangzhoufu: *id064
+  production_shaoxingfu:
+    Enable: true
+  production_ningbofu: *id066
+  production_jimingshan: *id067
+  production_jiangningxian: *id068
+  production_baixuezhen: *id069
+  production_zongyingdao: *id070
+  production_longgong: *id071
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+JiangnanYuePorcelainKilnProduction:
+  ProductionFacilitySettings: *id072
+  production_yingtianfu: *id073
+  production_suzhoufu: *id074
+  production_hangzhoufu: *id075
+  production_songjiangfu: *id076
+  production_huizhoufu: *id077
+  production_yangzhoufu: *id078
+  production_shaoxingfu: *id079
+  production_ningbofu: *id080
+  production_jimingshan: *id081
+  production_jiangningxian: *id082
+  production_baixuezhen: *id083
+  production_zongyingdao: *id084
+  production_longgong: *id085
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: rich
+    Priority4: many
+JiangnanSheepPenProduction:
+  ProductionFacilitySettings: *id072
+  production_yingtianfu: *id073
+  production_suzhoufu: *id074
+  production_hangzhoufu: *id075
+  production_songjiangfu: *id076
+  production_huizhoufu: *id077
+  production_yangzhoufu: *id078
+  production_shaoxingfu: *id079
+  production_ningbofu: *id080
+  production_jimingshan: *id081
+  production_jiangningxian: *id082
+  production_baixuezhen: *id083
+  production_zongyingdao: *id084
+  production_longgong: *id085
+  ProductionPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: many
+    Priority4: some
+JiangnanBlackFeltHatFactoryProduction:
+  ProductionFacilitySettings: *id072
+  production_yingtianfu: *id073
+  production_suzhoufu: *id074
+  production_hangzhoufu: *id075
+  production_songjiangfu: *id076
+  production_huizhoufu: *id077
+  production_yangzhoufu: *id078
+  production_shaoxingfu: *id079
+  production_ningbofu: *id080
+  production_jimingshan: *id081
+  production_jiangningxian: *id082
+  production_baixuezhen: *id083
+  production_zongyingdao: *id084
+  production_longgong: *id085
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+JiangnanPrintingFactoryProduction:
+  ProductionFacilitySettings: *id058
+  production_yingtianfu: *id059
+  production_suzhoufu: *id060
+  production_hangzhoufu: *id061
+  production_songjiangfu: *id062
+  production_huizhoufu: *id063
+  production_yangzhoufu: *id064
+  production_shaoxingfu: *id065
+  production_ningbofu: *id066
+  production_jimingshan: *id067
+  production_jiangningxian: *id068
+  production_baixuezhen: *id069
+  production_zongyingdao: *id070
+  production_longgong: *id071
+  PrintingCalendarPriority:
+    Priority1: little
+    Priority2: rich
+    Priority3: some
+    Priority4: many
+  PrintingScripturePriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+JiangnanAmberWineryProduction:
+  ProductionFacilitySettings: &id086
+    Enable: true
+  multi_product_yingtianfu: &id087
+    Enable: true
+  multi_product_suzhoufu: &id088
+    Enable: true
+  multi_product_hangzhoufu: &id089
+    Enable: true
+  multi_product_songjiangfu: &id090
+    Enable: true
+  multi_product_huizhoufu: &id091
+    Enable: true
+  multi_product_yangzhoufu: &id092
+    Enable: true
+  multi_product_shaoxingfu: &id093
+    Enable: true
+  multi_product_ningbofu: &id094
+    Enable: true
+  multi_product_jimingshan: &id095
+    Enable: true
+  multi_product_jiangningxian: &id096
+    Enable: true
+  multi_product_baixuezhen: &id097
+    Enable: true
+  multi_product_zongyingdao: &id098
+    Enable: true
+  multi_product_longgong: &id099
+    Enable: true
+JiangnanGourmetRestaurantProduction:
+  ProductionFacilitySettings: *id086
+  multi_product_yingtianfu: *id087
+  multi_product_suzhoufu: *id088
+  multi_product_hangzhoufu: *id089
+  multi_product_songjiangfu: *id090
+  multi_product_huizhoufu: *id091
+  multi_product_yangzhoufu: *id092
+  multi_product_shaoxingfu: *id093
+  multi_product_ningbofu: *id094
+  multi_product_jimingshan: *id095
+  multi_product_jiangningxian: *id096
+  multi_product_baixuezhen: *id097
+  multi_product_zongyingdao: *id098
+  multi_product_longgong: *id099
+JiangnanExquisiteGoodsShopProduction:
+  ProductionFacilitySettings: *id086
+  multi_product_yingtianfu: *id087
+  multi_product_suzhoufu: *id088
+  multi_product_hangzhoufu: *id089
+  multi_product_songjiangfu: *id090
+  multi_product_huizhoufu: *id091
+  multi_product_yangzhoufu: *id092
+  multi_product_shaoxingfu: *id093
+  multi_product_ningbofu: *id094
+  multi_product_jimingshan: *id095
+  multi_product_jiangningxian: *id096
+  multi_product_baixuezhen: *id097
+  multi_product_zongyingdao: *id098
+  multi_product_longgong: *id099
+JiangnanEmbroideryAccessoriesWorkshopProduction:
+  ProductionFacilitySettings: *id086
+  multi_product_yingtianfu: *id087
+  multi_product_suzhoufu: *id088
+  multi_product_hangzhoufu: *id089
+  multi_product_songjiangfu: *id090
+  multi_product_huizhoufu: *id091
+  multi_product_yangzhoufu: *id092
+  multi_product_shaoxingfu: *id093
+  multi_product_ningbofu: *id094
+  multi_product_jimingshan: *id095
+  multi_product_jiangningxian: *id096
+  multi_product_baixuezhen: *id097
+  multi_product_zongyingdao: *id098
+  multi_product_longgong: *id099
+JiangnanLuoShoesProduction:
+  ProductionFacilitySettings: *id086
+  multi_product_yingtianfu: *id087
+  multi_product_suzhoufu: *id088
+  multi_product_hangzhoufu: *id089
+  multi_product_songjiangfu: *id090
+  multi_product_huizhoufu: *id091
+  multi_product_yangzhoufu: *id092
+  multi_product_shaoxingfu: *id093
+  multi_product_ningbofu: *id094
+  multi_product_jimingshan: *id095
+  multi_product_jiangningxian: *id096
+  multi_product_baixuezhen: *id097
+  multi_product_zongyingdao: *id098
+  multi_product_longgong: *id099
+JiangnanJadeCrownHatWorkshopProduction:
+  ProductionFacilitySettings: *id086
+  multi_product_yingtianfu: *id087
+  multi_product_suzhoufu: *id088
+  multi_product_hangzhoufu: *id089
+  multi_product_songjiangfu: *id090
+  multi_product_huizhoufu: *id091
+  multi_product_yangzhoufu: *id092
+  multi_product_shaoxingfu: *id093
+  multi_product_ningbofu: *id094
+  multi_product_jimingshan: *id095
+  multi_product_jiangningxian: *id096
+  multi_product_baixuezhen: *id097
+  multi_product_zongyingdao: *id098
+  multi_product_longgong: *id099
+JiangnanZijinClothingPavilionProduction:
+  ProductionFacilitySettings: *id086
+  multi_product_yingtianfu: *id087
+  multi_product_suzhoufu: *id088
+  multi_product_hangzhoufu: *id089
+  multi_product_songjiangfu: *id090
+  multi_product_huizhoufu: *id091
+  multi_product_yangzhoufu: *id092
+  multi_product_shaoxingfu: *id093
+  multi_product_ningbofu: *id094
+  multi_product_jimingshan: *id095
+  multi_product_jiangningxian: *id096
+  multi_product_baixuezhen: *id097
+  multi_product_zongyingdao: *id098
+  multi_product_longgong: *id099
+JiangnanFishingBoatProduction:
+  ProductionFacilitySettings: &id100
+    Enable: true
+  ProductionPriority:
+    Priority1: some
+    Priority2: little
+    Priority3: rich
+    Priority4: many
+  production_yingtianfu: &id101
+    Enable: true
+  production_suzhoufu: &id102
+    Enable: true
+  production_hangzhoufu: &id103
+    Enable: true
+  production_songjiangfu: &id104
+    Enable: true
+  production_huizhoufu: &id105
+    Enable: true
+  production_yangzhoufu: &id106
+    Enable: true
+  production_shaoxingfu: &id107
+    Enable: true
+  production_ningbofu: &id108
+    Enable: true
+  production_jimingshan: &id109
+    Enable: true
+  production_jiangningxian: &id110
+    Enable: true
+  production_baixuezhen: &id111
+    Enable: true
+  production_zongyingdao: &id112
+    Enable: true
+  production_longgong: &id113
+    Enable: true
+JiangnanDriedFishWorkshopProduction:
+  ProductionFacilitySettings: *id100
+  ProductionPriority:
+    Priority1: many
+    Priority2: some
+    Priority3: little
+    Priority4: rich
+  production_yingtianfu: *id101
+  production_suzhoufu: *id102
+  production_hangzhoufu: *id103
+  production_songjiangfu: *id104
+  production_huizhoufu: *id105
+  production_yangzhoufu: *id106
+  production_shaoxingfu: *id107
+  production_ningbofu: *id108
+  production_jimingshan: *id109
+  production_jiangningxian: *id110
+  production_baixuezhen: *id111
+  production_zongyingdao: *id112
+  production_longgong: *id113
+JiangnanRamieFieldProduction:
+  ProductionFacilitySettings: *id100
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_yingtianfu: *id101
+  production_suzhoufu: *id102
+  production_hangzhoufu: *id103
+  production_songjiangfu: *id104
+  production_huizhoufu: *id105
+  production_yangzhoufu: *id106
+  production_shaoxingfu: *id107
+  production_ningbofu: *id108
+  production_jimingshan: *id109
+  production_jiangningxian: *id110
+  production_baixuezhen: *id111
+  production_zongyingdao: *id112
+  production_longgong: *id113
+JiangnanNetWeavingWorkshopProduction:
+  ProductionFacilitySettings: *id100
+  ProductionPriority:
+    Priority1: rich
+    Priority2: many
+    Priority3: some
+    Priority4: little
+  production_yingtianfu: *id101
+  production_suzhoufu: *id102
+  production_hangzhoufu: *id103
+  production_songjiangfu: *id104
+  production_huizhoufu: *id105
+  production_yangzhoufu: *id106
+  production_shaoxingfu: *id107
+  production_ningbofu: *id108
+  production_jimingshan: *id109
+  production_jiangningxian: *id110
+  production_baixuezhen: *id111
+  production_zongyingdao: *id112
+  production_longgong: *id113
+JiangnanHuizhouMerchantSale:
+  Scheduler:
+    Enable: true
+  huizhou_merchant_settings:
+    TradeThreshold: 3000
+  huizhou_merchant_hall_1:
+    Enable: true
+    SaleTier: 4
+    AllowTierDowngrade: false
+    TierRequiredAmount: 0
+    RecognizedSaleTier: 0
+    AutoDetectMonopoly: true
+  huizhou_merchant_hall_2:
+    Enable: true
+    SaleTier: 4
+    AllowTierDowngrade: false
+    TierRequiredAmount: 0
+    RecognizedSaleTier: 0
+    AutoDetectMonopoly: true
+  huizhou_merchant_hall_3:
+    Enable: true
+    SaleTier: 4
+    AllowTierDowngrade: false
+    TierRequiredAmount: 0
+    RecognizedSaleTier: 0
+    AutoDetectMonopoly: true
+  huizhou_merchant_hall_4:
+    Enable: true
+    SaleTier: 4
+    AllowTierDowngrade: false
+    TierRequiredAmount: 0
+    RecognizedSaleTier: 0
+    AutoDetectMonopoly: true
+JiangnanYangzhouGrandCanal:
+  Scheduler:
+    Enable: true
+  yangzhou_grand_canal:
+    Enable: true
+    CustomRoute: P357-P358-P325-P324-P424-P418-P421-P391-P237-P319-P228-P233-P227-P189-P190-P225-P226-P404-P406-P405-P407-P408-P410-P409-P412-P411-P414-P417-P416-P415-P419-P425-P423-P426-P420-P361-P368-P369-P374-P148-P182-P184-P107-P109-P464-P465-P462-P463-P460-P461-P458-P454-P455-P456-P452-P453-P393-P389-P387-P392-P395-P394-P399-P398-P397-P396-P440-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P338-P340-P341-P342-P343-P344-P345-P347-P346-P351-P352-P356-P317-P318-P314-P315-P312-P316-P322-P313-P311-P310-P285-P287-P282-P288-P286-P302-P301-P303-P304-P305-P306-P307-P308-P277-P274-P275-P276-P273-P270-P271-P272-P260-P262-P258-P261-P263-P264-P265-P267-P266-P293-P292-P290-P295-P300-P299-P289-P282-P283-P284-P280-P279-P278-P275-P278-P279-P278-P275-P278-P279-P281-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P293-P266-P267-P265-P264-P263-P261-P258-P262-P259-P257-P256-P255-P252-P253-P254-P251-P247-P250-P248-P249-P181-P186-P187-P188-P192-P191-P195-P232-P168-P165-P161-P164-P162-P160-P155-P160-P156-P158-P153-P157-P202-P201-P199-P205-P203-P208-P207-P211-P212-P210-P213-P216-P215-P214-P243-P239-P240-P241-P238-P240-P229-P230-P235-P193-P194-P196-P197-P194-P197-P194-P197-P198-P159-P160-P156-P154-P222-P219-P221-P220-P236-P235-P230-P235-P236-P235-P236-P234-P235-P236-P235-P230-P192-P191-P195-P232-P231-P166-P169-P170-P167-P163-P161-P165-P168-P232-P166-P169-P173-P169-P166-P232-P166-P169-P166-P169-P166-P232-P166-P169-P166-P232-P166-P232-P166-P169-P166-P232-P166-P169-P166-P232-P166-P169-P166-P169-P166-P232-P166-P232-P166-P169-P166-P232-P166-P232-P195-P191-P192-P188-P187-P178-P180-P179-P175-P183-P181-P249-P248-P250-P245-P244-P242-P238-P241-P240-P229-P230-P235-P234-P236-P220-P221-P219-P222-P154-P156-P160-P162-P151-P152-P136-P110-P113-P110-P136-P149-P150-P145-P146-P147-P141-P142-P139-P133-P132-P130-P129-P128-P125-P127-P126-P124-P121-P122-P123-P115-P116-P118-P120-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P133-P139-P140-P138-P108-P135-P106-P94-P114-P111-P119-P112-P119-P112-P119-P117-P119-P112-P119-P117-P115-P123-P117-P119-P117-P119-P117-P115-P117-P115-P117-P119-P112-P119-P117-P119-P112-P119-P112-P119-P117-P115-P117-P115-P117-P119-P117-P115-P116-P118-P120-P131-P130-P132-P133-P139-P142-P141-P147-P146-P145-P150-P149-P113-P153-P157-P202-P201-P200-P206-P204-P209-P207-P212-P210-P213-P216-P215-P214-P243-P239-P241-P239-P240-P239-P240-P239-P240-P238-P240-P239-P240-P238-P242-P244-P245-P250-P248-P249-P181-P183-P175-P179-P180-P178-P187-P188-P192-P230-P229-P240-P238-P240-P239-P240-P238-P240-P239-P240-P238-P240-P239-P240-P238-P240-P239-P240-P238-P240-P239-P243-P214-P215-P216-P213-P210-P212-P211-P207-P212-P207-P212-P207-P208-P203-P205-P199-P201-P200-P206-P204-P209-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P210-P213-P216-P217-P218-P219-P221-P220-P236-P234-P235-P193-P194-P196-P197-P194-P197-P198-P159-P160-P162-P164-P163-P167-P170-P169-P173-P172-P171-P180-P178-P187-P188-P192-P191-P195-P232-P168-P165-P161-P164-P151-P164-P151-P152-P136-P110-P136-P149-P150-P145-P146-P147-P141-P142-P140-P138-P108-P135-P134-P81-P102-P99-P101-P100-P97-P98-P90-P93-P62-P63-P57-P56-P58-P60-P61-P65-P67-P66-P78-P71-P70-P68-P74-P72-P73-P74-P68-P74-P72-P74-P72-P74-P68-P74-P72-P74-P68-P74-P68-P74-P72-P77-P76-P75-P82-P83-P85-P84-P88-P86-P103-P102-P99-P101-P100-P97-P98-P90-P93-P62-P63-P57-P56-P55-P54-P49-P51-P43-P45-P47-P48-P41-P26-P44-P32-P31-P39-P29-P25-P27-P21-P20-P19-P17-P18-P16-P15-P2-P3-P4-P6-P5-P7-P8-P9-P10-P11-P12-P13-P22-P23-P24-P25-P28-P35-P36-P37-P38-P42-P40-P33-P34-P49-P54-P55-P56-P57-P63-P62-P93-P90-P98-P97-P100-P101-P99-P102-P103-P86-P88-P84-P85-P83-P82-P75-P76-P77-P72-P73-P74-P72-P74-P72-P74-P68-P69-P70-P69-P68-P74-P72-P74-P68-P74-P68-P74-P68-P74-P72-P74-P68-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P77-P76-P75-P105-P104-P102-P103-P86-P88-P89-P87-P92-P93-P62-P63-P57-P56-P55-P54-P49-P34-P33-P40-P42-P38-P37-P36-P35-P28-P25-P24-P26-P44-P32-P31-P39-P29-P25-P24-P25-P24-P25-P27-P21-P14-P11-P14-P21-P14-P11-P12-P13-P22-P23-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P28-P35-P36-P37-P38-P31-P32-P44-P26-P41-P48-P47-P45-P43-P51-P49-P54-P55-P56-P57-P63-P62-P93-P90-P98-P97-P100-P101-P99-P102-P103-P86-P88-P84-P85-P83-P82-P75-P76-P77-P72-P73-P74-P68-P70-P69-P68-P74-P68-P74-P68-P74-P68-P74-P68-P74-P72-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P74-P72-P74-P68-P74-P68-P74-P68-P74-P72-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P74-P72-P74-P68-P74-P73-P72-P77-P76-P75-P105-P104-P102-P99-P101-P100-P97-P98-P90-P93-P62-P63-P57-P56-P55-P54-P49-P51-P43-P45-P47-P48-P41-P26-P24-P23-P22-P13-P12-P11-P14-P21-P27-P25-P29-P39-P31-P38-P37-P36-P35-P28-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P26-P44-P32-P31-P30-P46-P45-P43-P51-P49-P54-P55-P56-P57-P63-P62-P93-P90-P98-P97-P100-P101-P99-P102-P81-P134-P135-P108-P138-P140-P139-P142-P141-P147-P146-P145-P150-P149-P136-P152-P151-P162-P160-P155-P156-P154-P222-P219-P218-P217-P216-P215-P214-P243-P239-P241-P239-P240-P229-P230-P192-P230-P235-P234-P236-P235-P230-P235-P230-P235-P236-P235-P230-P235-P193-P194-P197-P196-P194-P197-P194-P197-P194-P197-P198-P159-P160-P159-P160-P156-P160-P159-P160-P156-P155-P160-P159-P160-P159-P160-P162-P164-P161-P165-P168-P232-P231-P166-P232-P195-P191-P192-P188-P187-P186-P181-P249-P248-P250-P247-P251-P254-P253-P252-P255-P256-P257-P259-P258-P261-P263-P264-P265-P267-P266-P293-P292-P290-P295-P300-P299-P289-P282-P287-P285-P310-P309-P312-P315-P314-P318-P317-P356-P352-P351-P346-P347-P345-P348-P349-P350-P353-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P333-P330-P333-P329-P330-P329-P330-P333-P330-P329-P333-P332-P335-P334-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P388-P386-P433-P432-P431-P435-P434-P437-P436-P439-P438-P441-P443-P442-P445-P444-P447-P223-P446-P450-P449-P360-P359-P357-P358-P325-P324-P424-P418-P424-P320-P430-P427-P423-P425-P419-P415-P416-P417-P414-P411-P412-P409-P410-P408-P407-P405-P406-P400-P224-P401-P400-P224-P400-P224-P402-P403-P459-P457-P454-P455-P456-P452-P453-P393-P389-P390-P389-P387-P389-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P336-P334-P335-P332-P333-P329-P333-P329-P333-P329-P330-P331-P327-P328-P326-P323-P321-P355-P185-P353-P350-P349-P348-P345-P344-P343-P342-P341-P340-P338-P336-P339-P337-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P390-P389-P390-P387-P389-P390-P387-P390-P389-P387-P390-P387-P389-P387-P389-P390-P389-P387-P392-P395-P394-P399-P398-P401-P224-P400-P406-P400-P224-P402-P403-P459-P457-P458-P454-P457-P454-P455-P456-P452-P453-P393-P389-P387-P390-P389-P390-P389-P387-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P330-P333-P330-P331-P327-P328-P326-P323-P321-P355-P185-P353-P350-P349-P348-P345-P344-P343-P342-P341-P340-P338-P336-P337-P336-P337-P336-P337-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P390-P387-P389-P393-P453-P452-P456-P455-P454-P458-P457-P454-P457-P459-P403-P402-P224-P401-P398-P399-P394-P395-P392-P387-P389-P387-P390-P387-P390-P387-P390-P389-P390-P389-P390-P387-P389-P387-P390-P389-P390-P389-P387-P389-P390-P389-P390-P387-P389-P387-P390-P383-P390-P387-P389-P393-P453-P452-P456-P455-P454-P457-P458-P454-P457-P459-P403-P402-P224-P401-P398-P399-P394-P395-P392-P387-P389-P387-P389-P390-P387-P390-P389-P390-P387-P389-P390-P389-P387-P390-P387-P390-P389-P390-P389-P387-P389-P390-P387-P390-P389-P387-P389-P387-P389-P390-P383-P390-P389-P393-P453-P452-P456-P455-P454-P458-P457-P459-P403-P402-P224-P401-P400-P406-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P402-P403-P459-P457-P458-P457-P454-P455-P456-P452-P453-P393-P389-P387-P392-P395-P394-P399-P398-P401-P224-P400-P406-P404-P226-P225-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P329-P330-P331-P327-P328-P326-P323-P322-P323-P322-P316-P312-P309-P310-P311-P313-P322-P323-P321-P355-P185-P353-P350-P349-P348-P345-P344-P343-P342-P341-P340-P338-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P392-P395-P394-P399-P398-P401-P224-P402-P403-P459-P457-P454-P458-P457-P454-P455-P456-P452-P453-P393-P389-P390-P389-P390-P387-P390-P387-P390-P387-P389-P387-P389-P390-P387-P390-P389-P387-P389-P390-P389-P390-P389-P387-P389-P387-P390-P387-P390-P383-P390-P387-P392-P395-P394-P399-P398-P397-P396-P440-P439-P438-P441-P443-P442-P445-P444-P447-P223-P446-P450-P448-P451-P190-P225-P226-P404-P406-P400-P401-P400-P224-P402-P403-P459-P457-P458-P454-P455-P456-P452-P453-P393-P389-P390-P387-P389-P387-P390-P387-P389-P387-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P330-P329-P333-P330-P329-P330-P333-P329-P333-P329-P330-P331-P327-P328-P326-P323-P322-P323-P321-P355-P185-P353-P350-P349-P348-P345-P344-P343-P342-P341-P340-P338-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P389-P393-P453-P452-P456-P455-P454-P458-P454-P457-P459-P403-P402-P224-P401-P398-P399-P394-P395-P392-P387-P390-P389-P390-P389-P387-P389-P390-P389-P387-P389-P390-P387-P390-P389-P390-P387-P390-P389-P387-P389-P387-P390-P387-P389-P390-P387-P390-P387-P389-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P338-P340-P341-P342-P343-P344-P345-P348-P349-P350-P353-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P333-P332-P335-P334-P336-P337-P336-P337-P336-P337-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P389-P393-P453-P452-P456-P455-P454-P458-P454-P457-P459-P403-P402-P224-P401-P398-P399-P394-P395-P392-P387-P390-P389-P387-P389-P387-P390-P387-P390-P389-P390-P387-P389-P387-P389-P390-P389-P387-P389-P390-P389-P390-P387-P390-P387-P390-P387-P390-P389-P387-P389-P387-P390-P383-P388-P386-P433-P432-P431-P435-P434-P437-P436-P439-P440-P396-P397-P398-P399-P394-P395-P392-P387-P389-P393-P453-P452-P456-P455-P454-P458-P457-P454-P457-P459-P403-P402-P224-P401-P400-P406-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P402-P403-P459-P457-P458-P461-P460-P463-P462-P465-P464-P109-P107-P184-P413-P412-P413-P184-P148-P184-P182-P148-P184-P413-P184-P413-P409-P410-P408-P407-P405-P406-P404-P226-P225-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P330-P333-P329-P333-P330-P333-P329-P330-P331-P327-P328-P326-P323-P321-P355-P185-P353-P350-P349-P348-P345-P347-P346-P351-P352-P356-P317-P318-P314-P315-P312-P316-P322-P323-P322-P313-P311-P310-P285-P287-P282-P289-P299-P300-P295-P290-P291-P281-P279-P280-P284-P283-P282-P288-P286-P302-P301-P303-P304-P305-P306-P307-P308-P277-P274-P275-P278-P279-P278-P275-P278-P279-P278-P275-P278-P279-P278-P275-P276-P273-P270-P271-P272-P260-P262-P259-P262-P258-P261-P263-P264-P265-P267-P266-P293-P292-P290-P295-P300-P299-P289-P282-P287-P285-P310-P311-P313-P322-P316-P312-P315-P314-P318-P317-P356-P352-P351-P346-P347-P345-P348-P349-P350-P353-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P330-P333-P332-P335-P334-P336-P339-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P392-P395-P394-P399-P398-P401-P224-P402-P403-P459-P457-P458-P461-P460-P463-P462-P465-P464-P109-P107-P184-P148-P182-P184-P148-P184-P413-P409-P410-P408-P407-P405-P406-P404-P226-P225-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P338-P340-P341-P342-P343-P344-P345-P348-P349-P350-P353-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P330-P333-P332-P335-P334-P336-P337-P336-P337-P336-P337-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P388-P386-P433-P432-P431-P435-P434-P437-P436-P439-P440-P396-P397-P398-P399-P394-P395-P392-P387-P390-P389-P393-P453-P452-P456-P455-P454-P458-P457-P459-P403-P402-P224-P401-P224-P400-P406-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P402-P403-P459-P457-P458-P461-P460-P463-P462-P465-P464-P109-P107-P184-P182-P148-P184-P148-P184-P413-P409-P413-P184-P148-P374-P369-P368-P361-P420-P426-P425-P426-P423-P427-P430-P320-P424-P324-P325-P358-P357-P359-P360-P449-P450-P448-P451-P190-P225-P226-P404-P406-P400-P401-P398-P397-P396-P440-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P390-P389-P393-P453-P452-P456-P455-P454-P458-P454-P457-P459-P403-P402-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P406-P405-P407-P408-P410-P409-P412-P413-P412-P413-P184-P182-P148-P374-P369-P368-P361-P420-P426-P425-P423-P427-P430-P320-P424-P324-P325-P358-P357-P359-P360-P449-P450-P448-P451-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P440-P396-P397-P398-P399-P394-P395-P392-P387-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P330-P331-P327-P328-P326-P323-P321-P355-P185-P353-P350-P349-P348-P345-P347-P346-P351-P352-P356-P317-P318-P314-P315-P312-P309-P310-P311-P313-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P326-P328-P327-P331-P330-P333-P332-P335-P334-P336-P339-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P392-P395-P394-P399-P398-P401-P400-P406-P405-P407-P408-P410-P409-P412-P413-P412-P411-P414-P417-P416-P415-P419-P425-P419-P418-P421-P391-P237-P319-P228-P233-P227-P189-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P329-P333-P329-P354-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P333-P330-P329-P330-P333-P330-P329-P330-P329-P330-P333-P330-P333-P329-P333-P329-P333-P330-P333-P329-P333-P329-P333-P330-P329-P330-P329-P330-P333-P330-P329-P333-P329-P330-P333-P332-P335-P334-P336-P339-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P381-P383-P388-P386-P433-P432-P431-P435-P434-P437-P436-P439-P438-P441-P443-P442-P445-P444-P447-P223-P446-P450-P449-P360-P359-P357
+JiangnanNingboMerchantShip:
+  Scheduler:
+    Enable: true
+  ningbo_merchant_ship_1:
+    Enable: true
+  ningbo_merchant_ship_2:
+    Enable: true
+  ningbo_merchant_ship_3:
+    Enable: true
+  ningbo_merchant_ship_4:
+    Enable: true
+JiangnanYingtianInn:
+  Scheduler:
+    Enable: false
+JiangnanShaoxingFurnitureShop:
+  Scheduler:
+    Enable: false
+JiangnanSuzhouPostStation:
+  Scheduler:
+    Enable: false
+JiangnanHangzhouPostStation:
+  Scheduler:
+    Enable: false
+JiangnanSongjiangPostStation:
+  Scheduler:
+    Enable: false
+JiangnanHuizhouPostStation:
+  Scheduler:
+    Enable: false
+JiangnanYangzhouPostStation:
+  Scheduler:
+    Enable: false
+JiangnanNingboPostStation:
+  Scheduler:
+    Enable: false

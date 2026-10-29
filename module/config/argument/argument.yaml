@@ -1,0 +1,2864 @@
+Scheduler:
+  Enable:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+  NextRun: 2020-01-01 00:00:00
+  Command: Alas
+  SuccessInterval:
+    value: 0
+    display: hide
+  FailureInterval:
+    value: 120
+    display: hide
+  ServerUpdate:
+    value: 00:00
+    display: hide
+Emulator:
+  Serial:
+    value: auto
+    valuetype: str
+  PackageName:
+    value: com.cis.jiangnan.taptap
+    option:
+    - auto
+    - com.cis.jiangnan.taptap
+  ScreenshotMethod:
+    value: auto
+    option:
+    - auto
+    - ADB
+    - ADB_nc
+    - uiautomator2
+    - aScreenCap
+    - aScreenCap_nc
+    - DroidCast
+    - DroidCast_raw
+    - nemu_ipc
+    - ldopengl
+  ControlMethod:
+    value: MaaTouch
+    option:
+    - ADB
+    - uiautomator2
+    - minitouch
+    - Hermit
+    - MaaTouch
+  ScreenshotDedithering: false
+  AdbRestart: false
+EmulatorInfo:
+  Emulator:
+    value: auto
+    option:
+    - auto
+    - NoxPlayer
+    - NoxPlayer64
+    - BlueStacks4
+    - BlueStacks5
+    - BlueStacks4HyperV
+    - BlueStacks5HyperV
+    - LDPlayer3
+    - LDPlayer4
+    - LDPlayer9
+    - LDPlayer14
+    - MuMuPlayer
+    - MuMuPlayerX
+    - MuMuPlayer12
+    - MEmuPlayer
+  name:
+    value: null
+    type: textarea
+  path:
+    value: null
+    type: textarea
+Error:
+  HandleError: true
+  SaveError: true
+  OnePushConfig:
+    type: textarea
+    mode: yaml
+    value: 'provider: null'
+  ScreenshotLength: 1
+Optimization:
+  ScreenshotInterval: 0.3
+  TaskHoardingDuration: 0
+  WhenTaskQueueEmpty:
+    value: goto_main
+    option:
+    - stay_there
+    - goto_main
+    - close_game
+post_station:
+  RationThreshold:
+    type: input
+    value: 3
+    validate: (?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  IntervalRations:
+    type: input
+    value: 1
+    validate: (?=\d*\.?\d*[1-9])(?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  Interval:
+    value: 1粮草 × 40分钟 = 40分钟（40分钟）
+    display: disabled
+  PreferredCaptains:
+    type: textarea
+    value: ''
+    valuetype: str
+  MapQinhuai:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapYingtian:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapLiniang:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  PinnedResources:
+    type: textarea
+    value: 进入地图后自动读取游戏内置顶资源
+    display: disabled
+  Rations:
+    value: 未识别
+    display: disabled
+  Captain:
+    value: ''
+    display: disabled
+  Status:
+    type: textarea
+    value: 未运行；请在游戏物品搜索中置顶需要采集的资源
+    display: disabled
+  LastRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+  LastMap:
+    value: ''
+    display: hide
+  CurrentMap:
+    value: ''
+    display: hide
+ProductionFacilitySettings:
+  Enable:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+ChaomuDrumSettings:
+  Status:
+    type: textarea
+    value: 等待运行；每城每2小时一次，每日最多10次
+    mode: text
+    display: disabled
+chaomu_drum_yingtianfu:
+  Enable: &id001
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Status: &id002
+    type: textarea
+    value: 未运行
+    mode: text
+    display: disabled
+  NextRun: &id003
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+  UsedCount: &id004
+    value: 0
+    display: disabled
+  CountDate: &id005
+    value: ''
+    valuetype: str
+    display: disabled
+  LastAttempt: &id006
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+  Pending: &id007
+    value: false
+    display: hide
+chaomu_drum_suzhoufu:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_hangzhoufu:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_songjiangfu:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_jimingshan:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_huizhoufu:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_yangzhoufu:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_shaoxingfu:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_ningbofu:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_jiangningxian:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_baixuezhen:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_zongyingdao:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+chaomu_drum_longgong:
+  Enable: *id001
+  Status: *id002
+  NextRun: *id003
+  UsedCount: *id004
+  CountDate: *id005
+  LastAttempt: *id006
+  Pending: *id007
+CityProductionStatus:
+  Status:
+    type: textarea
+    value: 等待首次运行，详细状态见下方设施模块
+    mode: text
+    display: disabled
+  LastRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+  LastLayoutScan:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+city_facility_JiangnanFarmProduction:
+  Enable:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+  Status:
+    type: textarea
+    value: 未运行
+    mode: text
+    display: disabled
+  NextRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+city_facility_JiangnanRestaurantProduction:
+  Enable: &id008
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+  Status: &id009
+    type: textarea
+    value: 未运行
+    mode: text
+    display: disabled
+  NextRun: &id010
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+city_facility_JiangnanLoggingCampProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanFishPondProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanSawmillProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanPaperMillProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanCottonFieldProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanWeavingWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanTailorShopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanClayMineProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanPorcelainKilnProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanCharcoalKilnProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanHerbFieldProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanAlchemyFurnaceProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanTungOilPlantationProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanOilPaperWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanUmbrellaWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanBrocadeWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanLacquerForestProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanLacquerWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanMotherOfPearlWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanWaterCaltropPondProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanSilkwormFarmProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanSilkWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanEmbroideryWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanDuckFarmProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanIronMineProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanIronWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanWeaponWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanHairpinWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanCopperMineProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanBambooForestProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanTeaGardenProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanFoldingFanWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanRoundFanWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanCrabPondProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanSaltFieldProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanStandardClothWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanShoeWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanRapeseedFieldProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanPigFarmProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanInkWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanChengPaperWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanSheInkstoneWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanWangBrushWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanQuarryProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanLuoShoesProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanSeaMoonPondPlaceholder:
+  Status: &id011
+    type: textarea
+    value: 待解锁：暂无生产逻辑
+    mode: text
+    display: disabled
+city_facility_JiangnanMingTileWorkshopPlaceholder:
+  Status: *id011
+city_facility_JiangnanCopperMirrorFactoryProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanJadeWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanFragrancePowderFactoryProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanWineYeastFieldProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanYuePorcelainKilnProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanSheepPenProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanBlackFeltHatFactoryProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanFishingBoatProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanDriedFishWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanRamieFieldProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanNetWeavingWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanSpecialtyShopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanCarvingWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanPrintingFactoryProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanAmberWineryProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanGourmetRestaurantProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanExquisiteGoodsShopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanEmbroideryAccessoriesWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanJadeCrownHatWorkshopProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanZijinClothingPavilionProduction:
+  Enable: *id008
+  Status: *id009
+  NextRun: *id010
+city_facility_JiangnanImprovedFarmProduction:
+  Enable:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+  Status:
+    type: textarea
+    value: 未运行
+    mode: text
+    display: disabled
+  NextRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+AllocationSettings:
+  UseSpecialTask:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+yingtianfu:
+  Export: &id012
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Import: &id013
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Strategy: &id014
+    type: select
+    value: none
+    option:
+    - receive_first
+    - send_first
+    - none
+  Filter: &id015
+    type: textarea
+    value: 60% < 全部物资 < 70%
+    mode: text
+  NextRun: &id016
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+suzhoufu:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+hangzhoufu:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+songjiangfu:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+huizhoufu:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+yangzhoufu:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+shaoxingfu:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+ningbofu:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+jimingshan:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+jiangningxian:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+baixuezhen:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+zongyingdao:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+longgong:
+  Export: *id012
+  Import: *id013
+  Strategy: *id014
+  Filter: *id015
+  NextRun: *id016
+WarehouseScan:
+  Interval:
+    type: select
+    value: 12
+    option:
+    - 3
+    - 6
+    - 12
+    - 24
+warehouse_yingtianfu:
+  Scan: &id017
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  NextRun: &id018
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+  Capacity: &id019
+    type: input
+    value: 0
+    validate: int
+  ScheduledChanges: &id020
+    type: textarea
+    value: 无
+    mode: text
+    display: disabled
+  Inventory: &id021
+    type: textarea
+    mode: text
+    value: '蔬菜: 0
+
+      肉类: 0
+
+      菜肴: 0
+
+      原木: 0
+
+      木板: 0
+
+      纸: 0
+
+      棉花: 0
+
+      布: 0
+
+      成衣: 0
+
+      黏土: 0
+
+      瓷器: 0
+
+      木炭: 0
+
+      草药: 0
+
+      丹丸: 0
+
+      蚕丝: 0
+
+      丝绸: 0
+
+      刺绣: 0
+
+      桐油: 0
+
+      渔获: 0
+
+      鱼干: 0
+
+      油纸: 0
+
+      苎麻: 0
+
+      油纸伞: 0
+
+      渔网: 0
+
+      茶叶: 0
+
+      竹子: 0
+
+      折扇: 0
+
+      团扇: 0
+
+      云锦: 0
+
+      盐: 0
+
+      黑核棉: 0
+
+      标布: 0
+
+      布鞋: 0
+
+      生漆: 0
+
+      漆器: 0
+
+      螺钿: 0
+
+      汪笔: 0
+
+      徽墨: 0
+
+      澄纸: 0
+
+      歙石: 0
+
+      歙砚: 0
+
+      铁矿: 0
+
+      铁板: 0
+
+      兵器: 0
+
+      玉石: 0
+
+      玉器: 0
+
+      粟米: 0
+
+      香粉: 0
+
+      油墨: 0
+
+      年历: 0
+
+      经书: 0
+
+      酒曲: 0
+
+      越瓷: 0
+
+      羊毛: 0
+
+      乌毡帽: 0
+
+      花簪: 0
+
+      铜板: 0
+
+      铜镜: 0
+
+      茶油: 0
+
+      竹编: 0
+
+      甲酒: 0
+
+      盆景: 0
+
+      木雕: 0
+
+      竹雕: 0
+
+      砖雕: 0
+
+      石雕: 0'
+warehouse_suzhoufu:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_hangzhoufu:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_songjiangfu:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_huizhoufu:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_yangzhoufu:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_shaoxingfu:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+  MerchantCapacity:
+    type: input
+    value: 0
+    validate: int
+    display: disabled
+  MerchantInventory:
+    type: textarea
+    mode: text
+    value: 无
+warehouse_ningbofu:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_jimingshan:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_jiangningxian:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_baixuezhen:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_zongyingdao:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+warehouse_longgong:
+  Scan: *id017
+  NextRun: *id018
+  Capacity: *id019
+  ScheduledChanges: *id020
+  Inventory: *id021
+dock_yingtianfu:
+  Enable: &id022
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Pending: &id023
+    type: textarea
+    value: 无
+    mode: text
+    display: disabled
+  NextRun: &id024
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+dock_suzhoufu:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_hangzhoufu:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_songjiangfu:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_huizhoufu:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_yangzhoufu:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_shaoxingfu:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_ningbofu:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_jimingshan:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_jiangningxian:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_baixuezhen:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_zongyingdao:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+dock_longgong:
+  Enable: *id022
+  Pending: *id023
+  NextRun: *id024
+tax_yingtianfu:
+  Enable: &id025
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  NextRun: &id026
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+tax_suzhoufu:
+  Enable: *id025
+  NextRun: *id026
+tax_hangzhoufu:
+  Enable: *id025
+  NextRun: *id026
+tax_songjiangfu:
+  Enable: *id025
+  NextRun: *id026
+tax_huizhoufu:
+  Enable: *id025
+  NextRun: *id026
+tax_yangzhoufu:
+  Enable: *id025
+  NextRun: *id026
+tax_shaoxingfu:
+  Enable: *id025
+  NextRun: *id026
+tax_ningbofu:
+  Enable: *id025
+  NextRun: *id026
+tax_jimingshan:
+  Enable: *id025
+  NextRun: *id026
+tax_jiangningxian:
+  Enable: *id025
+  NextRun: *id026
+tax_baixuezhen:
+  Enable: *id025
+  NextRun: *id026
+tax_zongyingdao:
+  Enable: *id025
+  NextRun: *id026
+tax_longgong:
+  Enable: *id025
+  NextRun: *id026
+CityLayout:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:city:all
+  Distribution:
+    type: textarea
+    mode: text
+    value: '1: 应天府, 苏州府
+
+      2: 杭州府, 松江府
+
+      3: 鸡鸣山, 徽州府
+
+      4: 扬州府, 绍兴府
+
+      5: 宁波府, 江宁县
+
+      6: 白雪镇, 棕影岛
+
+      7: 龙宫'
+WarehouseLayout:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:warehouse:all
+  Distribution:
+    type: textarea
+    mode: text
+    value: '1: 蔬菜, 肉类
+
+      2: 菜肴, 原木
+
+      3: 木板, 纸
+
+      4: 棉花, 布
+
+      5: 成衣, 黏土
+
+      6: 瓷器, 木炭
+
+      7: 草药, 丹丸
+
+      8: 蚕丝, 丝绸
+
+      9: 刺绣, 桐油
+
+      10: 渔获, 鱼干
+
+      11: 油纸, 苎麻
+
+      12: 油纸伞, 渔网
+
+      13: 茶叶, 竹子
+
+      14: 折扇, 团扇
+
+      15: 云锦, 盐
+
+      16: 黑核棉, 标布
+
+      17: 布鞋, 生漆
+
+      18: 漆器, 螺钿
+
+      19: 汪笔, 徽墨
+
+      20: 澄纸, 歙石
+
+      21: 歙砚, 铁矿
+
+      22: 铁板, 兵器
+
+      23: 玉石, 玉器
+
+      24: 粟米, 香粉
+
+      25: 油墨, 年历
+
+      26: 经书, 酒曲
+
+      27: 越瓷, 羊毛
+
+      28: 乌毡帽, 花簪
+
+      29: 铜板, 铜镜
+
+      30: 木雕, 茶油
+
+      31: 竹雕, 竹编
+
+      32: 砖雕, 甲酒
+
+      33: 石雕, 盆景'
+allocation_yingtianfu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:yingtianfu
+  Distribution: &id027
+    type: textarea
+    mode: text
+    value: ''
+allocation_suzhoufu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:suzhoufu
+  Distribution: *id027
+allocation_hangzhoufu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:hangzhoufu
+  Distribution: *id027
+allocation_songjiangfu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:songjiangfu
+  Distribution: *id027
+allocation_jimingshan:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:jimingshan
+  Distribution: *id027
+allocation_huizhoufu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:huizhoufu
+  Distribution: *id027
+allocation_yangzhoufu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:yangzhoufu
+  Distribution: *id027
+allocation_shaoxingfu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:shaoxingfu
+  Distribution: *id027
+allocation_ningbofu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:ningbofu
+  Distribution: *id027
+allocation_jiangningxian:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:jiangningxian
+  Distribution: *id027
+allocation_baixuezhen:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:baixuezhen
+  Distribution: *id027
+allocation_zongyingdao:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:zongyingdao
+  Distribution: *id027
+allocation_longgong:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:allocation:longgong
+  Distribution: *id027
+production_layout_yingtianfu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:yingtianfu
+  Distribution: &id028
+    type: textarea
+    mode: text
+    value: ''
+  NextScan: &id029
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+production_layout_suzhoufu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:suzhoufu
+  Distribution: *id028
+  NextScan: *id029
+production_layout_hangzhoufu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:hangzhoufu
+  Distribution: *id028
+  NextScan: *id029
+production_layout_songjiangfu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:songjiangfu
+  Distribution: *id028
+  NextScan: *id029
+production_layout_jimingshan:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:jimingshan
+  Distribution: *id028
+  NextScan: *id029
+production_layout_huizhoufu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:huizhoufu
+  Distribution: *id028
+  NextScan: *id029
+production_layout_yangzhoufu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:yangzhoufu
+  Distribution: *id028
+  NextScan: *id029
+production_layout_shaoxingfu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:shaoxingfu
+  Distribution: *id028
+  NextScan: *id029
+production_layout_ningbofu:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:ningbofu
+  Distribution: *id028
+  NextScan: *id029
+production_layout_jiangningxian:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:jiangningxian
+  Distribution: *id028
+  NextScan: *id029
+production_layout_baixuezhen:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:baixuezhen
+  Distribution: *id028
+  NextScan: *id029
+production_layout_zongyingdao:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:zongyingdao
+  Distribution: *id028
+  NextScan: *id029
+production_layout_longgong:
+  Recognize:
+    type: button
+    value: false
+    label: 识别更新信息
+    action: JiangnanAuxiliaryRecognize:production:longgong
+  Distribution: *id028
+  NextScan: *id029
+LayoutLearning:
+  Status:
+    type: textarea
+    mode: text
+    value: '{}'
+    display: disabled
+FarmBatchSettings:
+  UseSpecialTask:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Priority1:
+    type: select
+    value: some
+    option: &id030
+    - none
+    - some
+    - little
+    - many
+    - rich
+  Priority2:
+    type: select
+    value: little
+    option: *id030
+  Priority3:
+    type: select
+    value: many
+    option: *id030
+  Priority4:
+    type: select
+    value: rich
+    option: *id030
+  Apply:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+farm_yingtianfu:
+  Enable: &id031
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+    display: hide
+  UseSpecialTask: &id032
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Priority1: &id033
+    type: select
+    value: some
+    option: *id030
+  Priority2: &id034
+    type: select
+    value: little
+    option: *id030
+  Priority3: &id035
+    type: select
+    value: many
+    option: *id030
+  Priority4: &id036
+    type: select
+    value: rich
+    option: *id030
+  Status: &id037
+    type: textarea
+    value: 无
+    mode: text
+    display: hide
+  NextRun: &id038
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+farm_suzhoufu:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_hangzhoufu:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_songjiangfu:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_huizhoufu:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_yangzhoufu:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_shaoxingfu:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_ningbofu:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_jimingshan:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_jiangningxian:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_baixuezhen:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_zongyingdao:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+farm_longgong:
+  Enable: *id031
+  UseSpecialTask: *id032
+  Priority1: *id033
+  Priority2: *id034
+  Priority3: *id035
+  Priority4: *id036
+  Status: *id037
+  NextRun: *id038
+ProductionBatchSettings:
+  UseSpecialTask:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Priority1:
+    type: select
+    value: rich
+    option: &id039
+    - none
+    - rich
+    - many
+    - some
+    - little
+  Priority2:
+    type: select
+    value: many
+    option: *id039
+  Priority3:
+    type: select
+    value: some
+    option: *id039
+  Priority4:
+    type: select
+    value: little
+    option: *id039
+  Apply:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+ImprovedFarmBatchSettings:
+  UseSpecialTask:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  VegetablePriority1:
+    type: select
+    value: rich
+    option: *id039
+  VegetablePriority2:
+    type: select
+    value: many
+    option: *id039
+  VegetablePriority3:
+    type: select
+    value: some
+    option: *id039
+  VegetablePriority4:
+    type: select
+    value: little
+    option: *id039
+  CottonPriority1:
+    type: select
+    value: rich
+    option: *id039
+  CottonPriority2:
+    type: select
+    value: many
+    option: *id039
+  CottonPriority3:
+    type: select
+    value: some
+    option: *id039
+  CottonPriority4:
+    type: select
+    value: little
+    option: *id039
+  Apply:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+production_yingtianfu:
+  Enable: &id040
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+    display: hide
+  UseSpecialTask: &id041
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Priority1: &id042
+    type: select
+    value: rich
+    option: *id039
+  Priority2: &id043
+    type: select
+    value: many
+    option: *id039
+  Priority3: &id044
+    type: select
+    value: some
+    option: *id039
+  Priority4: &id045
+    type: select
+    value: little
+    option: *id039
+  Status: &id046
+    type: textarea
+    value: 无
+    mode: text
+    display: hide
+  NextRun: &id047
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+production_suzhoufu:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_hangzhoufu:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_songjiangfu:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_huizhoufu:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_yangzhoufu:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_shaoxingfu:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_ningbofu:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_jimingshan:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_jiangningxian:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_baixuezhen:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_zongyingdao:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+production_longgong:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+amber_winery_products:
+  Product1: &id048
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Product2: &id049
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Product3: &id050
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Product4: &id051
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+gourmet_restaurant_products:
+  Product1: *id048
+  Product2: *id049
+  Product3: *id050
+  Product4: *id051
+exquisite_goods_products:
+  Product1: *id048
+  Product2: *id049
+  Product3: *id050
+  Product4: *id051
+embroidery_accessories_products:
+  Product1: *id048
+  Product2: *id049
+  Product3: *id050
+  Product4: *id051
+luo_shoes_products:
+  Product1: *id048
+  Product2: *id049
+  Product3: *id050
+  Product4: *id051
+jade_crown_products:
+  Product1: *id048
+  Product2: *id049
+  Product3: *id050
+  Product4: *id051
+zijin_clothing_products:
+  Product1: *id048
+  Product2: *id049
+  Product3: *id050
+  Product4: *id051
+multi_product_yingtianfu:
+  Enable: &id052
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+    display: hide
+  Status: &id053
+    type: textarea
+    value: 无
+    mode: text
+    display: hide
+  NextRun: &id054
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+multi_product_suzhoufu:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_hangzhoufu:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_songjiangfu:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_huizhoufu:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_yangzhoufu:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_shaoxingfu:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_ningbofu:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_jimingshan:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_jiangningxian:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_baixuezhen:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_zongyingdao:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+multi_product_longgong:
+  Enable: *id052
+  Status: *id053
+  NextRun: *id054
+restaurant_huizhoufu:
+  Enable: *id040
+  UseSpecialTask: *id041
+  Priority1: *id042
+  Priority2: *id043
+  Priority3: *id044
+  Priority4: *id045
+  Status: *id046
+  NextRun: *id047
+improved_farm_yingtianfu:
+  Enable: &id055
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+    display: hide
+  UseSpecialTask: &id056
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  VegetablePriority1: &id057
+    type: select
+    value: rich
+    option: *id039
+  VegetablePriority2: &id058
+    type: select
+    value: many
+    option: *id039
+  VegetablePriority3: &id059
+    type: select
+    value: some
+    option: *id039
+  VegetablePriority4: &id060
+    type: select
+    value: little
+    option: *id039
+  CottonPriority1: &id061
+    type: select
+    value: rich
+    option: *id039
+  CottonPriority2: &id062
+    type: select
+    value: many
+    option: *id039
+  CottonPriority3: &id063
+    type: select
+    value: some
+    option: *id039
+  CottonPriority4: &id064
+    type: select
+    value: little
+    option: *id039
+  Status: &id065
+    type: textarea
+    value: 无
+    mode: text
+    display: hide
+  NextRun: &id066
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+improved_farm_suzhoufu:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_hangzhoufu:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_songjiangfu:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_huizhoufu:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_yangzhoufu:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_shaoxingfu:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_ningbofu:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_jimingshan:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_jiangningxian:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_baixuezhen:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_zongyingdao:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+improved_farm_longgong:
+  Enable: *id055
+  UseSpecialTask: *id056
+  VegetablePriority1: *id057
+  VegetablePriority2: *id058
+  VegetablePriority3: *id059
+  VegetablePriority4: *id060
+  CottonPriority1: *id061
+  CottonPriority2: *id062
+  CottonPriority3: *id063
+  CottonPriority4: *id064
+  Status: *id065
+  NextRun: *id066
+huizhou_merchant_settings:
+  TradeThreshold:
+    type: input
+    value: 3000
+    validate: '[1-9][0-9]*'
+huizhou_merchant_hall_1:
+  Enable: &id068
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Status: &id069
+    type: textarea
+    value: 未检查
+    mode: text
+    display: disabled
+  NextRun: &id070
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+  SaleTier: &id071
+    type: select
+    value: 4
+    option:
+    - 1
+    - 2
+    - 3
+    - 4
+  AllowTierDowngrade: &id072
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+  TierRequiredAmount: &id073
+    type: input
+    value: 0
+    validate: int
+    display: disabled
+  RecognizedSaleTier: &id074
+    value: 0
+    display: hide
+  AutoDetectMonopoly: &id075
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Monopoly1: &id076
+    type: select
+    value: none
+    option: &id067
+    - none
+    - 竹子
+    - 茶叶
+    - 桐油
+    - 生漆
+    - 汪笔
+    - 徽墨
+    - 澄纸
+    - 歙石
+  Monopoly2: &id077
+    type: select
+    value: none
+    option: *id067
+  Monopoly3: &id078
+    type: select
+    value: none
+    option: *id067
+  Monopoly4: &id079
+    type: select
+    value: none
+    option: *id067
+huizhou_merchant_hall_2:
+  Enable: *id068
+  Status: *id069
+  NextRun: *id070
+  SaleTier: *id071
+  AllowTierDowngrade: *id072
+  TierRequiredAmount: *id073
+  RecognizedSaleTier: *id074
+  AutoDetectMonopoly: *id075
+  Monopoly1: *id076
+  Monopoly2: *id077
+  Monopoly3: *id078
+  Monopoly4: *id079
+huizhou_merchant_hall_3:
+  Enable: *id068
+  Status: *id069
+  NextRun: *id070
+  SaleTier: *id071
+  AllowTierDowngrade: *id072
+  TierRequiredAmount: *id073
+  RecognizedSaleTier: *id074
+  AutoDetectMonopoly: *id075
+  Monopoly1: *id076
+  Monopoly2: *id077
+  Monopoly3: *id078
+  Monopoly4: *id079
+huizhou_merchant_hall_4:
+  Enable: *id068
+  Status: *id069
+  NextRun: *id070
+  SaleTier: *id071
+  AllowTierDowngrade: *id072
+  TierRequiredAmount: *id073
+  RecognizedSaleTier: *id074
+  AutoDetectMonopoly: *id075
+  Monopoly1: *id076
+  Monopoly2: *id077
+  Monopoly3: *id078
+  Monopoly4: *id079
+yangzhou_grand_canal:
+  Enable:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  CustomRoute:
+    type: textarea
+    value: P357-P358-P325-P324-P424-P418-P421-P391-P237-P319-P228-P233-P227-P189-P190-P225-P226-P404-P406-P405-P407-P408-P410-P409-P412-P411-P414-P417-P416-P415-P419-P425-P423-P426-P420-P361-P368-P369-P374-P148-P182-P184-P107-P109-P464-P465-P462-P463-P460-P461-P458-P454-P455-P456-P452-P453-P393-P389-P387-P392-P395-P394-P399-P398-P397-P396-P440-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P338-P340-P341-P342-P343-P344-P345-P347-P346-P351-P352-P356-P317-P318-P314-P315-P312-P316-P322-P313-P311-P310-P285-P287-P282-P288-P286-P302-P301-P303-P304-P305-P306-P307-P308-P277-P274-P275-P276-P273-P270-P271-P272-P260-P262-P258-P261-P263-P264-P265-P267-P266-P293-P292-P290-P295-P300-P299-P289-P282-P283-P284-P280-P279-P278-P275-P278-P279-P278-P275-P278-P279-P281-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P291-P292-P293-P266-P267-P265-P264-P263-P261-P258-P262-P259-P257-P256-P255-P252-P253-P254-P251-P247-P250-P248-P249-P181-P186-P187-P188-P192-P191-P195-P232-P168-P165-P161-P164-P162-P160-P155-P160-P156-P158-P153-P157-P202-P201-P199-P205-P203-P208-P207-P211-P212-P210-P213-P216-P215-P214-P243-P239-P240-P241-P238-P240-P229-P230-P235-P193-P194-P196-P197-P194-P197-P194-P197-P198-P159-P160-P156-P154-P222-P219-P221-P220-P236-P235-P230-P235-P236-P235-P236-P234-P235-P236-P235-P230-P192-P191-P195-P232-P231-P166-P169-P170-P167-P163-P161-P165-P168-P232-P166-P169-P173-P169-P166-P232-P166-P169-P166-P169-P166-P232-P166-P169-P166-P232-P166-P232-P166-P169-P166-P232-P166-P169-P166-P232-P166-P169-P166-P169-P166-P232-P166-P232-P166-P169-P166-P232-P166-P232-P195-P191-P192-P188-P187-P178-P180-P179-P175-P183-P181-P249-P248-P250-P245-P244-P242-P238-P241-P240-P229-P230-P235-P234-P236-P220-P221-P219-P222-P154-P156-P160-P162-P151-P152-P136-P110-P113-P110-P136-P149-P150-P145-P146-P147-P141-P142-P139-P133-P132-P130-P129-P128-P125-P127-P126-P124-P121-P122-P123-P115-P116-P118-P120-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P131-P132-P133-P139-P140-P138-P108-P135-P106-P94-P114-P111-P119-P112-P119-P112-P119-P117-P119-P112-P119-P117-P115-P123-P117-P119-P117-P119-P117-P115-P117-P115-P117-P119-P112-P119-P117-P119-P112-P119-P112-P119-P117-P115-P117-P115-P117-P119-P117-P115-P116-P118-P120-P131-P130-P132-P133-P139-P142-P141-P147-P146-P145-P150-P149-P113-P153-P157-P202-P201-P200-P206-P204-P209-P207-P212-P210-P213-P216-P215-P214-P243-P239-P241-P239-P240-P239-P240-P239-P240-P238-P240-P239-P240-P238-P242-P244-P245-P250-P248-P249-P181-P183-P175-P179-P180-P178-P187-P188-P192-P230-P229-P240-P238-P240-P239-P240-P238-P240-P239-P240-P238-P240-P239-P240-P238-P240-P239-P240-P238-P240-P239-P243-P214-P215-P216-P213-P210-P212-P211-P207-P212-P207-P212-P207-P208-P203-P205-P199-P201-P200-P206-P204-P209-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P207-P212-P210-P213-P216-P217-P218-P219-P221-P220-P236-P234-P235-P193-P194-P196-P197-P194-P197-P198-P159-P160-P162-P164-P163-P167-P170-P169-P173-P172-P171-P180-P178-P187-P188-P192-P191-P195-P232-P168-P165-P161-P164-P151-P164-P151-P152-P136-P110-P136-P149-P150-P145-P146-P147-P141-P142-P140-P138-P108-P135-P134-P81-P102-P99-P101-P100-P97-P98-P90-P93-P62-P63-P57-P56-P58-P60-P61-P65-P67-P66-P78-P71-P70-P68-P74-P72-P73-P74-P68-P74-P72-P74-P72-P74-P68-P74-P72-P74-P68-P74-P68-P74-P72-P77-P76-P75-P82-P83-P85-P84-P88-P86-P103-P102-P99-P101-P100-P97-P98-P90-P93-P62-P63-P57-P56-P55-P54-P49-P51-P43-P45-P47-P48-P41-P26-P44-P32-P31-P39-P29-P25-P27-P21-P20-P19-P17-P18-P16-P15-P2-P3-P4-P6-P5-P7-P8-P9-P10-P11-P12-P13-P22-P23-P24-P25-P28-P35-P36-P37-P38-P42-P40-P33-P34-P49-P54-P55-P56-P57-P63-P62-P93-P90-P98-P97-P100-P101-P99-P102-P103-P86-P88-P84-P85-P83-P82-P75-P76-P77-P72-P73-P74-P72-P74-P72-P74-P68-P69-P70-P69-P68-P74-P72-P74-P68-P74-P68-P74-P68-P74-P72-P74-P68-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P77-P76-P75-P105-P104-P102-P103-P86-P88-P89-P87-P92-P93-P62-P63-P57-P56-P55-P54-P49-P34-P33-P40-P42-P38-P37-P36-P35-P28-P25-P24-P26-P44-P32-P31-P39-P29-P25-P24-P25-P24-P25-P27-P21-P14-P11-P14-P21-P14-P11-P12-P13-P22-P23-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P28-P35-P36-P37-P38-P31-P32-P44-P26-P41-P48-P47-P45-P43-P51-P49-P54-P55-P56-P57-P63-P62-P93-P90-P98-P97-P100-P101-P99-P102-P103-P86-P88-P84-P85-P83-P82-P75-P76-P77-P72-P73-P74-P68-P70-P69-P68-P74-P68-P74-P68-P74-P68-P74-P68-P74-P72-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P74-P72-P74-P68-P74-P68-P74-P68-P74-P72-P74-P72-P74-P72-P74-P68-P74-P68-P74-P72-P74-P72-P74-P68-P74-P73-P72-P77-P76-P75-P105-P104-P102-P99-P101-P100-P97-P98-P90-P93-P62-P63-P57-P56-P55-P54-P49-P51-P43-P45-P47-P48-P41-P26-P24-P23-P22-P13-P12-P11-P14-P21-P27-P25-P29-P39-P31-P38-P37-P36-P35-P28-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P25-P24-P26-P44-P32-P31-P30-P46-P45-P43-P51-P49-P54-P55-P56-P57-P63-P62-P93-P90-P98-P97-P100-P101-P99-P102-P81-P134-P135-P108-P138-P140-P139-P142-P141-P147-P146-P145-P150-P149-P136-P152-P151-P162-P160-P155-P156-P154-P222-P219-P218-P217-P216-P215-P214-P243-P239-P241-P239-P240-P229-P230-P192-P230-P235-P234-P236-P235-P230-P235-P230-P235-P236-P235-P230-P235-P193-P194-P197-P196-P194-P197-P194-P197-P194-P197-P198-P159-P160-P159-P160-P156-P160-P159-P160-P156-P155-P160-P159-P160-P159-P160-P162-P164-P161-P165-P168-P232-P231-P166-P232-P195-P191-P192-P188-P187-P186-P181-P249-P248-P250-P247-P251-P254-P253-P252-P255-P256-P257-P259-P258-P261-P263-P264-P265-P267-P266-P293-P292-P290-P295-P300-P299-P289-P282-P287-P285-P310-P309-P312-P315-P314-P318-P317-P356-P352-P351-P346-P347-P345-P348-P349-P350-P353-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P333-P330-P333-P329-P330-P329-P330-P333-P330-P329-P333-P332-P335-P334-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P388-P386-P433-P432-P431-P435-P434-P437-P436-P439-P438-P441-P443-P442-P445-P444-P447-P223-P446-P450-P449-P360-P359-P357-P358-P325-P324-P424-P418-P424-P320-P430-P427-P423-P425-P419-P415-P416-P417-P414-P411-P412-P409-P410-P408-P407-P405-P406-P400-P224-P401-P400-P224-P400-P224-P402-P403-P459-P457-P454-P455-P456-P452-P453-P393-P389-P390-P389-P387-P389-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P336-P334-P335-P332-P333-P329-P333-P329-P333-P329-P330-P331-P327-P328-P326-P323-P321-P355-P185-P353-P350-P349-P348-P345-P344-P343-P342-P341-P340-P338-P336-P339-P337-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P390-P389-P390-P387-P389-P390-P387-P390-P389-P387-P390-P387-P389-P387-P389-P390-P389-P387-P392-P395-P394-P399-P398-P401-P224-P400-P406-P400-P224-P402-P403-P459-P457-P458-P454-P457-P454-P455-P456-P452-P453-P393-P389-P387-P390-P389-P390-P389-P387-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P330-P333-P330-P331-P327-P328-P326-P323-P321-P355-P185-P353-P350-P349-P348-P345-P344-P343-P342-P341-P340-P338-P336-P337-P336-P337-P336-P337-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P390-P387-P389-P393-P453-P452-P456-P455-P454-P458-P457-P454-P457-P459-P403-P402-P224-P401-P398-P399-P394-P395-P392-P387-P389-P387-P390-P387-P390-P387-P390-P389-P390-P389-P390-P387-P389-P387-P390-P389-P390-P389-P387-P389-P390-P389-P390-P387-P389-P387-P390-P383-P390-P387-P389-P393-P453-P452-P456-P455-P454-P457-P458-P454-P457-P459-P403-P402-P224-P401-P398-P399-P394-P395-P392-P387-P389-P387-P389-P390-P387-P390-P389-P390-P387-P389-P390-P389-P387-P390-P387-P390-P389-P390-P389-P387-P389-P390-P387-P390-P389-P387-P389-P387-P389-P390-P383-P390-P389-P393-P453-P452-P456-P455-P454-P458-P457-P459-P403-P402-P224-P401-P400-P406-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P402-P403-P459-P457-P458-P457-P454-P455-P456-P452-P453-P393-P389-P387-P392-P395-P394-P399-P398-P401-P224-P400-P406-P404-P226-P225-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P329-P330-P331-P327-P328-P326-P323-P322-P323-P322-P316-P312-P309-P310-P311-P313-P322-P323-P321-P355-P185-P353-P350-P349-P348-P345-P344-P343-P342-P341-P340-P338-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P392-P395-P394-P399-P398-P401-P224-P402-P403-P459-P457-P454-P458-P457-P454-P455-P456-P452-P453-P393-P389-P390-P389-P390-P387-P390-P387-P390-P387-P389-P387-P389-P390-P387-P390-P389-P387-P389-P390-P389-P390-P389-P387-P389-P387-P390-P387-P390-P383-P390-P387-P392-P395-P394-P399-P398-P397-P396-P440-P439-P438-P441-P443-P442-P445-P444-P447-P223-P446-P450-P448-P451-P190-P225-P226-P404-P406-P400-P401-P400-P224-P402-P403-P459-P457-P458-P454-P455-P456-P452-P453-P393-P389-P390-P387-P389-P387-P390-P387-P389-P387-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P330-P329-P333-P330-P329-P330-P333-P329-P333-P329-P330-P331-P327-P328-P326-P323-P322-P323-P321-P355-P185-P353-P350-P349-P348-P345-P344-P343-P342-P341-P340-P338-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P389-P393-P453-P452-P456-P455-P454-P458-P454-P457-P459-P403-P402-P224-P401-P398-P399-P394-P395-P392-P387-P390-P389-P390-P389-P387-P389-P390-P389-P387-P389-P390-P387-P390-P389-P390-P387-P390-P389-P387-P389-P387-P390-P387-P389-P390-P387-P390-P387-P389-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P338-P340-P341-P342-P343-P344-P345-P348-P349-P350-P353-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P333-P332-P335-P334-P336-P337-P336-P337-P336-P337-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P389-P393-P453-P452-P456-P455-P454-P458-P454-P457-P459-P403-P402-P224-P401-P398-P399-P394-P395-P392-P387-P390-P389-P387-P389-P387-P390-P387-P390-P389-P390-P387-P389-P387-P389-P390-P389-P387-P389-P390-P389-P390-P387-P390-P387-P390-P387-P390-P389-P387-P389-P387-P390-P383-P388-P386-P433-P432-P431-P435-P434-P437-P436-P439-P440-P396-P397-P398-P399-P394-P395-P392-P387-P389-P393-P453-P452-P456-P455-P454-P458-P457-P454-P457-P459-P403-P402-P224-P401-P400-P406-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P402-P403-P459-P457-P458-P461-P460-P463-P462-P465-P464-P109-P107-P184-P413-P412-P413-P184-P148-P184-P182-P148-P184-P413-P184-P413-P409-P410-P408-P407-P405-P406-P404-P226-P225-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P330-P333-P329-P333-P330-P333-P329-P330-P331-P327-P328-P326-P323-P321-P355-P185-P353-P350-P349-P348-P345-P347-P346-P351-P352-P356-P317-P318-P314-P315-P312-P316-P322-P323-P322-P313-P311-P310-P285-P287-P282-P289-P299-P300-P295-P290-P291-P281-P279-P280-P284-P283-P282-P288-P286-P302-P301-P303-P304-P305-P306-P307-P308-P277-P274-P275-P278-P279-P278-P275-P278-P279-P278-P275-P278-P279-P278-P275-P276-P273-P270-P271-P272-P260-P262-P259-P262-P258-P261-P263-P264-P265-P267-P266-P293-P292-P290-P295-P300-P299-P289-P282-P287-P285-P310-P311-P313-P322-P316-P312-P315-P314-P318-P317-P356-P352-P351-P346-P347-P345-P348-P349-P350-P353-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P330-P333-P332-P335-P334-P336-P339-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P392-P395-P394-P399-P398-P401-P224-P402-P403-P459-P457-P458-P461-P460-P463-P462-P465-P464-P109-P107-P184-P148-P182-P184-P148-P184-P413-P409-P410-P408-P407-P405-P406-P404-P226-P225-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P338-P340-P341-P342-P343-P344-P345-P348-P349-P350-P353-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P330-P333-P332-P335-P334-P336-P337-P336-P337-P336-P337-P336-P337-P336-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P388-P386-P433-P432-P431-P435-P434-P437-P436-P439-P440-P396-P397-P398-P399-P394-P395-P392-P387-P390-P389-P393-P453-P452-P456-P455-P454-P458-P457-P459-P403-P402-P224-P401-P224-P400-P406-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P402-P403-P459-P457-P458-P461-P460-P463-P462-P465-P464-P109-P107-P184-P182-P148-P184-P148-P184-P413-P409-P413-P184-P148-P374-P369-P368-P361-P420-P426-P425-P426-P423-P427-P430-P320-P424-P324-P325-P358-P357-P359-P360-P449-P450-P448-P451-P190-P225-P226-P404-P406-P400-P401-P398-P397-P396-P440-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P390-P389-P393-P453-P452-P456-P455-P454-P458-P454-P457-P459-P403-P402-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P224-P400-P406-P405-P407-P408-P410-P409-P412-P413-P412-P413-P184-P182-P148-P374-P369-P368-P361-P420-P426-P425-P423-P427-P430-P320-P424-P324-P325-P358-P357-P359-P360-P449-P450-P448-P451-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P440-P396-P397-P398-P399-P394-P395-P392-P387-P390-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P330-P331-P327-P328-P326-P323-P321-P355-P185-P353-P350-P349-P348-P345-P347-P346-P351-P352-P356-P317-P318-P314-P315-P312-P309-P310-P311-P313-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P322-P323-P326-P328-P327-P331-P330-P333-P332-P335-P334-P336-P339-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P383-P390-P387-P392-P395-P394-P399-P398-P401-P400-P406-P405-P407-P408-P410-P409-P412-P413-P412-P411-P414-P417-P416-P415-P419-P425-P419-P418-P421-P391-P237-P319-P228-P233-P227-P189-P190-P451-P448-P450-P446-P223-P447-P444-P445-P442-P443-P441-P438-P439-P436-P437-P434-P435-P431-P432-P433-P386-P388-P383-P382-P378-P379-P380-P377-P376-P375-P373-P370-P366-P365-P364-P363-P362-P337-P339-P336-P334-P335-P332-P333-P329-P333-P329-P354-P185-P355-P321-P323-P326-P328-P327-P331-P330-P329-P333-P330-P329-P330-P333-P330-P329-P330-P329-P330-P333-P330-P333-P329-P333-P329-P333-P330-P333-P329-P333-P329-P333-P330-P329-P330-P329-P330-P333-P330-P329-P333-P329-P330-P333-P332-P335-P334-P336-P339-P337-P362-P363-P364-P365-P366-P370-P373-P375-P376-P377-P380-P379-P378-P382-P381-P383-P388-P386-P433-P432-P431-P435-P434-P437-P436-P439-P438-P441-P443-P442-P445-P444-P447-P223-P446-P450-P449-P360-P359-P357
+    valuetype: str
+    mode: text
+    rows: 4
+  LastPoint:
+    type: input
+    value: ''
+    valuetype: str
+  LastPointSource:
+    type: input
+    value: unknown
+    display: hide
+  PreviousPoint:
+    type: input
+    value: ''
+    display: hide
+  RouteProgress:
+    type: input
+    value: ''
+    display: hide
+  RecentDocks:
+    type: input
+    value: '[]'
+    display: hide
+  SinanReserve:
+    type: input
+    value: 30
+    validate: int
+  MinNavigationSteps:
+    type: input
+    value: 30
+    validate: int
+  SinanClaimTime:
+    type: input
+    value: '11:00'
+  LastSinanClaimDate:
+    type: input
+    value: never
+    display: hide
+  Status:
+    type: textarea
+    value: 未检查
+    mode: text
+    display: disabled
+  NextRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+ningbo_merchant_ship_1:
+  Enable: &id080
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Status: &id081
+    type: textarea
+    value: 未检查
+    mode: text
+    display: disabled
+  NextRun: &id082
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+ningbo_merchant_ship_2:
+  Enable: *id080
+  Status: *id081
+  NextRun: *id082
+ningbo_merchant_ship_3:
+  Enable: *id080
+  Status: *id081
+  NextRun: *id082
+ningbo_merchant_ship_4:
+  Enable: *id080
+  Status: *id081
+  NextRun: *id082
+reserved_yingtianfu:
+  Names: &id083
+    type: textarea
+    value: ''
+    valuetype: str
+    mode: text
+reserved_suzhoufu:
+  Names: *id083
+reserved_hangzhoufu:
+  Names: *id083
+reserved_songjiangfu:
+  Names: *id083
+reserved_huizhoufu:
+  Names: *id083
+reserved_yangzhoufu:
+  Names: *id083
+reserved_shaoxingfu:
+  Names: *id083
+reserved_ningbofu:
+  Names: *id083
+reserved_jimingshan:
+  Names: *id083
+reserved_jiangningxian:
+  Names: *id083
+reserved_baixuezhen:
+  Names: *id083
+reserved_zongyingdao:
+  Names: *id083
+reserved_longgong:
+  Names: *id083
+shaoxing_furniture_shop:
+  UseSpecialTask:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  Status:
+    type: textarea
+    value: 未运行
+    display: disabled
+yingtian_inn:
+  Action:
+    type: select
+    value: auto
+    option:
+    - auto
+    - enter_exit
+    - enter
+    - exit
+  Status:
+    value: 未检查
+    display: disabled
+yingtian_inn_cooking:
+  Enable:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+  CheckInterval:
+    value: 5
+    validate: ([1-9]|[1-9][0-9]|[1-9][0-9]{2}|1[0-3][0-9]{2}|14[0-3][0-9]|1440)
+  Status:
+    value: 未启用（框架待接入）
+    display: disabled
+  NextRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+  LastCheck:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+yingtian_inn_diners:
+  Enable:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+  CheckInterval:
+    value: 12
+    display: disabled
+  SaleWhitelist:
+    type: textarea
+    value: ''
+    valuetype: str
+    mode: text
+  Status:
+    value: 未启用（预备逻辑）
+    display: disabled
+  NextRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+  LastCheck:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+yingtian_inn_goods:
+  Enable:
+    type: checkbox
+    value: false
+    option:
+    - true
+    - false
+  DailyTimes:
+    value: 10:00,16:00,21:00
+    display: disabled
+  Status:
+    value: 未启用
+    display: disabled
+  NextRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+  LastCheck:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+  LastSlot:
+    value: ''
+    display: disabled
+  LastClick:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: disabled
+  AttemptedSlot:
+    value: ''
+    display: hide
+  RetrySlot:
+    value: ''
+    display: hide
+post_station_suzhou:
+  RationThreshold:
+    type: input
+    value: 3
+    validate: (?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  IntervalRations:
+    type: input
+    value: 1
+    validate: (?=\d*\.?\d*[1-9])(?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  Interval:
+    value: 1粮草 × 40分钟 = 40分钟（40分钟）
+    display: disabled
+  PreferredCaptains:
+    type: textarea
+    value: ''
+    valuetype: str
+  MapChangmen:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapQilishantang:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapHuqiu:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapTaohuawu:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  PinnedResources:
+    type: textarea
+    value: 进入地图后自动读取游戏内置顶资源
+    display: disabled
+  Rations:
+    value: 未识别
+    display: disabled
+  Captain:
+    value: ''
+    display: disabled
+  Status:
+    type: textarea
+    value: 未运行；请在游戏物品搜索中置顶需要采集的资源
+    display: disabled
+  LastRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+  LastMap:
+    value: ''
+    display: hide
+  CurrentMap:
+    value: ''
+    display: hide
+post_station_hangzhou:
+  RationThreshold:
+    type: input
+    value: 3
+    validate: (?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  IntervalRations:
+    type: input
+    value: 1
+    validate: (?=\d*\.?\d*[1-9])(?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  Interval:
+    value: 1粮草 × 40分钟 = 40分钟（40分钟）
+    display: disabled
+  PreferredCaptains:
+    type: textarea
+    value: ''
+    valuetype: str
+  MapQiantangmen:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapJiushi_baijuyi:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapJiushi_xiaoman:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapChanghenge:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapQiantangchunxing:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  PinnedResources:
+    type: textarea
+    value: 进入地图后自动读取游戏内置顶资源
+    display: disabled
+  Rations:
+    value: 未识别
+    display: disabled
+  Captain:
+    value: ''
+    display: disabled
+  Status:
+    type: textarea
+    value: 未运行；请在游戏物品搜索中置顶需要采集的资源
+    display: disabled
+  LastRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+  LastMap:
+    value: ''
+    display: hide
+  CurrentMap:
+    value: ''
+    display: hide
+post_station_songjiang:
+  RationThreshold:
+    type: input
+    value: 3
+    validate: (?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  IntervalRations:
+    type: input
+    value: 1
+    validate: (?=\d*\.?\d*[1-9])(?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  Interval:
+    value: 1粮草 × 40分钟 = 40分钟（40分钟）
+    display: disabled
+  PreferredCaptains:
+    type: textarea
+    value: ''
+    valuetype: str
+  MapHuatingzhongcai:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapJinxihexi:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapChangxiangsi:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  PinnedResources:
+    type: textarea
+    value: 进入地图后自动读取游戏内置顶资源
+    display: disabled
+  Rations:
+    value: 未识别
+    display: disabled
+  Captain:
+    value: ''
+    display: disabled
+  Status:
+    type: textarea
+    value: 未运行；请在游戏物品搜索中置顶需要采集的资源
+    display: disabled
+  LastRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+  LastMap:
+    value: ''
+    display: hide
+  CurrentMap:
+    value: ''
+    display: hide
+post_station_huizhou:
+  RationThreshold:
+    type: input
+    value: 3
+    validate: (?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  IntervalRations:
+    type: input
+    value: 1
+    validate: (?=\d*\.?\d*[1-9])(?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  Interval:
+    value: 1粮草 × 40分钟 = 40分钟（40分钟）
+    display: disabled
+  PreferredCaptains:
+    type: textarea
+    value: ''
+    valuetype: str
+  MapXiuninglongwu:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapHuangshanyunhai:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapShexianshuangli:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapHuihanggudao:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  PinnedResources:
+    type: textarea
+    value: 进入地图后自动读取游戏内置顶资源
+    display: disabled
+  Rations:
+    value: 未识别
+    display: disabled
+  Captain:
+    value: ''
+    display: disabled
+  Status:
+    type: textarea
+    value: 未运行；请在游戏物品搜索中置顶需要采集的资源
+    display: disabled
+  LastRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+  LastMap:
+    value: ''
+    display: hide
+  CurrentMap:
+    value: ''
+    display: hide
+post_station_yangzhou:
+  RationThreshold:
+    type: input
+    value: 3
+    validate: (?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  IntervalRations:
+    type: input
+    value: 1
+    validate: (?=\d*\.?\d*[1-9])(?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  Interval:
+    value: 1粮草 × 40分钟 = 40分钟（40分钟）
+    display: disabled
+  PreferredCaptains:
+    type: textarea
+    value: ''
+    valuetype: str
+  MapWanhuahui:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapJiushi_bailichenxiang:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  MapChuanxingqianli:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  PinnedResources:
+    type: textarea
+    value: 进入地图后自动读取游戏内置顶资源
+    display: disabled
+  Rations:
+    value: 未识别
+    display: disabled
+  Captain:
+    value: ''
+    display: disabled
+  Status:
+    type: textarea
+    value: 未运行；请在游戏物品搜索中置顶需要采集的资源
+    display: disabled
+  LastRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+  LastMap:
+    value: ''
+    display: hide
+  CurrentMap:
+    value: ''
+    display: hide
+post_station_ningbo:
+  RationThreshold:
+    type: input
+    value: 3
+    validate: (?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  IntervalRations:
+    type: input
+    value: 1
+    validate: (?=\d*\.?\d*[1-9])(?:0|[1-9][0-9]*)(?:\.[0-9]+)?
+    valuetype: float
+  Interval:
+    value: 1粮草 × 40分钟 = 40分钟（40分钟）
+    display: disabled
+  PreferredCaptains:
+    type: textarea
+    value: ''
+    valuetype: str
+  MapLvmeimao:
+    type: checkbox
+    value: true
+    option:
+    - true
+    - false
+  PinnedResources:
+    type: textarea
+    value: 进入地图后自动读取游戏内置顶资源
+    display: disabled
+  Rations:
+    value: 未识别
+    display: disabled
+  Captain:
+    value: ''
+    display: disabled
+  Status:
+    type: textarea
+    value: 未运行；请在游戏物品搜索中置顶需要采集的资源
+    display: disabled
+  LastRun:
+    type: datetime
+    value: 2020-01-01 00:00:00
+    validate: datetime
+    display: hide
+  LastMap:
+    value: ''
+    display: hide
+  CurrentMap:
+    value: ''
+    display: hide

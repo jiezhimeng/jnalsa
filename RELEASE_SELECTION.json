@@ -1,0 +1,32 @@
+{
+  "source_kind": "clean Jiangnan source release",
+  "excluded_categories": [
+    ".git",
+    ".test_tmp",
+    ".test-temp",
+    ".venv",
+    "toolkit",
+    "log",
+    "backup",
+    "dev_tools",
+    "webapp",
+    ".github",
+    "personal config",
+    "runtime state",
+    "root debug screenshots",
+    "module/jiangnan.zip",
+    "unused Gooey resources",
+    "old English/Japanese upstream README files"
+  ],
+  "excluded_unused_images": [
+    "assets/jiangnan/building/forest_foundation_target.png",
+    "assets/jiangnan/building/sawmill_foundation_target.png",
+    "assets/jiangnan/farm/map.png",
+    "assets/jiangnan/grand_canal/own_ship_label.png",
+    "assets/jiangnan/huizhou_merchant/sale_right.png"
+  ],
+  "included_map_original": "assets/jiangnan/grand_canal/map/overview_stitched.png",
+  "lfs_required": true,
+  "copied_runtime_files": 661,
+  "copied_runtime_bytes": 253156537
+}

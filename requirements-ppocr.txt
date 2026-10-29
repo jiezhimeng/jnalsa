@@ -1,0 +1,5 @@
+# Isolated runtime used by module/jiangnan/ppocr_v6.py.
+# The main ALAS toolkit remains on Python 3.7 and must not install these.
+paddlepaddle==3.3.1
+paddleocr==3.7.0
+paddlex==3.7.2

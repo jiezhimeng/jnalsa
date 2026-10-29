@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>应天府客栈全景定位</title>
+  <link rel="stylesheet" href="viewer.css">
+  <script defer src="viewer.js"></script>
+</head>
+<body>
+  <header>
+    <div><strong>应天府客栈</strong><span class="subtle">全景坐标 · 3380 × 2515</span></div>
+    <nav aria-label="地图工具">
+      <button id="fit">全图</button><button id="actual">原始大小</button>
+      <button id="zoom-in" aria-label="放大">＋</button><button id="zoom-out" aria-label="缩小">－</button>
+      <output id="zoom">—</output>
+      <button id="locate" disabled>最近识别区域</button>
+    </nav>
+  </header>
+  <main id="map-wrap">
+    <canvas id="map" tabindex="0" aria-label="客栈地图，滚轮缩放、拖动平移、点击取坐标；方向键平移，回车选取画面中心"></canvas>
+    <div id="loading">正在加载客栈全景图…</div>
+    <div class="legend"><i class="cyan"></i>最近截图范围 <i class="orange"></i>截图中心 <i class="rose"></i>选中坐标</div>
+  </main>
+  <footer>
+    <div class="coordinates">
+      <span>地图坐标</span><output id="hover">—</output>
+      <label for="selected">选中点</label><input id="selected" readonly placeholder="点击地图取点">
+      <button id="copy" disabled>复制坐标</button><button id="clear">清除</button>
+    </div>
+    <p id="observation">尚无定位记录。运行一次“仅进入客栈”或“进入并返回检查”后显示最近识别区域。</p>
+    <p class="subtle">左上角为 (0, 0)，X 向右、Y 向下。滚轮缩放 · 拖动平移 · 点击取点；黑色区域未采集。最近识别区域是历史截图位置。</p>
+  </footer>
+</body>
+</html>

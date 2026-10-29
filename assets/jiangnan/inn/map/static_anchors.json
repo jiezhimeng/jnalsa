@@ -1,0 +1,37 @@
+{
+  "map_size": [3380, 2515],
+  "annotation_size": [1824, 1357],
+  "description": "Fixed architecture and floor regions. Character bodies, speech bubbles, shop counter and movable room furnishings are explicitly excluded; the full ORB descriptor patch must remain within the resulting static mask.",
+  "exclude_rectangles": [
+    [548, 678, 641, 796],
+    [941, 598, 990, 670], [897, 762, 944, 832],
+    [765, 818, 815, 882], [825, 845, 873, 917], [870, 841, 920, 920],
+    [935, 939, 981, 1013], [1011, 793, 1060, 856], [1060, 820, 1102, 871],
+    [1150, 643, 1195, 701], [987, 931, 1028, 979],
+    [1258, 720, 1360, 823], [1394, 779, 1451, 859],
+    [389, 1011, 449, 1092], [604, 966, 645, 1045],
+    [263, 494, 455, 570], [524, 345, 668, 480],
+    [665, 320, 775, 405], [777, 233, 879, 337], [880, 306, 920, 355]
+  ],
+  "polygons": [
+    {"name": "upper_architecture_and_floor", "points": [[236, 485], [838, 182], [1113, 321], [1113, 414], [504, 682], [237, 550]]},
+    {"name": "dining_architecture_and_floor", "points": [[401, 777], [944, 505], [1558, 811], [1558, 904], [859, 1194], [402, 960]]},
+    {"name": "entrance_gate", "points": [[488, 950], [553, 960], [604, 991], [604, 1147], [545, 1150], [505, 1083]]},
+    {"name": "upper_back_left_wall", "points": [[234, 482], [838, 180], [842, 248], [238, 552]]},
+    {"name": "upper_back_right_wall", "points": [[836, 182], [1113, 320], [1113, 390], [838, 254]]},
+    {"name": "upper_left_door", "points": [[494, 559], [540, 575], [540, 640], [494, 640]]},
+    {"name": "upper_middle_door", "points": [[659, 471], [715, 489], [715, 556], [659, 556]]},
+    {"name": "upper_right_door", "points": [[806, 404], [855, 420], [855, 485], [806, 485]]},
+    {"name": "upper_far_right_door", "points": [[918, 367], [969, 384], [969, 451], [918, 451]]},
+    {"name": "stairs", "points": [[594, 607], [646, 628], [741, 732], [716, 771], [669, 737], [624, 691]]},
+    {"name": "rear_dining_right_wall", "points": [[1107, 556], [1272, 635], [1272, 702], [1180, 659], [1180, 630], [1107, 599]]},
+    {"name": "dining_middle_door", "points": [[1014, 655], [1067, 671], [1067, 734], [1014, 734]]},
+    {"name": "dining_left_door", "points": [[854, 677], [901, 691], [901, 758], [854, 758]]},
+    {"name": "store_room_door", "points": [[1181, 734], [1235, 750], [1235, 828], [1181, 828]]},
+    {"name": "southwest_wall", "points": [[232, 808], [403, 723], [403, 787], [232, 874]]},
+    {"name": "south_door_row", "points": [[603, 882], [782, 969], [782, 1021], [603, 933]]},
+    {"name": "east_red_fence", "points": [[1460, 921], [1629, 826], [1629, 874], [1460, 969]]},
+    {"name": "outer_south_wall", "points": [[627, 1051], [855, 1166], [855, 1200], [627, 1085]]},
+    {"name": "outer_southeast_wall", "points": [[875, 1165], [1000, 1102], [1000, 1142], [875, 1207]]}
+  ]
+}

@@ -1,0 +1,574 @@
+Alas:
+  menu: collapse
+  page: setting
+  tasks:
+    Alas:
+    - Emulator
+    - EmulatorInfo
+    - Error
+    - Optimization
+    Restart:
+    - Scheduler
+Tool:
+  menu: collapse
+  page: tool
+  tasks:
+    JiangnanDebug: []
+Jiangnan:
+  menu: collapse
+  page: setting
+  tasks:
+    JiangnanTaskPriority:
+    - TaskPriority
+    JiangnanSignin:
+    - Scheduler
+    JiangnanTaskReward:
+    - Scheduler
+    JiangnanCityAllocation:
+    - Scheduler
+    - AllocationSettings
+    - yingtianfu
+    - suzhoufu
+    - hangzhoufu
+    - songjiangfu
+    - huizhoufu
+    - yangzhoufu
+    - shaoxingfu
+    - ningbofu
+    - jimingshan
+    - jiangningxian
+    - baixuezhen
+    - zongyingdao
+    - longgong
+    JiangnanWarehouseInventory:
+    - Scheduler
+    - WarehouseScan
+    - warehouse_yingtianfu
+    - warehouse_suzhoufu
+    - warehouse_hangzhoufu
+    - warehouse_songjiangfu
+    - warehouse_huizhoufu
+    - warehouse_yangzhoufu
+    - warehouse_shaoxingfu
+    - warehouse_ningbofu
+    - warehouse_jimingshan
+    - warehouse_jiangningxian
+    - warehouse_baixuezhen
+    - warehouse_zongyingdao
+    - warehouse_longgong
+    JiangnanDockHarvest:
+    - Scheduler
+    - dock_yingtianfu
+    - dock_suzhoufu
+    - dock_hangzhoufu
+    - dock_songjiangfu
+    - dock_huizhoufu
+    - dock_yangzhoufu
+    - dock_shaoxingfu
+    - dock_ningbofu
+    - dock_jimingshan
+    - dock_jiangningxian
+    - dock_baixuezhen
+    - dock_zongyingdao
+    - dock_longgong
+    JiangnanTaxHarvest:
+    - Scheduler
+    - tax_yingtianfu
+    - tax_suzhoufu
+    - tax_hangzhoufu
+    - tax_songjiangfu
+    - tax_huizhoufu
+    - tax_yangzhoufu
+    - tax_shaoxingfu
+    - tax_ningbofu
+    - tax_jimingshan
+    - tax_jiangningxian
+    - tax_baixuezhen
+    - tax_zongyingdao
+    - tax_longgong
+JiangnanAuxiliaryInformation:
+  menu: collapse
+  page: setting
+  tasks:
+    JiangnanAuxiliaryCityLayout:
+    - CityLayout
+    JiangnanAuxiliaryWarehouseLayout:
+    - WarehouseLayout
+    JiangnanAuxiliaryAllocationLayout:
+    - allocation_yingtianfu
+    - allocation_suzhoufu
+    - allocation_hangzhoufu
+    - allocation_songjiangfu
+    - allocation_jimingshan
+    - allocation_huizhoufu
+    - allocation_yangzhoufu
+    - allocation_shaoxingfu
+    - allocation_ningbofu
+    - allocation_jiangningxian
+    - allocation_baixuezhen
+    - allocation_zongyingdao
+    - allocation_longgong
+    - LayoutLearning
+    JiangnanAuxiliaryProductionLayout:
+    - production_layout_yingtianfu
+    - production_layout_suzhoufu
+    - production_layout_hangzhoufu
+    - production_layout_songjiangfu
+    - production_layout_jimingshan
+    - production_layout_huizhoufu
+    - production_layout_yangzhoufu
+    - production_layout_shaoxingfu
+    - production_layout_ningbofu
+    - production_layout_jiangningxian
+    - production_layout_baixuezhen
+    - production_layout_zongyingdao
+    - production_layout_longgong
+JiangnanActivity:
+  menu: collapse
+  page: setting
+  tasks:
+    JiangnanCornDryingMat:
+    - Scheduler
+    - ProductionBatchSettings
+    - production_yingtianfu
+    - production_suzhoufu
+JiangnanProductionFacility:
+  menu: collapse
+  page: setting
+  tasks:
+    JiangnanSpecialResidentReservation:
+    - reserved_yingtianfu
+    - reserved_suzhoufu
+    - reserved_hangzhoufu
+    - reserved_songjiangfu
+    - reserved_huizhoufu
+    - reserved_yangzhoufu
+    - reserved_shaoxingfu
+    - reserved_ningbofu
+    - reserved_jimingshan
+    - reserved_jiangningxian
+    - reserved_baixuezhen
+    - reserved_zongyingdao
+    - reserved_longgong
+    JiangnanFarmProduction:
+    - ProductionFacilitySettings
+    - FarmBatchSettings
+    - farm_yingtianfu
+    - farm_suzhoufu
+    - farm_hangzhoufu
+    - farm_songjiangfu
+    - farm_huizhoufu
+    - farm_yangzhoufu
+    - farm_shaoxingfu
+    - farm_ningbofu
+    - farm_jimingshan
+    - farm_jiangningxian
+    - farm_baixuezhen
+    - farm_zongyingdao
+    - farm_longgong
+    JiangnanRestaurantProduction:
+    - ProductionFacilitySettings
+    - ProductionBatchSettings
+    - production_yingtianfu
+    - production_suzhoufu
+    - production_hangzhoufu
+    - production_songjiangfu
+    - restaurant_huizhoufu
+    - production_yangzhoufu
+    - production_shaoxingfu
+    - production_ningbofu
+    - production_jimingshan
+    - production_jiangningxian
+    - production_baixuezhen
+    - production_zongyingdao
+    - production_longgong
+    JiangnanLoggingCampProduction: &id001
+    - ProductionFacilitySettings
+    - ProductionBatchSettings
+    - production_yingtianfu
+    - production_suzhoufu
+    - production_hangzhoufu
+    - production_songjiangfu
+    - production_huizhoufu
+    - production_yangzhoufu
+    - production_shaoxingfu
+    - production_ningbofu
+    - production_jimingshan
+    - production_jiangningxian
+    - production_baixuezhen
+    - production_zongyingdao
+    - production_longgong
+    JiangnanFishPondProduction: *id001
+    JiangnanSawmillProduction: *id001
+    JiangnanPaperMillProduction: *id001
+    JiangnanCottonFieldProduction: *id001
+    JiangnanWeavingWorkshopProduction: *id001
+    JiangnanTailorShopProduction: *id001
+    JiangnanClayMineProduction: *id001
+    JiangnanPorcelainKilnProduction: *id001
+    JiangnanCharcoalKilnProduction: *id001
+    JiangnanHerbFieldProduction: *id001
+    JiangnanAlchemyFurnaceProduction: *id001
+    JiangnanTungOilPlantationProduction: *id001
+    JiangnanOilPaperWorkshopProduction: *id001
+    JiangnanUmbrellaWorkshopProduction: *id001
+    JiangnanBrocadeWorkshopProduction: *id001
+    JiangnanLacquerForestProduction: *id001
+    JiangnanLacquerWorkshopProduction: *id001
+    JiangnanMotherOfPearlWorkshopProduction: *id001
+    JiangnanWaterCaltropPondProduction: *id001
+    JiangnanSilkwormFarmProduction: *id001
+    JiangnanSilkWorkshopProduction: *id001
+    JiangnanEmbroideryWorkshopProduction: *id001
+    JiangnanDuckFarmProduction: *id001
+    JiangnanIronMineProduction: *id001
+    JiangnanIronWorkshopProduction: *id001
+    JiangnanWeaponWorkshopProduction: *id001
+    JiangnanHairpinWorkshopProduction: *id001
+    JiangnanCopperMineProduction: *id001
+    JiangnanBambooForestProduction: *id001
+    JiangnanTeaGardenProduction: *id001
+    JiangnanFoldingFanWorkshopProduction: *id001
+    JiangnanRoundFanWorkshopProduction: *id001
+    JiangnanCrabPondProduction: *id001
+    JiangnanSaltFieldProduction: *id001
+    JiangnanStandardClothWorkshopProduction: *id001
+    JiangnanShoeWorkshopProduction: *id001
+    JiangnanRapeseedFieldProduction: *id001
+    JiangnanPigFarmProduction: *id001
+    JiangnanInkWorkshopProduction: *id001
+    JiangnanChengPaperWorkshopProduction: *id001
+    JiangnanSheInkstoneWorkshopProduction: *id001
+    JiangnanWangBrushWorkshopProduction: *id001
+    JiangnanQuarryProduction: *id001
+    JiangnanCopperMirrorFactoryProduction: *id001
+    JiangnanJadeWorkshopProduction: *id001
+    JiangnanFragrancePowderFactoryProduction: *id001
+    JiangnanWineYeastFieldProduction: *id001
+    JiangnanYuePorcelainKilnProduction: *id001
+    JiangnanSheepPenProduction: *id001
+    JiangnanBlackFeltHatFactoryProduction: *id001
+    JiangnanFishingBoatProduction: *id001
+    JiangnanDriedFishWorkshopProduction: *id001
+    JiangnanRamieFieldProduction: *id001
+    JiangnanNetWeavingWorkshopProduction: *id001
+    JiangnanSpecialtyShopProduction: &id002
+    - ProductionFacilitySettings
+    - ProductionBatchSettings
+    - production_yingtianfu
+    - production_suzhoufu
+    - production_hangzhoufu
+    - production_songjiangfu
+    - production_huizhoufu
+    - production_yangzhoufu
+    - production_shaoxingfu
+    - production_ningbofu
+    - production_jimingshan
+    - production_jiangningxian
+    - production_baixuezhen
+    - production_zongyingdao
+    - production_longgong
+    JiangnanCarvingWorkshopProduction: *id002
+    JiangnanImprovedFarmProduction:
+    - ProductionFacilitySettings
+    - ImprovedFarmBatchSettings
+    - improved_farm_yingtianfu
+    - improved_farm_suzhoufu
+    - improved_farm_hangzhoufu
+    - improved_farm_songjiangfu
+    - improved_farm_huizhoufu
+    - improved_farm_yangzhoufu
+    - improved_farm_shaoxingfu
+    - improved_farm_ningbofu
+    - improved_farm_jimingshan
+    - improved_farm_jiangningxian
+    - improved_farm_baixuezhen
+    - improved_farm_zongyingdao
+    - improved_farm_longgong
+    JiangnanPrintingFactoryProduction:
+    - ProductionFacilitySettings
+    - ProductionBatchSettings
+    - production_yingtianfu
+    - production_suzhoufu
+    - production_hangzhoufu
+    - production_songjiangfu
+    - production_huizhoufu
+    - production_yangzhoufu
+    - production_shaoxingfu
+    - production_ningbofu
+    - production_jimingshan
+    - production_jiangningxian
+    - production_baixuezhen
+    - production_zongyingdao
+    - production_longgong
+    JiangnanAmberWineryProduction:
+    - ProductionFacilitySettings
+    - amber_winery_products
+    - multi_product_yingtianfu
+    - multi_product_suzhoufu
+    - multi_product_hangzhoufu
+    - multi_product_songjiangfu
+    - multi_product_huizhoufu
+    - multi_product_yangzhoufu
+    - multi_product_shaoxingfu
+    - multi_product_ningbofu
+    - multi_product_jimingshan
+    - multi_product_jiangningxian
+    - multi_product_baixuezhen
+    - multi_product_zongyingdao
+    - multi_product_longgong
+    JiangnanGourmetRestaurantProduction:
+    - ProductionFacilitySettings
+    - gourmet_restaurant_products
+    - multi_product_yingtianfu
+    - multi_product_suzhoufu
+    - multi_product_hangzhoufu
+    - multi_product_songjiangfu
+    - multi_product_huizhoufu
+    - multi_product_yangzhoufu
+    - multi_product_shaoxingfu
+    - multi_product_ningbofu
+    - multi_product_jimingshan
+    - multi_product_jiangningxian
+    - multi_product_baixuezhen
+    - multi_product_zongyingdao
+    - multi_product_longgong
+    JiangnanExquisiteGoodsShopProduction:
+    - ProductionFacilitySettings
+    - exquisite_goods_products
+    - multi_product_yingtianfu
+    - multi_product_suzhoufu
+    - multi_product_hangzhoufu
+    - multi_product_songjiangfu
+    - multi_product_huizhoufu
+    - multi_product_yangzhoufu
+    - multi_product_shaoxingfu
+    - multi_product_ningbofu
+    - multi_product_jimingshan
+    - multi_product_jiangningxian
+    - multi_product_baixuezhen
+    - multi_product_zongyingdao
+    - multi_product_longgong
+    JiangnanEmbroideryAccessoriesWorkshopProduction:
+    - ProductionFacilitySettings
+    - embroidery_accessories_products
+    - multi_product_yingtianfu
+    - multi_product_suzhoufu
+    - multi_product_hangzhoufu
+    - multi_product_songjiangfu
+    - multi_product_huizhoufu
+    - multi_product_yangzhoufu
+    - multi_product_shaoxingfu
+    - multi_product_ningbofu
+    - multi_product_jimingshan
+    - multi_product_jiangningxian
+    - multi_product_baixuezhen
+    - multi_product_zongyingdao
+    - multi_product_longgong
+    JiangnanLuoShoesProduction:
+    - ProductionFacilitySettings
+    - luo_shoes_products
+    - multi_product_yingtianfu
+    - multi_product_suzhoufu
+    - multi_product_hangzhoufu
+    - multi_product_songjiangfu
+    - multi_product_huizhoufu
+    - multi_product_yangzhoufu
+    - multi_product_shaoxingfu
+    - multi_product_ningbofu
+    - multi_product_jimingshan
+    - multi_product_jiangningxian
+    - multi_product_baixuezhen
+    - multi_product_zongyingdao
+    - multi_product_longgong
+    JiangnanJadeCrownHatWorkshopProduction:
+    - ProductionFacilitySettings
+    - jade_crown_products
+    - multi_product_yingtianfu
+    - multi_product_suzhoufu
+    - multi_product_hangzhoufu
+    - multi_product_songjiangfu
+    - multi_product_huizhoufu
+    - multi_product_yangzhoufu
+    - multi_product_shaoxingfu
+    - multi_product_ningbofu
+    - multi_product_jimingshan
+    - multi_product_jiangningxian
+    - multi_product_baixuezhen
+    - multi_product_zongyingdao
+    - multi_product_longgong
+    JiangnanZijinClothingPavilionProduction:
+    - ProductionFacilitySettings
+    - zijin_clothing_products
+    - multi_product_yingtianfu
+    - multi_product_suzhoufu
+    - multi_product_hangzhoufu
+    - multi_product_songjiangfu
+    - multi_product_huizhoufu
+    - multi_product_yangzhoufu
+    - multi_product_shaoxingfu
+    - multi_product_ningbofu
+    - multi_product_jimingshan
+    - multi_product_jiangningxian
+    - multi_product_baixuezhen
+    - multi_product_zongyingdao
+    - multi_product_longgong
+JiangnanCityProduction:
+  menu: collapse
+  page: setting
+  tasks:
+    JiangnanChaomuDrum:
+    - Scheduler
+    - ChaomuDrumSettings
+    - chaomu_drum_yingtianfu
+    - chaomu_drum_suzhoufu
+    - chaomu_drum_hangzhoufu
+    - chaomu_drum_songjiangfu
+    - chaomu_drum_jimingshan
+    - chaomu_drum_huizhoufu
+    - chaomu_drum_yangzhoufu
+    - chaomu_drum_shaoxingfu
+    - chaomu_drum_ningbofu
+    - chaomu_drum_jiangningxian
+    - chaomu_drum_baixuezhen
+    - chaomu_drum_zongyingdao
+    - chaomu_drum_longgong
+    JiangnanYingtianfuProduction: &id003
+    - Scheduler
+    - CityProductionStatus
+    - city_facility_JiangnanFarmProduction
+    - city_facility_JiangnanRestaurantProduction
+    - city_facility_JiangnanLoggingCampProduction
+    - city_facility_JiangnanFishPondProduction
+    - city_facility_JiangnanSawmillProduction
+    - city_facility_JiangnanPaperMillProduction
+    - city_facility_JiangnanCottonFieldProduction
+    - city_facility_JiangnanWeavingWorkshopProduction
+    - city_facility_JiangnanTailorShopProduction
+    - city_facility_JiangnanClayMineProduction
+    - city_facility_JiangnanPorcelainKilnProduction
+    - city_facility_JiangnanCharcoalKilnProduction
+    - city_facility_JiangnanHerbFieldProduction
+    - city_facility_JiangnanAlchemyFurnaceProduction
+    - city_facility_JiangnanTungOilPlantationProduction
+    - city_facility_JiangnanOilPaperWorkshopProduction
+    - city_facility_JiangnanUmbrellaWorkshopProduction
+    - city_facility_JiangnanBrocadeWorkshopProduction
+    - city_facility_JiangnanLacquerForestProduction
+    - city_facility_JiangnanLacquerWorkshopProduction
+    - city_facility_JiangnanMotherOfPearlWorkshopProduction
+    - city_facility_JiangnanWaterCaltropPondProduction
+    - city_facility_JiangnanSilkwormFarmProduction
+    - city_facility_JiangnanSilkWorkshopProduction
+    - city_facility_JiangnanEmbroideryWorkshopProduction
+    - city_facility_JiangnanDuckFarmProduction
+    - city_facility_JiangnanIronMineProduction
+    - city_facility_JiangnanIronWorkshopProduction
+    - city_facility_JiangnanWeaponWorkshopProduction
+    - city_facility_JiangnanHairpinWorkshopProduction
+    - city_facility_JiangnanCopperMineProduction
+    - city_facility_JiangnanBambooForestProduction
+    - city_facility_JiangnanTeaGardenProduction
+    - city_facility_JiangnanFoldingFanWorkshopProduction
+    - city_facility_JiangnanRoundFanWorkshopProduction
+    - city_facility_JiangnanCrabPondProduction
+    - city_facility_JiangnanSaltFieldProduction
+    - city_facility_JiangnanStandardClothWorkshopProduction
+    - city_facility_JiangnanShoeWorkshopProduction
+    - city_facility_JiangnanRapeseedFieldProduction
+    - city_facility_JiangnanPigFarmProduction
+    - city_facility_JiangnanInkWorkshopProduction
+    - city_facility_JiangnanChengPaperWorkshopProduction
+    - city_facility_JiangnanSheInkstoneWorkshopProduction
+    - city_facility_JiangnanWangBrushWorkshopProduction
+    - city_facility_JiangnanQuarryProduction
+    - city_facility_JiangnanSeaMoonPondPlaceholder
+    - city_facility_JiangnanMingTileWorkshopPlaceholder
+    - city_facility_JiangnanCopperMirrorFactoryProduction
+    - city_facility_JiangnanJadeWorkshopProduction
+    - city_facility_JiangnanFragrancePowderFactoryProduction
+    - city_facility_JiangnanWineYeastFieldProduction
+    - city_facility_JiangnanYuePorcelainKilnProduction
+    - city_facility_JiangnanSheepPenProduction
+    - city_facility_JiangnanBlackFeltHatFactoryProduction
+    - city_facility_JiangnanFishingBoatProduction
+    - city_facility_JiangnanDriedFishWorkshopProduction
+    - city_facility_JiangnanRamieFieldProduction
+    - city_facility_JiangnanNetWeavingWorkshopProduction
+    - city_facility_JiangnanSpecialtyShopProduction
+    - city_facility_JiangnanCarvingWorkshopProduction
+    - city_facility_JiangnanImprovedFarmProduction
+    - city_facility_JiangnanPrintingFactoryProduction
+    - city_facility_JiangnanAmberWineryProduction
+    - city_facility_JiangnanGourmetRestaurantProduction
+    - city_facility_JiangnanExquisiteGoodsShopProduction
+    - city_facility_JiangnanEmbroideryAccessoriesWorkshopProduction
+    - city_facility_JiangnanLuoShoesProduction
+    - city_facility_JiangnanJadeCrownHatWorkshopProduction
+    - city_facility_JiangnanZijinClothingPavilionProduction
+    JiangnanSuzhoufuProduction: *id003
+    JiangnanHangzhoufuProduction: *id003
+    JiangnanSongjiangfuProduction: *id003
+    JiangnanJimingshanProduction: *id003
+    JiangnanHuizhoufuProduction: *id003
+    JiangnanYangzhoufuProduction: *id003
+    JiangnanShaoxingfuProduction: *id003
+    JiangnanNingbofuProduction: *id003
+    JiangnanJiangningxianProduction: *id003
+    JiangnanBaixuezhenProduction: *id003
+    JiangnanZongyingdaoProduction: *id003
+    JiangnanLonggongProduction: *id003
+JiangnanExclusiveGameplay:
+  menu: collapse
+  page: setting
+  tasks:
+    JiangnanYingtianInn:
+    - Scheduler
+    - yingtian_inn
+    - yingtian_inn_cooking
+    - yingtian_inn_diners
+    - yingtian_inn_goods
+    JiangnanShaoxingFurnitureShop:
+    - Scheduler
+    - shaoxing_furniture_shop
+    JiangnanHuizhouMerchantSale:
+    - Scheduler
+    - huizhou_merchant_settings
+    - huizhou_merchant_hall_1
+    - huizhou_merchant_hall_2
+    - huizhou_merchant_hall_3
+    - huizhou_merchant_hall_4
+    JiangnanYangzhouGrandCanal:
+    - Scheduler
+    - yangzhou_grand_canal
+    JiangnanNingboMerchantShip:
+    - Scheduler
+    - ningbo_merchant_ship_1
+    - ningbo_merchant_ship_2
+    - ningbo_merchant_ship_3
+    - ningbo_merchant_ship_4
+JiangnanPostStation:
+  menu: collapse
+  page: setting
+  tasks:
+    JiangnanYingtianPostStation:
+    - Scheduler
+    - post_station
+    JiangnanSuzhouPostStation:
+    - Scheduler
+    - post_station_suzhou
+    JiangnanHangzhouPostStation:
+    - Scheduler
+    - post_station_hangzhou
+    JiangnanSongjiangPostStation:
+    - Scheduler
+    - post_station_songjiang
+    JiangnanHuizhouPostStation:
+    - Scheduler
+    - post_station_huizhou
+    JiangnanYangzhouPostStation:
+    - Scheduler
+    - post_station_yangzhou
+    JiangnanNingboPostStation:
+    - Scheduler
+    - post_station_ningbo

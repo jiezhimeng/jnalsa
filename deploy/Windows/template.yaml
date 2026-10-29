@@ -1,0 +1,39 @@
+# Jiangnan derivative; configure its own repository before enabling updates.
+Deploy:
+  Git:
+    Repository: null
+    Branch: main
+    GitExecutable: ./toolkit/Git/mingw64/bin/git.exe
+    GitProxy: null
+    SSLVerify: true
+    AutoUpdate: false
+  Python:
+    PythonExecutable: ./toolkit/python.exe
+    PypiMirror: null
+    InstallDependencies: true
+    RequirementsFile: requirements.txt
+  Adb:
+    AdbExecutable: ./toolkit/Lib/site-packages/adbutils/binaries/adb.exe
+    ReplaceAdb: true
+    AutoConnect: true
+    InstallUiautomator2: true
+  Update:
+    EnableReload: true
+    CheckUpdateInterval: 0
+    AutoRestartTime: null
+  RemoteAccess:
+    EnableRemoteAccess: false
+    SSHUser: null
+    SSHServer: null
+    SSHExecutable: ssh
+  Webui:
+    WebuiHost: 127.0.0.1
+    WebuiPort: 22267
+    Language: zh-CN
+    Theme: default
+    DpiScaling: true
+    Password: null
+    CDN: false
+    Run: null
+    WebuiSSLKey: null
+    WebuiSSLCert: null

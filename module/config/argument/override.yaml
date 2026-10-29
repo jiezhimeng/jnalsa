@@ -1,0 +1,352 @@
+Restart:
+  Scheduler:
+    Enable:
+      type: state
+      value: true
+      option:
+      - true
+      option_bold:
+      - true
+    SuccessInterval: 0
+    FailureInterval: 0
+    ServerUpdate: 00:00
+JiangnanSignin:
+  Scheduler:
+    SuccessInterval: 30
+    FailureInterval: 10
+    ServerUpdate: 00:10
+JiangnanTaskReward:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2099-01-01 00:00:00
+      validate: datetime
+      display: hide
+    SuccessInterval: 0
+    FailureInterval: 0
+    ServerUpdate: 00:00
+JiangnanCityAllocation:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 1440
+    FailureInterval: 10
+JiangnanWarehouseInventory:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 720
+    FailureInterval: 10
+JiangnanDockHarvest:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 1440
+    FailureInterval: 10
+JiangnanTaxHarvest:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 1440
+    FailureInterval: 10
+JiangnanYingtianPostStation:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: display
+    SuccessInterval: 40
+    FailureInterval: 10
+JiangnanChaomuDrum:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 120
+    FailureInterval: 10
+JiangnanCornDryingMat:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 60
+    FailureInterval: 10
+  production_yingtianfu:
+    Enable:
+      display: display
+    Status:
+      display: disabled
+    NextRun:
+      display: disabled
+  production_suzhoufu:
+    Enable:
+      display: display
+    Status:
+      display: disabled
+    NextRun:
+      display: disabled
+JiangnanFarmProduction:
+  ProductionFacilitySettings:
+    Enable:
+      type: checkbox
+      value: true
+      option:
+      - true
+      - false
+JiangnanRestaurantProduction:
+  ProductionFacilitySettings: &id001
+    Enable:
+      type: checkbox
+      value: true
+      option:
+      - true
+      - false
+JiangnanLoggingCampProduction:
+  ProductionFacilitySettings: *id001
+JiangnanFishPondProduction:
+  ProductionFacilitySettings: *id001
+JiangnanSawmillProduction:
+  ProductionFacilitySettings: *id001
+JiangnanPaperMillProduction:
+  ProductionFacilitySettings: *id001
+JiangnanCottonFieldProduction:
+  ProductionFacilitySettings: *id001
+JiangnanWeavingWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanTailorShopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanClayMineProduction:
+  ProductionFacilitySettings: *id001
+JiangnanPorcelainKilnProduction:
+  ProductionFacilitySettings: *id001
+JiangnanCharcoalKilnProduction:
+  ProductionFacilitySettings: *id001
+JiangnanHerbFieldProduction:
+  ProductionFacilitySettings: *id001
+JiangnanAlchemyFurnaceProduction:
+  ProductionFacilitySettings: *id001
+JiangnanTungOilPlantationProduction:
+  ProductionFacilitySettings: *id001
+JiangnanOilPaperWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanUmbrellaWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanBrocadeWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanLacquerForestProduction:
+  ProductionFacilitySettings: *id001
+JiangnanLacquerWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanMotherOfPearlWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanWaterCaltropPondProduction:
+  ProductionFacilitySettings: *id001
+JiangnanSilkwormFarmProduction:
+  ProductionFacilitySettings: *id001
+JiangnanSilkWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanEmbroideryWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanDuckFarmProduction:
+  ProductionFacilitySettings: *id001
+JiangnanIronMineProduction:
+  ProductionFacilitySettings: *id001
+JiangnanIronWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanWeaponWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanHairpinWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanCopperMineProduction:
+  ProductionFacilitySettings: *id001
+JiangnanBambooForestProduction:
+  ProductionFacilitySettings: *id001
+JiangnanTeaGardenProduction:
+  ProductionFacilitySettings: *id001
+JiangnanFoldingFanWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanRoundFanWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanCrabPondProduction:
+  ProductionFacilitySettings: *id001
+JiangnanSaltFieldProduction:
+  ProductionFacilitySettings: *id001
+JiangnanStandardClothWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanShoeWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanRapeseedFieldProduction:
+  ProductionFacilitySettings: *id001
+JiangnanPigFarmProduction:
+  ProductionFacilitySettings: *id001
+JiangnanInkWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanChengPaperWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanSheInkstoneWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanSpecialtyShopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanCarvingWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanImprovedFarmProduction:
+  ProductionFacilitySettings: *id001
+JiangnanCopperMirrorFactoryProduction:
+  ProductionFacilitySettings: *id001
+JiangnanJadeWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanFragrancePowderFactoryProduction:
+  ProductionFacilitySettings: *id001
+JiangnanWineYeastFieldProduction:
+  ProductionFacilitySettings: *id001
+JiangnanYuePorcelainKilnProduction:
+  ProductionFacilitySettings: *id001
+JiangnanSheepPenProduction:
+  ProductionFacilitySettings: *id001
+JiangnanBlackFeltHatFactoryProduction:
+  ProductionFacilitySettings: *id001
+JiangnanFishingBoatProduction:
+  ProductionFacilitySettings: *id001
+JiangnanDriedFishWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanRamieFieldProduction:
+  ProductionFacilitySettings: *id001
+JiangnanNetWeavingWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanPrintingFactoryProduction:
+  ProductionFacilitySettings: *id001
+JiangnanAmberWineryProduction:
+  ProductionFacilitySettings: *id001
+JiangnanGourmetRestaurantProduction:
+  ProductionFacilitySettings: *id001
+JiangnanExquisiteGoodsShopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanEmbroideryAccessoriesWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanJadeCrownHatWorkshopProduction:
+  ProductionFacilitySettings: *id001
+JiangnanZijinClothingPavilionProduction:
+  ProductionFacilitySettings: *id001
+JiangnanYingtianfuProduction: &id002
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 1440
+    FailureInterval: 10
+JiangnanSuzhoufuProduction: *id002
+JiangnanHangzhoufuProduction: *id002
+JiangnanSongjiangfuProduction: *id002
+JiangnanJimingshanProduction: *id002
+JiangnanHuizhoufuProduction: *id002
+JiangnanYangzhoufuProduction: *id002
+JiangnanShaoxingfuProduction: *id002
+JiangnanNingbofuProduction: *id002
+JiangnanJiangningxianProduction: *id002
+JiangnanBaixuezhenProduction: *id002
+JiangnanZongyingdaoProduction: *id002
+JiangnanLonggongProduction: *id002
+JiangnanHuizhouMerchantSale:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 1440
+    FailureInterval: 10
+JiangnanYangzhouGrandCanal:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: disabled
+    SuccessInterval: 1440
+    FailureInterval: 10
+JiangnanYingtianInn:
+  Scheduler:
+    SuccessInterval: 1440
+    FailureInterval: 10
+JiangnanShaoxingFurnitureShop:
+  Scheduler:
+    SuccessInterval: 60
+    FailureInterval: 10
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: display
+JiangnanSuzhouPostStation:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: display
+    SuccessInterval: 40
+    FailureInterval: 10
+JiangnanHangzhouPostStation:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: display
+    SuccessInterval: 40
+    FailureInterval: 10
+JiangnanSongjiangPostStation:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: display
+    SuccessInterval: 40
+    FailureInterval: 10
+JiangnanHuizhouPostStation:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: display
+    SuccessInterval: 40
+    FailureInterval: 10
+JiangnanYangzhouPostStation:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: display
+    SuccessInterval: 40
+    FailureInterval: 10
+JiangnanNingboPostStation:
+  Scheduler:
+    NextRun:
+      type: datetime
+      value: 2020-01-01 00:00:00
+      validate: datetime
+      display: display
+    SuccessInterval: 40
+    FailureInterval: 10

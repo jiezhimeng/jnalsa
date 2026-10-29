@@ -1,0 +1,166 @@
+{
+  "Alas": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "Alas",
+      "Restart"
+    ]
+  },
+  "Tool": {
+    "menu": "collapse",
+    "page": "tool",
+    "tasks": [
+      "JiangnanDebug"
+    ]
+  },
+  "Jiangnan": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "JiangnanTaskPriority",
+      "JiangnanSignin",
+      "JiangnanTaskReward",
+      "JiangnanCityAllocation",
+      "JiangnanWarehouseInventory",
+      "JiangnanDockHarvest",
+      "JiangnanTaxHarvest"
+    ]
+  },
+  "JiangnanAuxiliaryInformation": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "JiangnanAuxiliaryCityLayout",
+      "JiangnanAuxiliaryWarehouseLayout",
+      "JiangnanAuxiliaryAllocationLayout",
+      "JiangnanAuxiliaryProductionLayout"
+    ]
+  },
+  "JiangnanActivity": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "JiangnanCornDryingMat"
+    ]
+  },
+  "JiangnanProductionFacility": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "JiangnanSpecialResidentReservation",
+      "JiangnanFarmProduction",
+      "JiangnanRestaurantProduction",
+      "JiangnanLoggingCampProduction",
+      "JiangnanFishPondProduction",
+      "JiangnanSawmillProduction",
+      "JiangnanPaperMillProduction",
+      "JiangnanCottonFieldProduction",
+      "JiangnanWeavingWorkshopProduction",
+      "JiangnanTailorShopProduction",
+      "JiangnanClayMineProduction",
+      "JiangnanPorcelainKilnProduction",
+      "JiangnanCharcoalKilnProduction",
+      "JiangnanHerbFieldProduction",
+      "JiangnanAlchemyFurnaceProduction",
+      "JiangnanTungOilPlantationProduction",
+      "JiangnanOilPaperWorkshopProduction",
+      "JiangnanUmbrellaWorkshopProduction",
+      "JiangnanBrocadeWorkshopProduction",
+      "JiangnanLacquerForestProduction",
+      "JiangnanLacquerWorkshopProduction",
+      "JiangnanMotherOfPearlWorkshopProduction",
+      "JiangnanWaterCaltropPondProduction",
+      "JiangnanSilkwormFarmProduction",
+      "JiangnanSilkWorkshopProduction",
+      "JiangnanEmbroideryWorkshopProduction",
+      "JiangnanDuckFarmProduction",
+      "JiangnanIronMineProduction",
+      "JiangnanIronWorkshopProduction",
+      "JiangnanWeaponWorkshopProduction",
+      "JiangnanHairpinWorkshopProduction",
+      "JiangnanCopperMineProduction",
+      "JiangnanBambooForestProduction",
+      "JiangnanTeaGardenProduction",
+      "JiangnanFoldingFanWorkshopProduction",
+      "JiangnanRoundFanWorkshopProduction",
+      "JiangnanCrabPondProduction",
+      "JiangnanSaltFieldProduction",
+      "JiangnanStandardClothWorkshopProduction",
+      "JiangnanShoeWorkshopProduction",
+      "JiangnanRapeseedFieldProduction",
+      "JiangnanPigFarmProduction",
+      "JiangnanInkWorkshopProduction",
+      "JiangnanChengPaperWorkshopProduction",
+      "JiangnanSheInkstoneWorkshopProduction",
+      "JiangnanWangBrushWorkshopProduction",
+      "JiangnanQuarryProduction",
+      "JiangnanCopperMirrorFactoryProduction",
+      "JiangnanJadeWorkshopProduction",
+      "JiangnanFragrancePowderFactoryProduction",
+      "JiangnanWineYeastFieldProduction",
+      "JiangnanYuePorcelainKilnProduction",
+      "JiangnanSheepPenProduction",
+      "JiangnanBlackFeltHatFactoryProduction",
+      "JiangnanFishingBoatProduction",
+      "JiangnanDriedFishWorkshopProduction",
+      "JiangnanRamieFieldProduction",
+      "JiangnanNetWeavingWorkshopProduction",
+      "JiangnanSpecialtyShopProduction",
+      "JiangnanCarvingWorkshopProduction",
+      "JiangnanImprovedFarmProduction",
+      "JiangnanPrintingFactoryProduction",
+      "JiangnanAmberWineryProduction",
+      "JiangnanGourmetRestaurantProduction",
+      "JiangnanExquisiteGoodsShopProduction",
+      "JiangnanEmbroideryAccessoriesWorkshopProduction",
+      "JiangnanLuoShoesProduction",
+      "JiangnanJadeCrownHatWorkshopProduction",
+      "JiangnanZijinClothingPavilionProduction"
+    ]
+  },
+  "JiangnanCityProduction": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "JiangnanChaomuDrum",
+      "JiangnanYingtianfuProduction",
+      "JiangnanSuzhoufuProduction",
+      "JiangnanHangzhoufuProduction",
+      "JiangnanSongjiangfuProduction",
+      "JiangnanJimingshanProduction",
+      "JiangnanHuizhoufuProduction",
+      "JiangnanYangzhoufuProduction",
+      "JiangnanShaoxingfuProduction",
+      "JiangnanNingbofuProduction",
+      "JiangnanJiangningxianProduction",
+      "JiangnanBaixuezhenProduction",
+      "JiangnanZongyingdaoProduction",
+      "JiangnanLonggongProduction"
+    ]
+  },
+  "JiangnanExclusiveGameplay": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "JiangnanYingtianInn",
+      "JiangnanShaoxingFurnitureShop",
+      "JiangnanHuizhouMerchantSale",
+      "JiangnanYangzhouGrandCanal",
+      "JiangnanNingboMerchantShip"
+    ]
+  },
+  "JiangnanPostStation": {
+    "menu": "collapse",
+    "page": "setting",
+    "tasks": [
+      "JiangnanYingtianPostStation",
+      "JiangnanSuzhouPostStation",
+      "JiangnanHangzhouPostStation",
+      "JiangnanSongjiangPostStation",
+      "JiangnanHuizhouPostStation",
+      "JiangnanYangzhouPostStation",
+      "JiangnanNingboPostStation"
+    ]
+  }
+}

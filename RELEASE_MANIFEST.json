@@ -1,0 +1,4025 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 279,
+      "sha256": "08be20a3fa23de6f0988597bca0adfce8ebac19b868c8248247005fa5816bf04",
+      "reason": "publication instructions, verification or configuration tooling"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 353,
+      "sha256": "8be4c050903864b90f28fc441001deea9dd9a06a1b0831355d5c50cec466e190",
+      "reason": "publication instructions, verification or configuration tooling"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4674,
+      "sha256": "873875c747aca6f91832f0e201d0ee4aec16ed15200877fd6592551256fa205e",
+      "reason": "publication instructions, verification or configuration tooling"
+    },
+    {
+      "path": "RELEASE_SELECTION.json",
+      "bytes": 889,
+      "sha256": "0b1658644ca2c282c8f388a40641f0f777c464bb2e8a0d8321dd7f136bc66c4a",
+      "reason": "publication instructions, verification or configuration tooling"
+    },
+    {
+      "path": "alas.py",
+      "bytes": 32139,
+      "sha256": "3c9b45cfe49e7e6f7163d12282e1998d8dc38a3b7e5fe820a8377c0618e284be",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "assets/gui/css/alas-mobile.css",
+      "bytes": 1101,
+      "sha256": "dd12270f6c77ba482e704c0d7fc7e296c437240f26d7b65b92389af4600322de",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/css/alas-pc.css",
+      "bytes": 1237,
+      "sha256": "a3e2f0f6ed9647e06744b778686e55e467313102720ee75fcf0ec46cbb9e6612",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/css/alas.css",
+      "bytes": 12740,
+      "sha256": "124ac778f638c4f6cca92a89611b01da46ab84e0b676af0b5d79a6e4601ead9b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/css/dark-alas.css",
+      "bytes": 6977,
+      "sha256": "20e35a70b46dd4ea4e3f67c053faccd35bbb9b17ac49be648dc24cf8cc9ec7cf",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/css/light-alas.css",
+      "bytes": 6690,
+      "sha256": "07487840a10fc09ac6dfaa1b37054c9a8496bb059536202946b6a01a7f17acfb",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/icon/add.svg",
+      "bytes": 191,
+      "sha256": "b1b4094551a123d98222991c61a6d76c1b92de7b6060d1d038e2402f45fc2a6b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/icon/alas.svg",
+      "bytes": 167940,
+      "sha256": "60a6b095cc872bb149c9b213f0b2ea8e9344369aea808dd21d2c57a9f9818832",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/icon/develop.svg",
+      "bytes": 1348,
+      "sha256": "6a70ac25bfd505a6df3996eeade6208a40cb581add9bb060c0d55f165141b840",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/icon/run.svg",
+      "bytes": 637,
+      "sha256": "d51d6789a1837e8aab350ce7880854dd55ef0b965dace5025fdf7a1ccde51426",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/icon/setting.svg",
+      "bytes": 6300,
+      "sha256": "06a17b1b9746dd8bef444e1c23ebab4d701aab357d02c22f70c72b0392642037",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/gui/js/task-priority.js",
+      "bytes": 5691,
+      "sha256": "5fa9011b83a705b402b05ddb5d3149b3772044678a0671ae4f175e0a7238f181",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/arrival_prompt.png",
+      "bytes": 880563,
+      "sha256": "df833c2548c004dd59f7981b5a5fa2d5a856b3ee5e96d6981dffe6a899dcd1ba",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/assignee.png",
+      "bytes": 966045,
+      "sha256": "17a6d4298eb4c784f46690d0f34059840a5baee437879f35faadc7c7a4edebc0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/destination.png",
+      "bytes": 847753,
+      "sha256": "a70caa7b7af57c20cf4f234012e72c461733a80235a9083170c76fa393e71fea",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/overview.png",
+      "bytes": 824407,
+      "sha256": "e35474f591bcdf9ae302b4bf2caa924889f5428e33b417bd3616d21d7bdbaede",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource.png",
+      "bytes": 906478,
+      "sha256": "12e7194d9850f9f63e716f54a2acd7fe6b9a574ce564ab71f20be9c4a91d41e4",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/䯼髻.png",
+      "bytes": 23281,
+      "sha256": "667a7ac0fa2fad2a7047b21667e81841a6004722c05892829698b5dc431f44f8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/丝绸.png",
+      "bytes": 26626,
+      "sha256": "46a112dfaff8d455e97bc792903dff1315a9e53b01db2d47bdccf9ea46307446",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/丹丸.png",
+      "bytes": 36536,
+      "sha256": "5a607009235354ab66b1b0f8e53b058bdda41df0a96e48393bf3a82ae381a0a2",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/乌毡帽.png",
+      "bytes": 20045,
+      "sha256": "71e1659c9335fac85a45874b0468c96457502612c1c11f8510bc51c576de9236",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/云巾.png",
+      "bytes": 23849,
+      "sha256": "ac1ec383f236290af2c1af0465ff31038cd589e7b900d5e019a5b506dace0d6f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/云锦.png",
+      "bytes": 35517,
+      "sha256": "d7ecca02d055b79f39773f95a55e31288283af402ed73e5706224e5e6ba036a8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/元红酒.png",
+      "bytes": 32342,
+      "sha256": "340ed4d4bb7445659d3c3521d39663eaa927770f294d6c75ffe3683a92fefe27",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/兵器.png",
+      "bytes": 28541,
+      "sha256": "a8cfc4fd5940b6618922e32c50ead99a334acef47e902f846b0ed9a2e8fddd7c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/刺绣.png",
+      "bytes": 32657,
+      "sha256": "643682386e15e278be91434e0642ccb61c9159bfb776564ed29abe0a6f003c2b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/加饭酒.png",
+      "bytes": 39514,
+      "sha256": "2bf38e7372c352312bcf13550dab7acae2bbd546628bb2bf12a941c056d6c652",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/原木.png",
+      "bytes": 26805,
+      "sha256": "ebef76ab24a975249986b84ee22974f099531a63a66f95da5cc2bab9eb875c52",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/发簪.png",
+      "bytes": 22301,
+      "sha256": "2d809c5eec8ff02e9bd239b4d9bf4668f3dfad6013594bd1f6741a3772d993bc",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/善酿酒.png",
+      "bytes": 38346,
+      "sha256": "3f525bc584e474d37ece400037f0ad210389dc65a851392b2b1115be772287ef",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/团扇.png",
+      "bytes": 24782,
+      "sha256": "1555c201ca9737b2d30e559045f89ae20c9f7439ab876536dcee0b0c65099f80",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/布.png",
+      "bytes": 34677,
+      "sha256": "0ac79fd1153c139e92e5bb21c6c47df535ea8ea4bd0ac9503826ad95fbecae17",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/布鞋.png",
+      "bytes": 26864,
+      "sha256": "ed6498e12de3c5ae20492a54e19685dbd930521a12d7dbc66d89d2c9a2454cc6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/幞头.png",
+      "bytes": 21829,
+      "sha256": "390b381b2995f8a70f1f5fb73b4377cbed63fbee0ca6874795055a9c2ad3f55f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/年历.png",
+      "bytes": 25695,
+      "sha256": "a5247f2d1acbe962e932ee2ae5d1a820e48f8bf3359bd61699d39efab3bc9e0d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/徽墨.png",
+      "bytes": 23428,
+      "sha256": "17c149018e7f9d49ebd1bfd72eb574a33dbacbc4329377296a0713c89251925d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/戏服.png",
+      "bytes": 25049,
+      "sha256": "17aec16281f2fc3aab85746c0e77f62c40f8bb5f0ea90bb32ac7f82cd962b017",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/成衣.png",
+      "bytes": 32678,
+      "sha256": "2b0d86c10ca3dc9b3d71d98155f8859bcc909a324163b1fbedaf4040dc6d37a0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/折扇.png",
+      "bytes": 26250,
+      "sha256": "6a9bf75d8e7f57a46828a980a19d96acb40230960e3385987dbfe4dd29bb9c75",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/斗笠.png",
+      "bytes": 20674,
+      "sha256": "f109c9f62ad7b163870338ff37594794e84587201c34ff32be9bc7301c80e51b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/木板.png",
+      "bytes": 35018,
+      "sha256": "a5e4e39b92cc4368a0d3fb986ebe4a517f875101e84257f79564ad9c16f621ba",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/木板鞋.png",
+      "bytes": 24976,
+      "sha256": "39c491cb2b4d423db7441f9d5e9a72762360a8ee55883d44827d5328141e7055",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/木炭.png",
+      "bytes": 27721,
+      "sha256": "2b680fe47f2bfe54967288036b0c73f1061865e2119e2c5ee7c0c20a53d0cb4d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/木雕.png",
+      "bytes": 5900,
+      "sha256": "ac8d02e3fa4100586104ede0fb01658ffc64790e34d0235ff1a4c1ccd92474d9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/标布.png",
+      "bytes": 32292,
+      "sha256": "0de33f548e59b3449d6f571a92c53b66c1766bf5a42b5fbbd4972cc56b778de9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/桐油.png",
+      "bytes": 21108,
+      "sha256": "b43d30a48faaeddbac3f1c0d68c7076d061cb9d654be5cb4f626e020f056addb",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/梅干菜.png",
+      "bytes": 39164,
+      "sha256": "9a578f0db25a0fb8b41addffe5de16beaa7ce3c1f66d77c00c7d5e203e59d1b3",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/棉花.png",
+      "bytes": 33369,
+      "sha256": "aab97276cf95ea1cbe62823378e894e99d4cfe9786c789a0f612350caf12f7ba",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/歙石.png",
+      "bytes": 26307,
+      "sha256": "e71d11331066b268c787da2a43a0f591c1dbdd3d3571ef16b8267810ad29ad80",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/歙砚.png",
+      "bytes": 28708,
+      "sha256": "304847f588200b57d40b927f98cf4bc35412bd417f61e491419c9bc458f1dc4b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/汪笔.png",
+      "bytes": 22242,
+      "sha256": "ad3ce6c5dd27988d883fd6fe581595f7b33e36bb6204cfbdb425dd7027e486fc",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/油墨.png",
+      "bytes": 21767,
+      "sha256": "825deca5c4251b98fb5a0651fc84c39afbea0b80ab6b93c0e651700a055c9b19",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/油灯.png",
+      "bytes": 33157,
+      "sha256": "b38e117f136dec34c0a62a90bfa65f5993a9d7c1dd1e9e4281241c3fb938153e",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/油纸.png",
+      "bytes": 25457,
+      "sha256": "f1c56c3c8c57ddba5a954b48618796d77e917069c2f1b2c08b0158ca11d68f81",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/油纸伞.png",
+      "bytes": 38309,
+      "sha256": "c5859f6ee8fc20b8fe1e6fe8265cb4b257a499242736fea0a77e7fc3a5c30bb0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/深衣.png",
+      "bytes": 23509,
+      "sha256": "893826492635b97dc4bdc2ce348bc76adc4011386bb0da7f5a19f89e609008c5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/渔网.png",
+      "bytes": 31225,
+      "sha256": "32db1a75510a09389bfc889d7e6d199664ecabf63a02e933bbe61608850c403a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/渔获.png",
+      "bytes": 40380,
+      "sha256": "a431efabcf740ed49e30672e054d6ed45af1cf9a949383af8cffb16b5b65ef03",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/漆器.png",
+      "bytes": 26978,
+      "sha256": "e1fb661e380e5d544aec5d79cc41c9ae1577f56f399ad18d4f9c9564dca23cec",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/澄纸.png",
+      "bytes": 21185,
+      "sha256": "93109d2dfb2a9240855ba2e433e8e1a441cb4f213fab49c59a3e2a48ddc08c67",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/玉佩.png",
+      "bytes": 21924,
+      "sha256": "1ee344e0ea5c3b1b2e76f462a9abfd97b6d8e2bbbd146f090c213eaffc63f5dd",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/玉器.png",
+      "bytes": 38319,
+      "sha256": "831e0006ea0148e4be0bf2f87a004526e42b2a568070226c0e44a4565a1ba3f9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/玉石.png",
+      "bytes": 35039,
+      "sha256": "3c2dd0a2dd0cd189a8ceacbf9d9130dd21e45761df2b8233eb2a187d503cc3cd",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/璎珞.png",
+      "bytes": 24999,
+      "sha256": "25d706c821ed624fc3dba92d26d6c5f80a3a5c9592cbcbc9caa923645945105f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/瓷器.png",
+      "bytes": 37122,
+      "sha256": "3a1c04719ae6e423706d287825070f34667509a7f302cbbb7ab4b60ce888c636",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/生漆.png",
+      "bytes": 29685,
+      "sha256": "54fc6490a6e181b27233e42a947b73ce0ca5c0966312b7509934f3e2b3128159",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/甲酒.png",
+      "bytes": 5465,
+      "sha256": "4e4fad58e4314024a7156c5883544bb54aa321e4f2529b7160f44fde258393e8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/白醪酒.png",
+      "bytes": 29669,
+      "sha256": "3b8017b1f160859604dc77b499d2c096f4cb17111628f90f2de3d742e255ff71",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/盆景.png",
+      "bytes": 5121,
+      "sha256": "2cedc18eec75e1972446bbe8dc390739dd38d6bfaf29826dd6275857689bad43",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/盐.png",
+      "bytes": 31447,
+      "sha256": "31806117a924df22208d8ec5aa0f6c7e976322d0eaf4ded2c7129cb92c27baae",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/石雕.png",
+      "bytes": 5761,
+      "sha256": "91d74bd50492e180981b8fb61b6cc431ed20e5a44b75887047c5194ed551eff8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/砖雕.png",
+      "bytes": 6136,
+      "sha256": "639ff2c2db4bfcdc348fa3cef49e24639da278bbff7b73a58f52595df3795465",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/磨喝乐.png",
+      "bytes": 34052,
+      "sha256": "f3e9c41f5cd423cc48d640420e046da6e41f0905975c56c5f91553c1be7e0edd",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/礼服.png",
+      "bytes": 23013,
+      "sha256": "79555fd586a0e5d7c82f58f56247b8e3b10f408b14c588bd32337b5c3ec2dfd2",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/竹子.png",
+      "bytes": 29746,
+      "sha256": "2e0affb17e65a0c9cc5d26d489005c7d508e7f24f5fa97249810967ad7b5598d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/竹编.png",
+      "bytes": 6008,
+      "sha256": "72d64b732bd02fa403bd3e09708637e4ec9f0c5fbe95d92c7143f592dffda9bd",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/竹雕.png",
+      "bytes": 5979,
+      "sha256": "7cfac3b0e2cecec262dd9bc1052fb3459dbda872d2959ba558540d6252353acf",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/粟米.png",
+      "bytes": 25035,
+      "sha256": "4e328d8f51bc6f6b290944f63cf6863aad1f20da5880f717dae6184ce4b9363b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/纸.png",
+      "bytes": 35755,
+      "sha256": "2028497cc53d3cb86406b858d2792f5706ff1a4e16b04bb309e77c65a6cd8b54",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/经书.png",
+      "bytes": 33430,
+      "sha256": "2a3e09396fb8fb27717e4ff22b63a92479bfb01d9d7ef67a5b54ae4c39e7b9aa",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/羊毛.png",
+      "bytes": 34034,
+      "sha256": "6c086feefe57a87b20e8d5740b9453db97b8ed1218b649c5589cf7db2c2290f5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/羊毛靴.png",
+      "bytes": 21671,
+      "sha256": "5e7005c785dd49d87f32b25d29afc0666739f8c28106bba8cd680abc8b9fc54d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/翘头履.png",
+      "bytes": 22259,
+      "sha256": "677fac79b50aba0df363c9240dd7d6731e94a814f8b2642dfdc87e26ed273658",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/肉类.png",
+      "bytes": 28451,
+      "sha256": "6c74c9d36ed2e60b45315763275964be88aee2961c415f01ba015a5c4c984e40",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/胡服.png",
+      "bytes": 25719,
+      "sha256": "12b6b71acc8004bf57dbbf419e00e4dcb732075960b427b66d03b88f7e43f267",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/胭脂.png",
+      "bytes": 21933,
+      "sha256": "ee9664a94e7f5e259c66b233dc8bfb8480da4192461ba12051f36663ef7311f0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/腐乳.png",
+      "bytes": 28810,
+      "sha256": "8bcd71b56c6b0bd5354c963afb1eeab4058cd1ec879a01f798574c42bfa90570",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/花簪.png",
+      "bytes": 28725,
+      "sha256": "8dd5158997dd289c2076860173e32b252ccfa63dc252cfa9f8af8e8fedb32095",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/苎麻.png",
+      "bytes": 24258,
+      "sha256": "f2edb98e954590fa6e7574b446fcd77eabec37ebf8749b61727840b871a07cf2",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/茴香豆.png",
+      "bytes": 27749,
+      "sha256": "508728a3239149c4930959708fd513563cc9b34a716094fd0493b7d61d00c6db",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/茶叶.png",
+      "bytes": 26526,
+      "sha256": "eecf19f12c236157bd2a52f20faac6f6b51b95c933898f5015b3b9e7f920a429",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/茶油.png",
+      "bytes": 6004,
+      "sha256": "a91e7b3168dc86c76b915c5785d0eb06660c1fb812337c9e7bfedb199ea200ba",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/草药.png",
+      "bytes": 30884,
+      "sha256": "1a3bff9bab9949b886f6e4468eb8f724af0d4b89481464d1d71ef427ee5e194e",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/菜肴.png",
+      "bytes": 30050,
+      "sha256": "158b3b8974d107321434fc32a2e91ba6c8ac616159938eff4b1cc7afbc766c1a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/蔬菜.png",
+      "bytes": 35150,
+      "sha256": "b9e779442de919c7a27d3d3d690dab6f0e687a27a3c1b6754d9c4cceaeea21d1",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/蚕丝.png",
+      "bytes": 38490,
+      "sha256": "1dc32bbdf162960eefaa71d151cd801f080ea8603b2c12c06326fb7be045d47c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/螺钿.png",
+      "bytes": 31826,
+      "sha256": "dbb7e6ecac2a062490398fe0fa956ec315792ae366d39af49298bd423ee3ba77",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/越瓷.png",
+      "bytes": 31041,
+      "sha256": "3ef61c1d9c45a0224dbab9dd4d73eec4d310b370543be6228297ca0cb8b3bee6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/酒曲.png",
+      "bytes": 22766,
+      "sha256": "1d640c1e44ab630f84232b210a195ff31c65902f071d17521b8e2c4cd4278572",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/酱油.png",
+      "bytes": 24859,
+      "sha256": "fe7ae80ecbfb37a209595716c08ef07bfbbf02bb08c53a0e8d6cca82027aa91b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/铁板.png",
+      "bytes": 28432,
+      "sha256": "a8f54492db23b65597eefea7988a30fe6d8cf11cf5b71ee1c0699d6bb6cdc1ca",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/铁矿.png",
+      "bytes": 32454,
+      "sha256": "6afe96590ab77007556f15a866460da99c1c8cf249237e0fc98a17ed1d43e90b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/铁锅.png",
+      "bytes": 22761,
+      "sha256": "ef58ae18891b349442e9a36d34853b476d38629ca595aef68ab672465edca5f9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/铜板.png",
+      "bytes": 29338,
+      "sha256": "ba68b8360ac053cf84a619706202dd16c74128975aa854dd156dec37a120aa9a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/铜镜.png",
+      "bytes": 25521,
+      "sha256": "d583570a23fe0d49fe706c17ff75f6017ecb8a65de2ec24bc51907317c0752cb",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/香囊.png",
+      "bytes": 24144,
+      "sha256": "f5429cc24b428b0a805a7eda8efbca386306a20036448e64094866c163511ea5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/香粉.png",
+      "bytes": 27309,
+      "sha256": "8fc6f67dd676773703c435a5b7e3672a2cfd34b8bfe48e76de32d17a233988f6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/马靴.png",
+      "bytes": 21575,
+      "sha256": "81287a2c596379d5e154bbe39ebba83adf8394c618497a5401d4d58a3ed8e904",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/鱼干.png",
+      "bytes": 36833,
+      "sha256": "ef7b67cc63ed94252b101ca4872962ee28f04dff367b977128636923bb41c19f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/黏土.png",
+      "bytes": 24786,
+      "sha256": "3faca15d689733ac94a7c54270abe5eb2655650a8ef88a84442a3c35e25f03e4",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/resource_icons/黑核棉.png",
+      "bytes": 29732,
+      "sha256": "0dc8808d9bc459b848ecfb7f1a959db35ab621186840a2beb6bc698001ae57b4",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/allocation/status.png",
+      "bytes": 825703,
+      "sha256": "c099e0a8cc1873be7f4263894ce490c01bbe456ebba7be5078870f5ddb023a65",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/building_search_no_result.png",
+      "bytes": 991625,
+      "sha256": "cb1853e551341ee92160c02f6cf0c9a19472315a4e9f603414aa6d8e923aaa77",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/foundation.png",
+      "bytes": 1051897,
+      "sha256": "bd036909a7261493d15e6c8a3eef376e2fd3940c35f78669e4494f58ccd641c5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/foundation_unselected.png",
+      "bytes": 5273,
+      "sha256": "189bc7a48ccb14533e2b701a3295dbe903aa92313f524f73d06c53d2f958c643",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/interference_knot.png",
+      "bytes": 1010589,
+      "sha256": "7dfd24e433450fd984dba54ec62e7772792e3c438f9c2822749c3679582571a0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/interference_scissors.png",
+      "bytes": 1212057,
+      "sha256": "56e2cf99e4c10ab7f0929f300a0913187202d3f657ddb038ec10b9208bdfc004",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/residence_panel.png",
+      "bytes": 1012957,
+      "sha256": "b17d13d65b96b1dd8d63efbe1db56f4c7650fab9419806858b1d873af2def282",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/result.png",
+      "bytes": 791642,
+      "sha256": "e397d3110b4ef334d2064e389592ece6b6c96da00832c0115eeb45b48d23cbf6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/search.png",
+      "bytes": 986039,
+      "sha256": "942d2f9efa895dcb757036e9b8eaf03adacfb88af7ae137d06138dab0732d295",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/story_panel_corner.png",
+      "bytes": 5118,
+      "sha256": "100d9b8e27f582ee903779d7566e1a2ecdbaeaeb8f673b8485894ef80d1cb1c7",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/tax_office_idle.png",
+      "bytes": 839967,
+      "sha256": "a8d7b8b5e653ed4e6403609f3ff7563b20462753abb78705391e0a0b954d6268",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/tax_office_map.png",
+      "bytes": 1087037,
+      "sha256": "6e62fbb356b157d489067ee0022c7d4059cb819391f581e22d9c391ceace1ec6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/building/tax_office_working.png",
+      "bytes": 890636,
+      "sha256": "0367161c5d201b4df9e5e10f50ecd7c6f34b9d0d067e654f0d6d518e809fcd57",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/chaomu_drum/animation.png",
+      "bytes": 569746,
+      "sha256": "a70e8642a15b9b55ed3bbbf9f80eaf554a535c0ba179f582d28f3e82154e0b8c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/chaomu_drum/coin_cost.png",
+      "bytes": 1397,
+      "sha256": "976ebdfbd2e251c2924cf42e513933759d0fc42a33452b9f9638aa8febab4ddd",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/chaomu_drum/gem_cost.png",
+      "bytes": 1531,
+      "sha256": "1dc8020025c8cc17831fc9e3136495ce80793b0f13601038c04f427be5d204dc",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/chaomu_drum/panel.png",
+      "bytes": 931933,
+      "sha256": "b9c34844e5e180e7c8e4755b2b6a9d822763da9ffdf8cc7f7c9aa2272ea56cef",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/city_list.png",
+      "bytes": 797336,
+      "sha256": "ec02012bb5f7f15bc69852afab18782e7635091ac54487b21f09de47e2d9f8d6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/city_panel.png",
+      "bytes": 1559682,
+      "sha256": "84d0a68b5817a0a5fec4919a88c4fb639d9d594772b2ea35ae7419dba45d5fd6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/宁波府.png",
+      "bytes": 3912,
+      "sha256": "61e6b296060922791f367e415fb4d1dc777a3eb7342e03c8d1dcf721e757c81a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/应天府.png",
+      "bytes": 3908,
+      "sha256": "81102e157c9b26e05297f7561328e0212df7bdb91f97d2558f39b6d0c6d9e88f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/徽州府.png",
+      "bytes": 4124,
+      "sha256": "f9780cb40e62790da514463abe60f776c9178c0f59d2cb26481eaf156f356fe1",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/扬州府.png",
+      "bytes": 3831,
+      "sha256": "ad3c20571589d5eaa69340dd341830c58d7cd2e2375e4e777d87a0b7b0897892",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/杭州府.png",
+      "bytes": 3582,
+      "sha256": "eed92f07f1b2c963d9ada10b823ac4259c4c0c183fa538f4b6afeb3eb07cf99c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/松江府.png",
+      "bytes": 3946,
+      "sha256": "8f4b14db21ce73f08d0119780a6b976eff4306fd677ebdaa957be60cb39dcb22",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/棕影岛.png",
+      "bytes": 4569,
+      "sha256": "48a646ceee928bef62198b0df23dc6e2b4205a8fcdbcb9bda9bead2936724ea1",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/江宁县.png",
+      "bytes": 3055,
+      "sha256": "2e94a31ede2fc161e35ab235642dcd5907e7de0d7d47c20ec9c3b4c7b3bd9742",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/白雪镇.png",
+      "bytes": 3547,
+      "sha256": "3536f7111527f0ff81a2b1a98f57d68f07f9021e11de0bd6508be292ca72e497",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/绍兴府.png",
+      "bytes": 4456,
+      "sha256": "ca65e60681442491fd319341154cb0a0bd3a480f986988f1b00353500d9285a2",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/苏州府.png",
+      "bytes": 3924,
+      "sha256": "a9e0e7b81aeea51fb6bcaf32c4067657638adbf376c2e8ab23497ce691725d4c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/鸡鸣山.png",
+      "bytes": 3208,
+      "sha256": "c4708f4b4f402d3aa45b62d428a378b5e170901922475421d50f61d1393be0e0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/names/龙宫.png",
+      "bytes": 2718,
+      "sha256": "29169e38fd9da51742d67a2f2ab5a08009d092fd9e4f832ccdcffeb712ad7432",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/tax_popup.png",
+      "bytes": 901462,
+      "sha256": "9061b161214590f2bbce94c972c8af49a2995161a3341dfd946ea1c0c3afc098",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/city/world_map.png",
+      "bytes": 1261548,
+      "sha256": "6cbe5bf8758026dc8b144553868c67f0dbf1f62e75cd8cfc8dff29425c51a380",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/corn_drying_mat/working_banner.png",
+      "bytes": 5848,
+      "sha256": "dfafbd570490d788dcc5521b2f159db4179d6d9e3ec7052cbe94528e8779b6e2",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/farm/idle.png",
+      "bytes": 843661,
+      "sha256": "66fdf82c78d0b579cd3e2f784a1f4d9c197975d6290446caa06dbb544b6381f5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/farm/resident_detail.png",
+      "bytes": 1174220,
+      "sha256": "f71a6aab2d264eca9f4bf480be8b741d6042061873481b0f2f2f39315f30a6f5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/farm/working.png",
+      "bytes": 795720,
+      "sha256": "e9f280f6518fa7e2c4a64ab18764b162d5c1980d055fd14946890d43c5e5161a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/civic.png",
+      "bytes": 4384,
+      "sha256": "a98cf6cb8bfedfe0b001a5ed27fad8e283079c3f77572717cb99c817716d225b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/civic_canal.png",
+      "bytes": 4484,
+      "sha256": "bb7cdd812bc5773f46024efd196bd71081151f251aa841dea0865392ef7265b6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/craft.png",
+      "bytes": 4797,
+      "sha256": "d3e5d9d2b2a297b7a51c6d5f6655a7b130e3ae05a6efe3eb48c7fdbe61519390",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/fishing.png",
+      "bytes": 5694,
+      "sha256": "4503a5a1c69d268f274c62af1232d05579ec30a546d1ccb76827911789079ae8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/food.png",
+      "bytes": 5704,
+      "sha256": "cbeeb509344beb8fa965c1edc73f65db0b0d64f3da8b0807923da879fca13576",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/furniture.png",
+      "bytes": 5203,
+      "sha256": "a55549d60e2ff408b693e0a3d3c0af61384c5ae9be825f6c2bf8b544934c8f6d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/gather.png",
+      "bytes": 6915,
+      "sha256": "6aeaf24b863795fdd7dc8e392e2c649abf60b7aa2ccd984280ec0d71c6c86c45",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/merchant.png",
+      "bytes": 4215,
+      "sha256": "6e2bfe93ca86d209f600c7672fdedbae458925147e4735b0c9324e254269e350",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/foundation_icons/powder.png",
+      "bytes": 4827,
+      "sha256": "cb0b15ca2e003769f8753b8f1fa55c43bc4ad0ff504013b29741251706239be0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/assignee.png",
+      "bytes": 957639,
+      "sha256": "15ec1628d2f89f02ec43ec4c34abea9e74f39706888af358424f0cf91ca71539",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/big_order_dialog.png",
+      "bytes": 879625,
+      "sha256": "f9112427276590b029574d9a63ca8d7ffc4b07006db26842b5667ed322422d82",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/canal_map.png",
+      "bytes": 1389521,
+      "sha256": "01a5896ed64b13d8be595d2464bc8a8bad9a6e8577ecf40da23efaa2f9f57575",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/compass_panel.png",
+      "bytes": 871344,
+      "sha256": "06e3a417bd86b2771b26b1a160f0d1295ae541d3b2cbe4cb59e6080250977270",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/current_location.jpg",
+      "bytes": 172240,
+      "sha256": "a419d29bf1009febf78c45ac3ee68489c60aa116000424ac2cc9fcbe239de0d6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/dock_panel.png",
+      "bytes": 945804,
+      "sha256": "6cf834a2df6193a2e4743de88a80df2cc53543a8bcb7a589877773ca74acc226",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/event_dialog.png",
+      "bytes": 949726,
+      "sha256": "c7c25326d757c6a47309bda316dba154c88c28349879d4d2dc88ed648426b493",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/foundation_reference.png",
+      "bytes": 1071590,
+      "sha256": "eba642ba38a9dfb16a466db3f0dca82abaae446ccd0612942600220f6d144e92",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/custom_route.js",
+      "bytes": 4656,
+      "sha256": "9e7e10129788a0800040d4aefe198b8c8dd7f6f03deaf0547d725fcdc733437d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/map_tiles.js",
+      "bytes": 3058,
+      "sha256": "4603b4647632f0f9e4ca34dd0592a22a25f70bb7ecdfb1f1dd1dde807b3aa713",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/overview.html",
+      "bytes": 311364,
+      "sha256": "e71eec39bce6a47dd40473c908719b1e6f77288b812808903293ff31a70009d7",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/overview_preview.jpg",
+      "bytes": 197019,
+      "sha256": "6ca10bbbf2f92d4e3558d0dd30b90ed184a7deb0b4d6a2c1911bdcf6b5c3c83b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/overview_stitched.png",
+      "bytes": 127016903,
+      "sha256": "b1ef59dfec89907bcd16024e20c507af01e82fc8823e833c1437a3b7b86a8657",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_1.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_2.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_3.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_4.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_5.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_8.jpg",
+      "bytes": 626573,
+      "sha256": "d39e34efc8fa51dfcff107f8976c15b2f2f740a60e8cf2fdca51fd4647d6c725",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/0_9.jpg",
+      "bytes": 117698,
+      "sha256": "c331299c0e95d6ad28b62b6814bc42ea37af7535d3f016689412c8e6a5b64faf",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_0.jpg",
+      "bytes": 107361,
+      "sha256": "13c30cff32192685a68fe0f5cdb925e8c7d68cc89c2469dfd7e35e2083511a33",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_1.jpg",
+      "bytes": 860828,
+      "sha256": "97406e1093a43cbfe1b8ccdc084d7f9a9afd9a9d94dee575af842e657123cf4a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_2.jpg",
+      "bytes": 1074252,
+      "sha256": "c8d95e1c043af1aaf023563fdda1298bce54a0d76b54d0a97e0b8ca7c61f175e",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_3.jpg",
+      "bytes": 39838,
+      "sha256": "b1a4d26114b53af4ec838ed4f7265a2cbe2fc1084603c2d2a0789fef32b09dab",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_4.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_5.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/10_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_0.jpg",
+      "bytes": 774499,
+      "sha256": "5136fec7eecb3950033631191c88bb708d589a02522a498e19e2c1d064018982",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_1.jpg",
+      "bytes": 1314831,
+      "sha256": "2ad645ae70489101ca5cb159023307777592c14f170fc9b6516bde3d2b06fc8b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_2.jpg",
+      "bytes": 859656,
+      "sha256": "d2b80dc3b00659799688a3e070caa872ecd6b53ed841a7e0a8560f3db7e2a3b1",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_3.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_4.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_5.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/11_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_0.jpg",
+      "bytes": 1199561,
+      "sha256": "db3bc0de5771988a3a3b139709a78e7e1aa6c8c7374373d29328b9686cf8e3ab",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_1.jpg",
+      "bytes": 1127427,
+      "sha256": "531acad1bc7f49b093a2c7d79fbbe3c21eb222c50c61b664b9663c3f83a0dcad",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_2.jpg",
+      "bytes": 153517,
+      "sha256": "b4ed7073d4dd5e9422cd41e173b2332264acbd6036cf805d1c355b94a6c4a148",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_3.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_4.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_5.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/12_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_0.jpg",
+      "bytes": 198521,
+      "sha256": "867a85bb80a83a51b2fdc29dc8274d0659f32bc5b85ebecffb73c4c4ffa06d34",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_1.jpg",
+      "bytes": 29911,
+      "sha256": "c78c6f925fc5da02cd3cccabc31b7e0a07df30fc6c1bf7ba03ecd5d84250ae7a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_2.jpg",
+      "bytes": 5087,
+      "sha256": "96f53760f6e93704518e75ea74d644cbb56d3673409ff64d7f73bff07ccc6b15",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_3.jpg",
+      "bytes": 5087,
+      "sha256": "96f53760f6e93704518e75ea74d644cbb56d3673409ff64d7f73bff07ccc6b15",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_4.jpg",
+      "bytes": 5087,
+      "sha256": "96f53760f6e93704518e75ea74d644cbb56d3673409ff64d7f73bff07ccc6b15",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_5.jpg",
+      "bytes": 5087,
+      "sha256": "96f53760f6e93704518e75ea74d644cbb56d3673409ff64d7f73bff07ccc6b15",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_6.jpg",
+      "bytes": 5087,
+      "sha256": "96f53760f6e93704518e75ea74d644cbb56d3673409ff64d7f73bff07ccc6b15",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_7.jpg",
+      "bytes": 5087,
+      "sha256": "96f53760f6e93704518e75ea74d644cbb56d3673409ff64d7f73bff07ccc6b15",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_8.jpg",
+      "bytes": 5087,
+      "sha256": "96f53760f6e93704518e75ea74d644cbb56d3673409ff64d7f73bff07ccc6b15",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/13_9.jpg",
+      "bytes": 887,
+      "sha256": "8938fbdf52c5b6b3c4211b9936a2b187f331f5ef3d2cebab6f92126946b7584d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_1.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_2.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_3.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_4.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_5.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_6.jpg",
+      "bytes": 175436,
+      "sha256": "fc4323aeb49f145ffd1f44f6833b07f8eea5c04d15b45be4d9405979ac0dd9a7",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_7.jpg",
+      "bytes": 246348,
+      "sha256": "bbaad2c9f5c316541188395543235f496d3c9c989e5bff2608e42555c58d2578",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_8.jpg",
+      "bytes": 885216,
+      "sha256": "3b7ba73fa3316e6683c916b0e91c6341271c846b0c29e9ed45ee403ad7ad0fcb",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/1_9.jpg",
+      "bytes": 22004,
+      "sha256": "076dbbf0f60a20a3c835d0248036cb2bab21d06e1968afcad200481df8551632",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_1.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_2.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_3.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_4.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_5.jpg",
+      "bytes": 225040,
+      "sha256": "606acd88cb3a0236f994316332c0765b1b2770f5f530b829bc211e38921abac8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_6.jpg",
+      "bytes": 712519,
+      "sha256": "aff9c4a4984f22dac181681464f2170f12237a66146c10c7b82103b1c032cd67",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_7.jpg",
+      "bytes": 1093090,
+      "sha256": "e105dd8c8d349466ad36719493dc0f226c826ca4393bcc0f92d15b1846d951d7",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_8.jpg",
+      "bytes": 362923,
+      "sha256": "ebaa9ea9b89a9962f7353d9fc6c463ef93ec2599a4d4507944d923927eca4b69",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/2_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_1.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_2.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_3.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_4.jpg",
+      "bytes": 30351,
+      "sha256": "eb3482f4533882b6572d232d0c9fbc3f92a1903b828a297bcc205dc26495b64d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_5.jpg",
+      "bytes": 814832,
+      "sha256": "e15bf1e3d67cabb466d2c176ea018b1e154689d91fcea994dc3b4e078a955dd4",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_6.jpg",
+      "bytes": 1113636,
+      "sha256": "59640ea06054e18c1dc9104e46e9681fac41fe5e5edc071e9f7dcd650be241b3",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_7.jpg",
+      "bytes": 753862,
+      "sha256": "c1d6360ff068fcae637a69cff0ec285245b3fef8ee30069d2ee3af13ba0146c1",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/3_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_1.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_2.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_3.jpg",
+      "bytes": 25439,
+      "sha256": "4ca9528e643746ae71a09a180953efcd3af13916f30416f660ccf6eb56851abe",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_4.jpg",
+      "bytes": 1105114,
+      "sha256": "726ebb7cbe6ded5e898b5da5adcfaf8117ec67998390bab99c93766d16de8cca",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_5.jpg",
+      "bytes": 911702,
+      "sha256": "b02a16ffd9bce98256c17e8dbe1cecdff695917c4bd8a04314b52cdf60b8c318",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_6.jpg",
+      "bytes": 465605,
+      "sha256": "04fe0263de8e6e2ad982ad13a6668a0d310b03e8efff0404bed3b237961f4fe3",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_7.jpg",
+      "bytes": 398793,
+      "sha256": "f977149574a5cab738b383f57d15105e122d3d62c623e8444054f62144b0d232",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/4_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_1.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_2.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_3.jpg",
+      "bytes": 67337,
+      "sha256": "a9d3c9fae4d03a58ba1caeb0b9b7303d492d54d29a9836ce3a99d1a8b818d282",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_4.jpg",
+      "bytes": 1154436,
+      "sha256": "8f5242fdde8568fe1f08f38b29de5c247a83e458fa21068a53f572f546ce13a9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_5.jpg",
+      "bytes": 629885,
+      "sha256": "e4d1159c3f10c3c1d831abeb83cc8ec428883645478563ad16741401cd1a256f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/5_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_1.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_2.jpg",
+      "bytes": 436588,
+      "sha256": "0b63c6a83c13f112b7f8f2843ba2cd6554fab5cd0b9db5d74ae87f7977718f7a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_3.jpg",
+      "bytes": 762902,
+      "sha256": "9e50691986ae1779211918f5b470b9ae1c48a675e3ab95d0d183db585c24614a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_4.jpg",
+      "bytes": 994972,
+      "sha256": "317c5c1ea9d4d85779b7b4f8a9d6b5e1acc8fca877b40fbac8e78418bdebc6c1",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_5.jpg",
+      "bytes": 378914,
+      "sha256": "3c6e7e6458fc91d27a467d685f72ed0bbc58574eeef0f61324a4bd37730d4414",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/6_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_1.jpg",
+      "bytes": 55289,
+      "sha256": "b6d31018eb1bcbea4131b21dd46ce14a85a2f0c3416ed1e5e6c5464e6e4d96d5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_2.jpg",
+      "bytes": 1313407,
+      "sha256": "ecc415ccef402b0c19473c6ea2f9de74fa88825133f8f168ff8e1b2bd630ac97",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_3.jpg",
+      "bytes": 857657,
+      "sha256": "47ef611881a72da57a29d04e7c05df6b1d31a35bc6364de3b40ad682f6e0a0f6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_4.jpg",
+      "bytes": 33277,
+      "sha256": "5d929a0d4514d3081536f61066b9057d3bca34fd30089e114a8ec64b99d2036d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_5.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/7_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_1.jpg",
+      "bytes": 766692,
+      "sha256": "84808d1a7bb134f59356cef394ead714cb647d92807fde94d8e2046dbececc01",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_2.jpg",
+      "bytes": 942784,
+      "sha256": "3149c3f409939659db0e151ade63868d1baa7c40f94ebd067bb2e96fdb4065a8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_3.jpg",
+      "bytes": 294987,
+      "sha256": "625d53bf58bad8ed707f666a885d6d5ca6c1cf0ca8087abe625cd3459c519b5b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_4.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_5.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/8_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_1.jpg",
+      "bytes": 880720,
+      "sha256": "271d1d466df245cca8bd4236d9da82f5a843ecbe5fa9f61bb1070c666fb12e55",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_2.jpg",
+      "bytes": 561682,
+      "sha256": "97196dfb3b5cb1f01a7044a6f59c829db7c8bf71b9c6092bc54c89fd66cae0b5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_3.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_4.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_5.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_6.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_7.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_8.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l1/9_9.jpg",
+      "bytes": 3359,
+      "sha256": "e239c0011e6b349bfa98e13c2120f4e7b71630b9b1656df37921097800d0d36d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/0_0.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/0_1.jpg",
+      "bytes": 429960,
+      "sha256": "7891a236fdda84bc5292d40380b35c6b384e84d461d09f4eabe7cf530e85ac88",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/0_2.jpg",
+      "bytes": 165796,
+      "sha256": "0dd862f4f683393b1465772e9b5ae8e765083f643d2b854bdb15e91ac36fe4ec",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/1_0.jpg",
+      "bytes": 300228,
+      "sha256": "ea433c5dba3f5d14effd2e77fa33640456ef492cb88c6c412c3c90691e443357",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/1_1.jpg",
+      "bytes": 500689,
+      "sha256": "427eb8f40df645a5983f27ff18eb66f4d6d17f6adb63bb6ee495fcfe11f25a8d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/1_2.jpg",
+      "bytes": 7199,
+      "sha256": "b5b6c4520ac436f0e1e1e432377067561a9fb9cc820171b9722f492c67f2f64f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/2_0.jpg",
+      "bytes": 669430,
+      "sha256": "e87ad609877d84314228520fe8faf2ea5543b5b0ee02cd14fd34bf8ba8921496",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/2_1.jpg",
+      "bytes": 24863,
+      "sha256": "076c490909a293ae5511dfa3a202e4f98986d2a7c90810facb8a77e920a2f8ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/2_2.jpg",
+      "bytes": 7199,
+      "sha256": "b5b6c4520ac436f0e1e1e432377067561a9fb9cc820171b9722f492c67f2f64f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/3_0.jpg",
+      "bytes": 215165,
+      "sha256": "def0a98ff1ca0bac8b33a0716b69d6f26555d5d892420347d918e866485fdc8c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/3_1.jpg",
+      "bytes": 7775,
+      "sha256": "8768eaf7d3c7bbe599d8a4f308621925b2ef4eb07125242a2c289acac4fdefa2",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/tiles/l4/3_2.jpg",
+      "bytes": 2393,
+      "sha256": "c1e445198c7095a55456d5f5c3c326d9d6f8b84ee77b2603955a9fcc71c0b322",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/map/topology.json",
+      "bytes": 22744,
+      "sha256": "f506f676534202f9384a1c5d6da1370d9869832b86f8f46ebced53eb54a7f892",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/move_dialog.png",
+      "bytes": 901788,
+      "sha256": "de2f568a9c648366f1a90ede5c0b92d04173aec8f6d8e0829ff13122f7ca7161",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/resource_shortage.png",
+      "bytes": 835280,
+      "sha256": "dfb09c1c4615d7c7e9c4a18a26f85d7baf8ea7d097f914d5777f32927d368477",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/reward.png",
+      "bytes": 664895,
+      "sha256": "b15a6e81178a819a71475ad4cd0d69903ec8cc4cd1656fe5ea4bdec0808dff65",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/sailing_dialog.png",
+      "bytes": 913445,
+      "sha256": "a1bef18e42ee93d8fcbe3ecd162d48689fb114a929246dd74fcc9c5f6ab5b251",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/sinan_overflow.png",
+      "bytes": 886173,
+      "sha256": "fc0710d5fcd59e0e90bf0650695c4ede47d6a8ef4e55b67d212792df4eb42f35",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/sinan_reward.png",
+      "bytes": 809690,
+      "sha256": "7c8c9a21fb3eb2cb78d7efbb4ee22fa10e1fd28d9882511029d41172329f7cc8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/sinan_task_done.png",
+      "bytes": 1037977,
+      "sha256": "252e5b16465a2f366d48a9d86580e1609e2ecc89b835696c4bbfebc148a43e49",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/sinan_task_ready.png",
+      "bytes": 1027933,
+      "sha256": "d45b4a0b5f19ab488a3b026a417a50ccc2ca4c09749d1743252b21346ffd50d2",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/grand_canal/working.png",
+      "bytes": 1438129,
+      "sha256": "77d7ce15ab82062db0839a2d314ebe9258e7e9a01d6de0344e0997b5ebf97ea5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/harvest/complete.png",
+      "bytes": 1013235,
+      "sha256": "886a098f782a255113b251c1ac1821d19ab2f0604ffcd5aa427d1e58454be9e0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/harvest/complete_selected.png",
+      "bytes": 5369,
+      "sha256": "72192fb99e1d64ad51d669fc00370b46c7f4f8cfa836c56af5924ba72f275627",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/harvest/discard.png",
+      "bytes": 792909,
+      "sha256": "bf6f6084d8e438bac6b637af49246e336bd7a23e80c42d6ba2a49e969849dc16",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/harvest/full.png",
+      "bytes": 1082489,
+      "sha256": "7eb956750054fdcf0f6e378fa5296a0b09762256e82f1f24c3ac7feb21f01067",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/harvest/normal_scroll_action.png",
+      "bytes": 2712,
+      "sha256": "526f8d70e14fa06107a9c757542147621c0b66f17f054a02257617a78c111ec0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/huizhou_merchant/assignee.png",
+      "bytes": 979781,
+      "sha256": "5b59ee65db5597eccb1a91259e525eb73de4c9d8d3bbb2d430a5671f084066f9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/huizhou_merchant/hall_idle.png",
+      "bytes": 926711,
+      "sha256": "c9e2bc0ae1326242f40cbf29b0740a35aa172e62ab4c9584c5bee57131ca9011",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/huizhou_merchant/hall_map.png",
+      "bytes": 1326590,
+      "sha256": "a8be5ac287b692dfea5f6909a53d65c75b5711919926559b8dd133e7769dadb2",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/huizhou_merchant/sale_left.png",
+      "bytes": 913257,
+      "sha256": "d81c471ccfdd83da31a03ba9ff02de52e51ddaf0839cb5c9994e9845af6c5511",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/huizhou_merchant/working.png",
+      "bytes": 889152,
+      "sha256": "c315e970eb3e5127a58d380b74974f1ee298e333a5f35bb5d9be07d30c31587d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/diners/bubble.png",
+      "bytes": 6775,
+      "sha256": "bef2ca3662155dd56ee2d10f819a92c0ea4e88005db65ad9872b263be1ef6e77",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/diners/bubble_mask.png",
+      "bytes": 480,
+      "sha256": "6daeda114955aa3cff5148dbad8b9abc89b9ea0e573ff93bea02d2dfb8d18e84",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/diners/expel.png",
+      "bytes": 4570,
+      "sha256": "33fd70533eced634929a546c5bb6ac3a6492dde30d08d0ddf16d5947185f5758",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/diners/give.png",
+      "bytes": 4435,
+      "sha256": "9e4e9f5127666bfea2381500647e5095d6c0e2856965f0eb333026aa5cadec8f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/diners/request_title.png",
+      "bytes": 32658,
+      "sha256": "5d1eeb09d9637b18a11d4dd559eb7151c3654890cfb056ce22d0a91cf2126221",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/exit_confirm.png",
+      "bytes": 824203,
+      "sha256": "27fcd32c35f25a6f9918b40b614ddd163a84f24f70fd2c16fde38ee91c534655",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/goods_counter.png",
+      "bytes": 1210532,
+      "sha256": "1ce20dc23854e79f1fa11c12208bce368ec9956fe941be4c089c422e16d5ee7d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/keeper_bubble.png",
+      "bytes": 3219,
+      "sha256": "97720c50577a2ba2a17d72c31a5f267b24e09d8706fc807b5da7202a59f0cdbc",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/keeper_ledger.png",
+      "bytes": 2932,
+      "sha256": "2ff761f789da92d7a5baaea205139ea473a7df091445d047e0980bda8bd9710a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/keeper_notice_today16.png",
+      "bytes": 2934,
+      "sha256": "232db7be884256231e2c009bf847a80048a1ee6200f72c31b5f62884f2d934c9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/keeper_notice_tomorrow10.png",
+      "bytes": 3153,
+      "sha256": "0e5bb28a969fb9944ddf86fbe2383745622d2213d25ab23c214e845adde0f77b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/keeper_wine.png",
+      "bytes": 2903,
+      "sha256": "422f11a53313ec020a18ee2b19dbb46cdbf02405101f28a2bb884a64ef522d5c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/main.png",
+      "bytes": 1179100,
+      "sha256": "9aa19de2009d136e1012dd41e8f67ecf050e6518b9487f9887af059e95716fae",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/map.png",
+      "bytes": 1245788,
+      "sha256": "0aba10634457906e20094e14fb3b2406d77254a8fc26bc6f10159af480dc5f00",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/map/overview.html",
+      "bytes": 1813,
+      "sha256": "07786b6aa03ec581b9e71e20e594846d0721aea500cdd26cbac6b6f5dce61792",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/map/panorama.png",
+      "bytes": 5194856,
+      "sha256": "7e038090442e0646e8b42719c1f9a26fb05afede518e2f996557e20984f786c6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/map/preview.png",
+      "bytes": 100014,
+      "sha256": "a2b5456329941d5af908d69db9892c9b7ef9823ecac2ee476348a5bb433bad16",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/map/static_anchors.json",
+      "bytes": 2817,
+      "sha256": "c9c80a1863ab1f4968cf360c7469cee33f815247ed468ec39ed2c8b34f04542a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/map/viewer.css",
+      "bytes": 1981,
+      "sha256": "7a3e5d19b508d9089f158e37719ef8412d397ea95bec8fa6594d955ca53298d8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/map/viewer.js",
+      "bytes": 8184,
+      "sha256": "899021e7f28f43844bfecb41d76c52ede6f90b528b93418fac93885b3c03840f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/reward_accept.png",
+      "bytes": 5059,
+      "sha256": "20286425434fa832e620d8a4b1331d0df086c4a320c3615f487d7a8f066bac34",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/reward_title.png",
+      "bytes": 3255,
+      "sha256": "c21db572c6a0de572363eb0fcfba76c1440e77bdff83f0c0c4c71aef57ee35ae",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/reward_weekly_ticket_title.png",
+      "bytes": 5989,
+      "sha256": "990f0534e029c0130c91643d6d77706ae6cc5256510d58485c97838ea7b02baa",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/inn/reward_wine_title.png",
+      "bytes": 6715,
+      "sha256": "a7c860a687699d8434043d4cbbc1f6fdc07d8eefc96aaf36bcb7d63f6efb4b1f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/login/auth_loading.png",
+      "bytes": 2427,
+      "sha256": "950844e9740d8ed5be95d93896c08cb135013e75b12e9e7ae299d07ac2fad7aa",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/login/customer_service.png",
+      "bytes": 3878,
+      "sha256": "a396172586bdd327a2a616b766ceb0a4363d467bc706bff290b18e8cd4c85ab8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/login/sms_title.png",
+      "bytes": 15028,
+      "sha256": "ff15f477db88531ad90d5899197e51465056d53f163cbda3c39e74af1f68435f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/login/taptap.png",
+      "bytes": 3017,
+      "sha256": "15477f761dfa3b1227d9115f3594b339d2b5c71308c958bd558c67d17201ad26",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/logout/account.png",
+      "bytes": 9249,
+      "sha256": "8e9e7fbdd4352f0b4d58ad614cd0a0a93ac5914a5dcd27cf8575fb8d2bddebff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/logout/logout.png",
+      "bytes": 6540,
+      "sha256": "e5947aee447d311f4716f1979528f6d6583b016fff0ea99c74b2dc8d6aaa8ea5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/logout/more.png",
+      "bytes": 830,
+      "sha256": "aaa5eae83b55dfa7f3b2c8970d0630983117d656bae36b72f9019dd5d2036546",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/logout/return.png",
+      "bytes": 3504,
+      "sha256": "90feadb93c364377700c0b9f48cce5deeac698142d8880588c50852b7a93fda7",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/logout/settings.png",
+      "bytes": 6481,
+      "sha256": "5006487c0a0640e0b56763e0a78a29bf8199377b8e0397f211018ddd25ba07d4",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/logout/settings_title.png",
+      "bytes": 17770,
+      "sha256": "a1141ac29f589c883682a11f7b9ee172841a888e0db558bf889231da6c43759c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/ningbo_ship/assignee_detail.jpg",
+      "bytes": 259696,
+      "sha256": "5067d0d99cf63a36a8d524685a2d824b7b93053382d931e9f8302b3fd48b9210",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/popup/network_timeout.png",
+      "bytes": 909981,
+      "sha256": "553cb06e1b880b6c987536c0018b7a1962582e8f0491d6fec5e96c3f8e293d3a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/popup/reward.png",
+      "bytes": 777689,
+      "sha256": "67fa65a9fe0f60aa79d03f40f2e1909f3752ad996bcbb2e0313058a8a5f3f274",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/popup/signin.png",
+      "bytes": 826920,
+      "sha256": "7469b80d3e3059a45a60baa47d3f4b2c8ab6cee54d0d4bf390b35cfc6a18c3eb",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/characters.png",
+      "bytes": 14912,
+      "sha256": "1a6a9d81bd039bf33052480b9abf47b79d95611f3dce5354b3ad3881c7bf57b5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/entrance.png",
+      "bytes": 4425,
+      "sha256": "3d00d2c1c2990ed6a5ebe6fb045a6de9e2213d85016bc1dd64d70a7f8574d074",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/exhausted.png",
+      "bytes": 8859,
+      "sha256": "de80894f1cc4aa28f76d38fba9455369ffecfd3c5b1c613be0394d5a09d7c0aa",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/exit.png",
+      "bytes": 13981,
+      "sha256": "a7fd96042b0d3ec7da80851dd469400239642ffa84a2acb5f521ae5143919e02",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/field.png",
+      "bytes": 3487,
+      "sha256": "5d45ffa19d49ac410ff417afed62f443f1d322e38cf8071c8126e6f8cb133d51",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/list.png",
+      "bytes": 18036,
+      "sha256": "d8f6611436a53ca6aeb4cdd1f450c5933734a4103d6218db8cb2f5e2af34fc98",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_changhenge.png",
+      "bytes": 5431,
+      "sha256": "b54035a89fd477d410a0b98abf4930a1bb60cad6e4cfe03631a0f2a1fc0e9c10",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_changmen.png",
+      "bytes": 3709,
+      "sha256": "783e40cbaa1091e9fa62929e1f05c541628c09d0dd6e8e772fbb6ff70edcf760",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_changxiangsi.png",
+      "bytes": 5244,
+      "sha256": "87841743f9b70b5b157ed2f7f981f7f1b9a22ceafc52c6905384a23bf1ba7584",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_chuanxingqianli.png",
+      "bytes": 6109,
+      "sha256": "d47a28835c726a29054a23ab8aac847b8b98d7f446fba810811d66688eedc539",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_huangshanyunhai.png",
+      "bytes": 6343,
+      "sha256": "01d5613079148ea3c883d9fe831aeded319e9aab5a248f5ad09c8800cbf492f1",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_huatingzhongcai.png",
+      "bytes": 6745,
+      "sha256": "73e0935bf00945cb4c75783765e8cb964a33bace65438ed197a4a7fe2a386e68",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_huihanggudao.png",
+      "bytes": 7079,
+      "sha256": "8351c6bf98891aa2472251e6ac35c701f9a9f4b6a47a961d26c643020cc8a2bf",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_huqiu.png",
+      "bytes": 3098,
+      "sha256": "15db9cccd56d7435a902c177b7ce00b12df6088f5feb75ce53939ed0726a7391",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_jinxihexi.png",
+      "bytes": 6745,
+      "sha256": "3381ceb9d0daf7455767a482b11e448cce500eeae4b57ca48bbde927f2ce5e6e",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_jiushi_baijuyi.png",
+      "bytes": 9672,
+      "sha256": "c80271a0db54403e19f8727da18c2e44756faf1d390c265ad31ed99421bf031d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_jiushi_bailichenxiang.png",
+      "bytes": 10615,
+      "sha256": "f130e6237539580a7aaf95479e9906ea910d0fe49e75a438c98c02f40ed78b3a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_jiushi_xiaoman.png",
+      "bytes": 8048,
+      "sha256": "cbad39884b03a49b718a8d50e7ab6524d7c1fa200e351a12f9321185ceb479d6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_liniang.png",
+      "bytes": 6914,
+      "sha256": "cf9050be7922683efb3315b53ca288b134898aa734f272007d9ec1cb92c4a350",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_lvmeimao.png",
+      "bytes": 5529,
+      "sha256": "ccd2957906b9a07d32361a688e190365570c1a5b04ad4ed18320eae22753708e",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_qiantangchunxing.png",
+      "bytes": 6489,
+      "sha256": "67f7bf1bc7b58099da4e6047ca073cc72198790256effd48ef24b08cd01801cd",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_qiantangmen.png",
+      "bytes": 5935,
+      "sha256": "0c41b7552a5b4e653164ab84d3559987f6dee253dddf57a3a1019327ddfac644",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_qilishantang.png",
+      "bytes": 6629,
+      "sha256": "51b9708a545a29f1b0eb80a5d49abf7ef1fad87f26c9d534a4412e245ae82498",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_qinhuai.png",
+      "bytes": 7437,
+      "sha256": "d85b2ac789d5a957301f417830950e5bd73aa5f17e766c05bb12957d28f3cf57",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_shexianshuangli.png",
+      "bytes": 6882,
+      "sha256": "48632ed9a9a40adc22faaa4dbfa1f62bfa45f39419a4adc0258caca4935955c5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_taohuawu.png",
+      "bytes": 5379,
+      "sha256": "36d17fc5fb06bbe8b7e7b432b3f979df43368fe9849c989346a88a25d87a1b1b",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_unreleased.png",
+      "bytes": 7127,
+      "sha256": "4b7615dec2303ced4b6f92e1b3cc9cf0e96f70efbf06563e1b30be36e5ab7552",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_wanhuahui.png",
+      "bytes": 6658,
+      "sha256": "a29422497172a38b0a69efcef4ad1e2d09dd79e9c084ef5f552fe2d06cb4c0ee",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_xiuninglongwu.png",
+      "bytes": 6574,
+      "sha256": "b8566deeb54483e502652446eccf3618ab6fc6fa4329794a43c8ed7e95de7823",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/map_yingtian.png",
+      "bytes": 7363,
+      "sha256": "86b366a5a93c3d7133c57c70f07a524bbc2a1ff881bb20c26b20a648451bb741",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/overview.png",
+      "bytes": 7936,
+      "sha256": "5a8c719532509e326584a8bb1e8aa4f2aa4ea292597744721713bad9c393d729",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/pin.png",
+      "bytes": 2233,
+      "sha256": "8133a169361064aa4e80a79ac66fedb4a3a0aba8b505739c2015d9389d32c525",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_00.png",
+      "bytes": 4590,
+      "sha256": "15793693688fe35dc4a3a41197bb87f5d3760115b40ad9a2157621bf5a8de8e5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_01.png",
+      "bytes": 3841,
+      "sha256": "020591c45b9a692e8cf602233ca982cd3a9011894115066a50c70c8aa8333cfa",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_02.png",
+      "bytes": 3990,
+      "sha256": "0079cb604da0e71e49c89b008d0376156c8beac2f57ab823eb3f83335ae3281a",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_03.png",
+      "bytes": 4155,
+      "sha256": "aa1dfc11c136af6459020b6138074214056ecebcd9102ca3765731bde3505424",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_04.png",
+      "bytes": 4643,
+      "sha256": "4b2ee71960c1556526e77d86ef636c510f4f4a85472816a2df97bbb5d58249e9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_05.png",
+      "bytes": 3783,
+      "sha256": "474126a9d5cd614fbbdb793f20cc93fffdaad812674f24bdf2cc1016f94acbf5",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_06.png",
+      "bytes": 4143,
+      "sha256": "45bc490c8a665d5304a2c3e7e1673a6d84b388edc8c5b8633a2588231ae79024",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_07.png",
+      "bytes": 4803,
+      "sha256": "bacc3e239e945cc697e8f7064e14ffde58caf9c55424c127f3c26704f78283ff",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_08.png",
+      "bytes": 4964,
+      "sha256": "4d70223fd70725e33226750d10267372c7301b00b895a29319dc815caed96188",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_09.png",
+      "bytes": 4568,
+      "sha256": "f3739c8d70542f746fa37f8a2ebca86293d7803035d2f77e62e869b3d167fbcf",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_10.png",
+      "bytes": 5172,
+      "sha256": "da3b3eabcd563763a1b8eb9473510ee748068f536d75c84e4fad0ed8baf7e16d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_11.png",
+      "bytes": 4110,
+      "sha256": "8b671a7e7a19f1caa2ab38fdfa03ce6bfcda394cdcaed8fc7ac930c4d0e22dd6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_12.png",
+      "bytes": 3739,
+      "sha256": "174e94864da70920579b2fb2f3e07c39264df55eed55e7afc029f2124cc792b6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_13.png",
+      "bytes": 3722,
+      "sha256": "0c4baafaf8ace696db10ae937e7be2a81cbc98277a94c41cad5e212f13045288",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_14.png",
+      "bytes": 5067,
+      "sha256": "07fc3827d3d152756345004d53b395f8cdcd67d1f4e8a64e75cfa7e4a3faa80d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_15.png",
+      "bytes": 5000,
+      "sha256": "79a793b37a34b232ac53ed9746e8677c3431342ae43ac14003fb1b457ca6adc6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_16.png",
+      "bytes": 4015,
+      "sha256": "6a52d6a75f0194cdd7472809fade823a11d5d9106c7bd57a17e79d494a7bd803",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_17.png",
+      "bytes": 3696,
+      "sha256": "d5cef770c265f3148ebcb10cba0cc8728faf0cb9f10ac8208e15d34b473978fc",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_18.png",
+      "bytes": 4112,
+      "sha256": "0213573eead606a3ac31d6e689f91286de8fd7694477862e30b0a2aa7d8d4fa0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_19.png",
+      "bytes": 4348,
+      "sha256": "2c00178001771a68165bd0c420d44fb13db3c5303cb71f754bde1077e572e861",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_20.png",
+      "bytes": 4495,
+      "sha256": "8e203997d812f2a9d80a90a21af80d46da01a2d1a10fea3f012f807624f5e803",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_21.png",
+      "bytes": 3392,
+      "sha256": "e32cb27dca2183e15b2c02634d79169bbdca5fd0cb431ba07a11a1251e037e41",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_22.png",
+      "bytes": 4195,
+      "sha256": "a25f92d545bc98bdef97f95bfd5babb7ffdab521e2987d8d7c4bdcba9dbc9e63",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_23.png",
+      "bytes": 3792,
+      "sha256": "2f66bd87c04be7b11733b5b0a7df0bc4cf7a76853afa09a2de4e56a7b26934f8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_24.png",
+      "bytes": 4928,
+      "sha256": "0fc91fbc5989de9229a26e9f8714cb2baaee9e082129ce1b1bb207e54be88d07",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_25.png",
+      "bytes": 4278,
+      "sha256": "1ce0c69407f8b944e56fe2fc1fae406f8b620f0b591ed67b93c67cbf0302f18d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_26.png",
+      "bytes": 4472,
+      "sha256": "ecbdc3c30460548fb118e962afb823ffc10f62301fea7c575101f49084c70cc8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_27.png",
+      "bytes": 5019,
+      "sha256": "5ad07f8cddfd163d78fbc4bc1dc6023c4ffd18ce189a332bd543c8b510d67138",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_28.png",
+      "bytes": 5028,
+      "sha256": "80e269557c49aecc9a798bd61261a3c3a3b880afa1c152654c48f12f5726b3a9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_craft.png",
+      "bytes": 2642,
+      "sha256": "b2364d94947219fc54b5fd0dac5ccfe65b7af28f54d9dbe19e5e9df5a09b17e8",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_craft_frame.png",
+      "bytes": 5104,
+      "sha256": "4a4fd20833118fdeba12fc6b553a4fc4010c890faff4430f9f46e32ee3364a14",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_obstruction_huizhou_roof.png",
+      "bytes": 17178,
+      "sha256": "f9ec48b1580321dc20f2a66eae68391be35edd3adaaa7c9b0567423bb4a3315d",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resource_obstruction_roof.png",
+      "bytes": 28305,
+      "sha256": "523ba2cfe43ccf4b71dfea70722ce11e39b49cdc700b9c3f8b3e82a718b98b04",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/resources.json",
+      "bytes": 965,
+      "sha256": "54b268394c28d1dc1f14780e30286590ee4ffc4f7cff734249b76b18718c0dfb",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/post_station/unreachable.png",
+      "bytes": 15863,
+      "sha256": "aa319451cae5581a88701ef4dc723ea7497a22675741aa35377dfe873d3d66dd",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/resident/arranged.png",
+      "bytes": 1902,
+      "sha256": "4938e9bf2506905f12b299d1dec9bfbac627c5ab5c4c0a4420c5cf888b896e6f",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/signin/daily.png",
+      "bytes": 972345,
+      "sha256": "3a0b7cfd177a4f677462b37c6761da524e3bcfd7f10701082e321b1dbb8e915c",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/signin/daily_done.png",
+      "bytes": 968904,
+      "sha256": "8d1189d6bb8aeeca06ba0db7491cf31e76511853d27e1aa62d76ce458144f531",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/signin/limited.png",
+      "bytes": 999571,
+      "sha256": "4de6c1a6a480e77b4c93c08c6de1c4ca74bc73d62f882280aaa2c382cad0f7e9",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/signin/profile.png",
+      "bytes": 1594303,
+      "sha256": "518fe8a235e44a7c49fd47041aa30e7c544aa81746ed264b72aef78546d6c35e",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/task_reward/daily_available.png",
+      "bytes": 833472,
+      "sha256": "59e2716d717ddfd6d73cf7de36448e89048203a91022418030cc723d955a02c3",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/task_reward/daily_done.png",
+      "bytes": 826594,
+      "sha256": "a6d466ebb9b11296222889d63b3c010d88228b85d75db0bdb552ff6e20079760",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/task_reward/prompt.png",
+      "bytes": 1168758,
+      "sha256": "47d164b525f58eb30c36ce81cd29bbf4b6adedd3b6c4f4fe7985e94bbc7a5eb6",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/task_reward/reward.png",
+      "bytes": 657136,
+      "sha256": "e42521c2a9f8df3a8d0f52c158899d8d61e75fbbad4191f421d57014a43fc5fd",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/ui/main.png",
+      "bytes": 1647251,
+      "sha256": "5d8e1aabbd84ebbd32c648c22dc8de9cf7e47d1c41dda3b457120f0a37c449a7",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/warehouse/build.png",
+      "bytes": 1081721,
+      "sha256": "9c8d42527729c23a2d46b5eac7cf9bd2824b607c69bc540077131b4bda2df1d7",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/warehouse/special_header.png",
+      "bytes": 3924,
+      "sha256": "d4ec272035cd2aabd59b6a9d2947d311ed5d01ffb35cecad7a4953af649d8453",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "assets/jiangnan/warehouse/warehouse.png",
+      "bytes": 1003674,
+      "sha256": "cd466d02e8c10ecf327c295c624d9addbe66967fa9f2086b24b1b9334d6fb5e0",
+      "reason": "recognition template, GUI resource or built-in map bundle"
+    },
+    {
+      "path": "bin/DroidCast/DroidCast_raw-release-1.0.apk",
+      "bytes": 95225,
+      "sha256": "7d10b1ee91fe9be39a9f79eb6ac15616d3c0fa3537066b930316667fb4213b93",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/MaaTouch/maatouch",
+      "bytes": 13775,
+      "sha256": "4ea8590cd0349ce900f39ab16ef3751dad2356286b465b4293f80f9858c995d0",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/MaaTouch/maatouchsync",
+      "bytes": 15347,
+      "sha256": "0ed5dd22e14d78a0d072307c3e4fac13713fb539cdb9e56f078fdd093e9791b8",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_5.x-7.x/arm64-v8a/ascreencap",
+      "bytes": 768792,
+      "sha256": "3622f8a05617cc615d7fd43f16b3e15898c980c7c21f848332c4e95c39272694",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_5.x-7.x/armeabi-v7a/ascreencap",
+      "bytes": 490056,
+      "sha256": "b3ce1afbed680c25bb8385567287db8f03d88888058f20e86b0d52a0d643834a",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_5.x-7.x/x86/ascreencap",
+      "bytes": 732228,
+      "sha256": "03f2292066c6bff119adceb86e2530c530e74608c9771125226b3d081604868d",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_5.x-7.x/x86_64/ascreencap",
+      "bytes": 843072,
+      "sha256": "2df34046aff637fb3d066b76b1afbc7a99eafc5621ddd26fd76ca4b49fd4e528",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_8.x/arm64-v8a/ascreencap",
+      "bytes": 776920,
+      "sha256": "07de65d443695ea1746ed50171cd3516afe4119c312deeeca0906ef7a256d8d9",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_8.x/armeabi-v7a/ascreencap",
+      "bytes": 485924,
+      "sha256": "8279380fd1076264076b4f55f93f27c64f9a79ef0bb079677dc278659e5d9446",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_8.x/x86/ascreencap",
+      "bytes": 728092,
+      "sha256": "48315c025e172387e0920ba8a8f16bab160e2e9ab1b9cd686a2b1acd9cb6714b",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_8.x/x86_64/ascreencap",
+      "bytes": 838912,
+      "sha256": "5d7ee8d6d2b5965dbe8f82d544002e0534d563f3fa296eac46a76894a98029c2",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_9.x/arm64-v8a/ascreencap",
+      "bytes": 772824,
+      "sha256": "c1afe696cee8bc7c2da9a5b99f2609e771e409ab9fff473b2d68c9d86059d4e8",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_9.x/armeabi-v7a/ascreencap",
+      "bytes": 485924,
+      "sha256": "33bde315e3deef0d9691fa15c0936df40ad4eb23ff7fc7825c3f75ebd1f596ce",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_9.x/x86/ascreencap",
+      "bytes": 728092,
+      "sha256": "9915b910fc08f80efea9baa88537161a3c1b16a5a92a2ac79ddc680de4b6aae7",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/ascreencap/Android_9.x/x86_64/ascreencap",
+      "bytes": 834816,
+      "sha256": "b782481d62d137a64c9c5d844f2e0d92353b63ee9cf74a8674cc5b9bd360be95",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/hermit/hermit.apk",
+      "bytes": 2927117,
+      "sha256": "12a15050e29dab1eccbbe2bb6c3eb358e8a607dff5f2b65b149dd0446aabd67a",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "bin/scrcpy/scrcpy-server-v1.20.jar",
+      "bytes": 37139,
+      "sha256": "b20aee4951f99b060c4a44000ba94de973f9604758ef62beb253b371aad3df34",
+      "reason": "Android capture/control component"
+    },
+    {
+      "path": "config/template.json",
+      "bytes": 447848,
+      "sha256": "9260e366f46783f7a55f8202fc5665d6760f114678858d81df1478877355145e",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "deploy/Windows/alas.py",
+      "bytes": 2472,
+      "sha256": "05aa3737cc6c53128f0a3ce75995afc0d3cac21d2ef78af0497d5c392ef3a560",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/Windows/config.py",
+      "bytes": 6502,
+      "sha256": "bab563043c343fbb936babe437e804994cbbf8998326ac65ee7c576a364e7e49",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/Windows/emulator.py",
+      "bytes": 5360,
+      "sha256": "54fb67f4d5a1a6f838691ef88bd9ad794d3b9cca48a8154273a9e30d1aad9673",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/Windows/logger.py",
+      "bytes": 1773,
+      "sha256": "417bb65802bdd20e955efb97ff7487cf35aeee61ab5912df7b6ff065c85f28ac",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/Windows/template.yaml",
+      "bytes": 941,
+      "sha256": "9a1f88a9a3fa93903bddaf4610b50fd71aa6b6b343063b41e078b74b7e111ce3",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "deploy/Windows/utils.py",
+      "bytes": 4869,
+      "sha256": "58bd798e3eb5ca20f3811d26c07e587d9fefe14c9f580d9ce58d13b750b3c66c",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/adb.py",
+      "reason": "ADB discovery for the toolkit and standard Python virtual environments",
+      "bytes": 873,
+      "sha256": "017cbbeec626c863bf7c2d42a30ff9ed62b25f6f21477532b98df9f7dcf2e108"
+    },
+    {
+      "path": "deploy/atomic.py",
+      "bytes": 18061,
+      "sha256": "352ec5f834ae24908be0442879354d6777ba343871a90058b6daffbeb1b76909",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/config.py",
+      "bytes": 5000,
+      "sha256": "9e21fc06de839887b9a70c5cc2d472d68654d0163fff61e99d5fc94ec93d5594",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/git.py",
+      "bytes": 3331,
+      "sha256": "53242611842b8f3b3808e1e193316e48148a0a4bd7af5500fc799cebea55a47a",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/logger.py",
+      "bytes": 979,
+      "sha256": "58d8180418076f4b71e06b72833908217a8e312ccc1df8ba0b471c2455412d45",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/pip.py",
+      "bytes": 4951,
+      "sha256": "77be72b2598ae98772e203d2d6f086d053e6f4a1d08589f9517a23c629cf7ebe",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "deploy/template",
+      "bytes": 941,
+      "sha256": "9a1f88a9a3fa93903bddaf4610b50fd71aa6b6b343063b41e078b74b7e111ce3",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "deploy/utils.py",
+      "bytes": 3092,
+      "sha256": "4283864a502d3c0b1e45b57a2ee32b040a2292c1a5c308b050ea671e25a1510d",
+      "reason": "imported device/deployment helper"
+    },
+    {
+      "path": "doc/jiangnan_post_station.md",
+      "bytes": 7775,
+      "sha256": "2de8e2ade838467ccd69269a3bf5b362f3767c4d480a4e19dcc2e47005839f23",
+      "reason": "Jiangnan feature documentation"
+    },
+    {
+      "path": "doc/jiangnan_task_reward.md",
+      "bytes": 2268,
+      "sha256": "649fffaf670fd31a17b199030e15ff0b1ef5892623c51e7f727a69ad1479359a",
+      "reason": "Jiangnan feature documentation"
+    },
+    {
+      "path": "gui.py",
+      "bytes": 3609,
+      "sha256": "d8d2da1da46789e630761386aa3eec603c83f901a8f3f872dabc3d50cca7534f",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "module/base/base.py",
+      "bytes": 15284,
+      "sha256": "c4a99baaf570a9fce36e43add62f3c7810cb08bc05858cbe941b7c60d584e6da",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/button.py",
+      "bytes": 16358,
+      "sha256": "389385ca48d8a63c18003c7cdc0afbe33f3a0b658a24f12b1eb2b796538875bc",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/decorator.py",
+      "bytes": 5427,
+      "sha256": "969afe852aaa2cb61e324a27ac8c1d5bb2b0cb984665bfe89d736295d3584792",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/filter.py",
+      "bytes": 4477,
+      "sha256": "2879f33b23dbfe863ede4015cc8d5a96cbbd090fc0faf81cba6b1416acde3730",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/geometry.py",
+      "bytes": 11334,
+      "sha256": "7a0c274e6aa752512ab584f418991b275397c735033687cf11da16155c7f479a",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/icon_matcher.py",
+      "bytes": 23604,
+      "sha256": "17c85506dba824fe1077b774023e64c77c1ddf36a0441a4faea27f1eaf32b691",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/mask.py",
+      "bytes": 1347,
+      "sha256": "cae42da279d9c8e5b1e97482c80c3b7e5e8ddae009fccfeb29a854389f66cf9e",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/resource.py",
+      "bytes": 1921,
+      "sha256": "ef468a3bdcbce6654575242a54a2397eefe0d094ea940365f50b115e08aeabd8",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/retry.py",
+      "bytes": 5028,
+      "sha256": "19021b0b9514d74b232d6e301f5de560ee4242d15c487c8714a50217058edacd",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/selected.py",
+      "bytes": 9789,
+      "sha256": "28508b77fd38ce6a67e9fa7137c46b4d75806ff170d19a4b7bc54c96a6663746",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/sensitive_info.py",
+      "bytes": 515,
+      "sha256": "3556591fc67666403d9937d88b6b5a604fe27db7c25a53fd403d712a21440e93",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/task_status.py",
+      "bytes": 594,
+      "sha256": "27164faa126476230da27619a79325d55cde1638c3b1a04d71d9577edaafec2c",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/template.py",
+      "bytes": 9178,
+      "sha256": "1193dabad60e60f8ac05bace0ee70157af2edb00c40e623c0060019865df8bdd",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/timer.py",
+      "bytes": 4969,
+      "sha256": "a8820dea9b76b8b5f20455a5bee6bdf9919ca10c2d0d562c33c9989db637aa0d",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/base/utils.py",
+      "bytes": 31884,
+      "sha256": "5e9119e975aa646279cec501cfc98a00b43dc55803748d74da1c23b8f32f2a5c",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/argument/args.json",
+      "bytes": 1913833,
+      "sha256": "dc034c3ea38061f4046cd5bffe5afdf60710d0da041e411f58ddd17682b549f0",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/argument/argument.yaml",
+      "bytes": 71596,
+      "sha256": "1a67fd1f5a158bb85a16c1960de0a924f11e8354dac5cec498f52f33ff38e9a6",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/argument/default.yaml",
+      "bytes": 54608,
+      "sha256": "b719812bcf774a327826a2659c9569af4e3e91f63327bf1cd4c343dd8c7f37e7",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/argument/gui.yaml",
+      "bytes": 1828,
+      "sha256": "9086cfc5a851243695bcc9f25456ac9c638185ba4126923631fb3012df327656",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/argument/menu.json",
+      "bytes": 5148,
+      "sha256": "770455a78aa6764cb9dee27c6b73df33ead2c2bc4dd8bd14711dc438c45fd28f",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/argument/override.yaml",
+      "bytes": 9551,
+      "sha256": "95f7aeea6e8b67b2b67fff50981e599dd31d04ffe7d0bb86752959ad9198c4f6",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/argument/task.yaml",
+      "bytes": 18242,
+      "sha256": "6992eb1e72be532b5c5753e86332a4e6ca44394b7ddd8e4d07237451885d1657",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/code_generator.py",
+      "bytes": 5104,
+      "sha256": "747956bc4506fc26c03eb4fa03504fa62624a082cdb4b3e73a917abfbacd8732",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/config.py",
+      "bytes": 18423,
+      "sha256": "ce49955c9ae39f08118f31918fe398a9c8b74cc9af582ce56d0cfca057422683",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/config_generated.py",
+      "bytes": 122232,
+      "sha256": "dc9142f251b674beeb065d9bd8ad9e071564d850ac45df841503f982df2fb458",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/config_manual.py",
+      "bytes": 2285,
+      "sha256": "b036ae43cc83df8ccd43b7a6d0b25ab41f19ddbbf6665cecb3020491b078dc52",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/config_updater.py",
+      "bytes": 49223,
+      "sha256": "13ab602ae18fff5be544ba935cb6cf558ed2918cf138b8681a926a2aadaebdf1",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/deep.py",
+      "bytes": 13680,
+      "sha256": "1058902625fcdb02f14a0acab9c354c8983807d83742d8d0f6b99e09df95e87e",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/env.py",
+      "bytes": 80,
+      "sha256": "d8d0923bec7224a7b7f1c042d24adf750fb63dd506fe6ba5ef0219a7f658b0d6",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/i18n/en-US.json",
+      "bytes": 316264,
+      "sha256": "8099cd0e5572dfc0f7345c6a1e5de63066ee945bb5369080bc3ef7291b1dec02",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/i18n/ja-JP.json",
+      "bytes": 297536,
+      "sha256": "9fb4a3411b8f164e388190818ef21dd6fc5c26644ff9239d70a64c22185a71c0",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/i18n/zh-CN.json",
+      "bytes": 309456,
+      "sha256": "65dcb07ef060367847a5478fdcd5fea516a521cce5df457c2e70c4b887143653",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/i18n/zh-TW.json",
+      "bytes": 301778,
+      "sha256": "8cd2d27e273a4e540516ba5164013c5d4bed17af5249a3bec5b8e69a2bee0b15",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/server.py",
+      "bytes": 803,
+      "sha256": "ce9baabf2e8667ae8b0faaf8033b4bb7f2268edafde4e0728a403080d62b29e8",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/utils.py",
+      "bytes": 14743,
+      "sha256": "e71d3af0273627996b71ac8f98a4e6fb26f8582c2dee40d73eb557187def3149",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/config/watcher.py",
+      "bytes": 1499,
+      "sha256": "5624308f0ea672cc2e7d2033d28f7af9e07ed588ab66c1852c7e956b3b27980b",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/app_control.py",
+      "bytes": 3468,
+      "sha256": "77de12656da2d19456865da974ffb04ff8d62bc8363094b3637c0494801cda9a",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/benchmark.py",
+      "bytes": 7288,
+      "sha256": "e4da350a71c32f78549aa53aa11c0b7537d32d83694912ff2ed3aaa969ca2074",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/connection.py",
+      "bytes": 47043,
+      "sha256": "437ab76db5b9014eb261f029bddd058460554e10c4a84428da548a176eab54ea",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/connection_attr.py",
+      "bytes": 12044,
+      "sha256": "16dd80496dacb84ae98ab286dfdeca328d4c6140b928d5d4934f0013ca6f84e3",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/control.py",
+      "bytes": 8113,
+      "sha256": "0957ed0ddae12d961d99886049916d5788729bee6f6efcea55191c3509e377ab",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/device.py",
+      "bytes": 12572,
+      "sha256": "56497e6069a1277734c4abb997a3be78938e31f086d4540001693ffd0a0db7f3",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/env.py",
+      "bytes": 124,
+      "sha256": "0a0aa0ab5402bba2fb85bfb998e83a8bc6e3dabbfac509f790b7daee2c304985",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/adb.py",
+      "bytes": 15166,
+      "sha256": "37dc092c025ba442250f9012a438cd55dfcc65a32f939acf66aba4f8a863b2f1",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/ascreencap.py",
+      "bytes": 7896,
+      "sha256": "af2c7fea394deadca1d1274827676b82ccdfb9674c7ea693f12fd192af3ab0bf",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/droidcast.py",
+      "bytes": 12973,
+      "sha256": "f624765752a44a723fdb0440c3ae5f4f425239f7db8ca571f25e2f22551c655b",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/hermit.py",
+      "bytes": 8875,
+      "sha256": "5034c2d81cba47dffe8a23f0714d20244d0d5b17b6cabaffe26a44dc69cb7f3a",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/ldopengl.py",
+      "bytes": 11593,
+      "sha256": "82bb51bd81bc12cb5843edbb512e9a7057eae4389a1e96bd0f87adeb25e5ad8a",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/maatouch.py",
+      "bytes": 13563,
+      "sha256": "a77351be76a3e129dd37decc1c2db24196aaec5333ea117e4e319f5210d5fb82",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/minitouch.py",
+      "bytes": 24981,
+      "sha256": "902d5ff37a83acca5bcef53ec8a0e1c1ff98dbee09e748f16e4ee5ce9f268a46",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/nemu_ipc.py",
+      "bytes": 21552,
+      "sha256": "308a6ddbe68c537e8e62f8dd2f1ffbb4a990af74a9d7a680485d530b4c45f884",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/pool.py",
+      "bytes": 16751,
+      "sha256": "37e6134a79be78ccb3f3fe5e8a29330543f9e5bd88fa200700865126b2236706",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/remove_warning.py",
+      "bytes": 4704,
+      "sha256": "59aa42c0c6117e167fd6f4b1b8bcfc9292629e13cd6a580cdb8b7f13462f96aa",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/scrcpy/__init__.py",
+      "bytes": 40,
+      "sha256": "c3a7cd4566b7edb41dcb026f87806f2b0361a1783a8bac096b1feeebd9aa915d",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/scrcpy/const.py",
+      "bytes": 7478,
+      "sha256": "ff9536ac8281ff2ccf33e0bc9f0c4b73df829da7e2b622a8ef9a029b05e3fed6",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/scrcpy/control.py",
+      "bytes": 7174,
+      "sha256": "b62970a0f56508a9cdd33e19d082524b78c19cc794c99ce26de14f978808dc74",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/scrcpy/core.py",
+      "bytes": 8596,
+      "sha256": "de1cde78f52f67e711c93347f6862e2d05f1fcd88ed1669937e594dfacb54b7a",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/scrcpy/options.py",
+      "bytes": 4835,
+      "sha256": "3408b57901d1f87c9d4fdbaa89d56cf2a4dfab09908ef1c270df954d04fefed4",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/scrcpy/scrcpy.py",
+      "bytes": 6105,
+      "sha256": "b00b4ca6448998ffc4227f252c77fdb0da9b53a375447bebacea54282a22ecde",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/uiautomator_2.py",
+      "bytes": 17167,
+      "sha256": "05941c4e40a567b071614d1ab1479b0daf011c06544c35455b3b0da2b86d8169",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/utils.py",
+      "bytes": 13015,
+      "sha256": "5e0f79eedaa91497a9362f18464537c13e18ad05973d45fadda35769a7f62d5a",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/method/wsa.py",
+      "bytes": 5395,
+      "sha256": "3c10999ca71b3108ae8d6a9cfe1a40a7f8a6d11f6c40304b4bd245e78c038b48",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/monitor.py",
+      "bytes": 1880,
+      "sha256": "4c47757e23dbd4fae13b43b9c2cfd9433b12f3118e8a9ef446194cd93ddbbcd6",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/pkg_resources/__init__.py",
+      "bytes": 3225,
+      "sha256": "a74f8dfec43c5ec9704d0fe9f94caf1cc07a4a2a83cd8820e88bd39955bfd765",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/platform/__init__.py",
+      "bytes": 225,
+      "sha256": "8e3946a3fb15683695331fa2e937a7b2743228502448541504519630d3398c33",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/platform/emulator_base.py",
+      "bytes": 8040,
+      "sha256": "142c6a676047a993a3b1ef20827d42eced71f4c3c1ba558b479577cca8d64054",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/platform/emulator_windows.py",
+      "bytes": 21877,
+      "sha256": "4ece39eab9395812fa51b2422c919e7e9774297d41537315e1b7e164172b78cb",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/platform/platform_base.py",
+      "bytes": 8778,
+      "sha256": "c1d2262469cd0a19bdce803056f58fc2f405db5536beec72fffcce420a2bcd5f",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/platform/platform_windows.py",
+      "bytes": 15457,
+      "sha256": "7525358f70e28aa926974a08df85b1ecc68bb69e39316aed3ac4d68334a70e78",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/platform/utils.py",
+      "bytes": 1597,
+      "sha256": "850f304a6c1c32d34ceba8b490ce1dadeca5ce7c17b7b27876b3275ff5c1735b",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/device/screenshot.py",
+      "bytes": 10704,
+      "sha256": "a209dc380bc536448485b32e00822773c51a6fa32390dda352689d3e397d77a3",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/exception.py",
+      "bytes": 1074,
+      "sha256": "52d31fc419e791574176c8cfb2e3293621100667c68542af2ebbb1b8a9b760ca",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/allocation.py",
+      "bytes": 177953,
+      "sha256": "61c8ca0678361c90bc2e18f7dcd1605b9aee0fd601341f2d8d02a2d2d7f79aa8",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/allocation_planner.py",
+      "bytes": 69781,
+      "sha256": "c20f09980b942248a25cd1e1f65a380950634d6670d4d1112ad5153152bb1427",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/app.py",
+      "bytes": 8008,
+      "sha256": "bec6862a617485517a0e3fc381f9646bedb83ecf90fdb93b57de5eb8fa4814e0",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/assets.py",
+      "bytes": 33048,
+      "sha256": "74d2ad6d148a5bbed236f422656d444a82f58309741f07ebe18e181dfe03d649",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/auxiliary_recognition.py",
+      "bytes": 4946,
+      "sha256": "8b1a83f686f1d3b0b5ed2745443423769673ad9a1908cbc8492308543da0ed2d",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/base.py",
+      "bytes": 6333,
+      "sha256": "e6a806a25097ab169d52b01ece9edf38c0cb79538aeff1a5323e7e9113053a79",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/building.py",
+      "bytes": 101786,
+      "sha256": "723937c3b0cbbf6c24732cf5181402ea4eb4f9f064ee5e1c7c6d0468d7d8793e",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/canal_route.py",
+      "bytes": 18078,
+      "sha256": "ec7d09910cfc4c09a93420295019e04675e91823fff57c1c4ae355042ab03df4",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/chaomu_drum.py",
+      "bytes": 16806,
+      "sha256": "b191014d097bc18c775a43bd22c31734197f60c28ec64a5fc633144bb96bcd9d",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/chaomu_drum_cost.py",
+      "bytes": 1042,
+      "sha256": "6f68aa76d72190610f8853e31e609779cd2ead58b0635b30f7efcf793e21ebff",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/chaomu_drum_state.py",
+      "bytes": 1913,
+      "sha256": "9a5fd9ff2d08f805ac46b52f1b9a7af28a13c0d5f59037c496bd6bd2fbd3a7cd",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/city.py",
+      "bytes": 46933,
+      "sha256": "11c743bc52a13a6e28fee6629620790f73d79c814b1591d1e674adbe56df4925",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/city_metadata.py",
+      "bytes": 889,
+      "sha256": "e254c2c093c1fcb9540a77f20a5d06201f5e3d7643429af02256f9233206775a",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/city_production.py",
+      "bytes": 63970,
+      "sha256": "e9e3805e8e8e7e7cb857b582ef2c1ad9509249a34d1c2d4b34a7a4d4d929db06",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/corn_drying_mat.py",
+      "bytes": 20323,
+      "sha256": "34609fea6e069592d384ec27b9739c620980d1eb92d06a989170e3cadcc78146",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/debug.py",
+      "bytes": 2005,
+      "sha256": "c8a79892a708f45eec06b1bfa9936eccb49d36ecdbf5cae5b5fae79e7a12ca36",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/device.py",
+      "bytes": 2410,
+      "sha256": "96d0b4447dc6f82b97dbddcb0a5eda7ad871497b2f2206f5b569c81895ffe514",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/digit_recognition.py",
+      "bytes": 3565,
+      "sha256": "ae1913f1b3a4fc9542116ff97acf1171ef44d5b017012cb531a9ec009e702bf4",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/dock_harvest.py",
+      "bytes": 10105,
+      "sha256": "7afb34bb80cf78114a0873932098feb18ab7884773739ac03b9a9a963127d42a",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/farm_production.py",
+      "bytes": 70594,
+      "sha256": "c65521fd82a7d509401aa383cc0e0165fa4a81899e234be237152cb9868bc5d2",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/foundation_icons.py",
+      "bytes": 4930,
+      "sha256": "63a9f4ec956dba850adb59c5956a3cf93b29d9e648bf1e46df5881a2da8a9e26",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/furniture_shop.py",
+      "bytes": 16488,
+      "sha256": "e8776c7fe294cc34c3bc986c32107a84edd7f809130a5ef947e424a7cfd746ea",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/grand_canal.py",
+      "bytes": 103999,
+      "sha256": "da90d3191edbdf403851f1df3c841713955bed8f2d341a4ca66d22976008f9bd",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/harvest.py",
+      "bytes": 47749,
+      "sha256": "d6b9028aa7601510fd456a2c25dab49421452e6e3df25c35e641f8ec8c13d346",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/huizhou_merchant.py",
+      "bytes": 50063,
+      "sha256": "b1dd42e38995e5e94bc2cff827f2917fc58d7557bf21224b8be775f4a079c509",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/inn.py",
+      "bytes": 5805,
+      "sha256": "9b8bce7912aefcfd40f177c30a79dc137668fafda762383959a463e8d3112609",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/inn_diners.py",
+      "bytes": 12820,
+      "sha256": "84da056d76f9769a1aba17b0e815001c1c4b95aaeab28c10e85f79416f64d290",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/inn_goods.py",
+      "bytes": 18969,
+      "sha256": "a668ba1687a27f5f14b8ccf01073175413f80722578d8523e74b947a58ad6f1c",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/inn_map.py",
+      "bytes": 9319,
+      "sha256": "7562d5fc942c999ab5c27b16ece2c561b917e61aa926f4e2b92330a6d5588782",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/inn_schedule.py",
+      "bytes": 1771,
+      "sha256": "59223af53d63046c97de6770b36e279ddd25a525507aa593b646f913be81895b",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/inn_workflow.py",
+      "bytes": 7198,
+      "sha256": "99e49062510cd1c5eba735addef4152dde5e85cc133cf50fedd18f9754150add",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/inventory_ledger.py",
+      "bytes": 3533,
+      "sha256": "82736a79570bd690b54f8f87c567d0188a0ce3a845dbe9c6e3f1fd8230bb73ff",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/inventory_state.py",
+      "bytes": 92703,
+      "sha256": "cec0c2f740773982e848a7024ded7766ce2daf4230ff4b06c8b79648efc09797",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/login.py",
+      "bytes": 5958,
+      "sha256": "e0b417956214c443fa641800d221ef54f3a9a911d3b35b456aa0ae23349ae732",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/logout.py",
+      "bytes": 4506,
+      "sha256": "ecaa0fe6042e841949fc0b70dc77162d92bce930d84497ee29bae30bfeef3af5",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/multi_product_production.py",
+      "bytes": 37140,
+      "sha256": "053bf0ef818d7b34c75d5304eb935262913e0979ed1c648731a55ef6e9b11034",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/network_popup.py",
+      "bytes": 2077,
+      "sha256": "fb8f0768cae3fe540dafff62ed07789c4089ef33d63f8b27aafd7037b5959c77",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/ningbo_merchant_ship.py",
+      "bytes": 35934,
+      "sha256": "031642818f4fab52cb43f2361567deafbbc76d83625825c6633c0c88a12c8d20",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/ocr.py",
+      "bytes": 2838,
+      "sha256": "c43bb3c25ea3e21f763d86be281e2e3567358516e8f3faf58aa2fa8516e7e8b2",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/popup.py",
+      "bytes": 15455,
+      "sha256": "1861336fa86294d68d368bd2c163db83396dc138f6ae6083566581a2a241aebe",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/post_station.py",
+      "bytes": 43647,
+      "sha256": "0f1799641bfb2845814d3801ebb967ab2a4139aee09e1641ed3692d544794e56",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/post_station_cities.py",
+      "bytes": 1904,
+      "sha256": "2e670ca5af2af84a7f306221344e870854c307fbb43239b90ee90d5ceefddff4",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/post_station_rules.py",
+      "bytes": 3232,
+      "sha256": "97411beffc550c3cdb4cd55a0839d16a0bc679f184c09f943766e0f851743c1c",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/post_station_vision.py",
+      "bytes": 20400,
+      "sha256": "c07d222f4277e5ca552678905ca986a7e6b2cd2f739d58dd74fba1d5f4a9d7d9",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/ppocr_v6.py",
+      "bytes": 20361,
+      "sha256": "49c3b8d02742aec3ab76868f60a7a59342c6243fbdae48bc70fa086ba1328148",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/ppocr_v6_server.py",
+      "bytes": 3523,
+      "sha256": "9c17a7226aaecbe33f890fb92a620549919bc07ceb091c44bc49a97dc3c1bea9",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/production.py",
+      "bytes": 70776,
+      "sha256": "850b1d6f63a0e7638e5a4b409536d0e97bb7148a5e05a392789bd8e64ffdb26f",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/production_state.py",
+      "bytes": 3885,
+      "sha256": "d1cb13e58e32c94f9fbaec7006bb6a5f7e9c1be39e8d53c41d395f49eac4224c",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/resident_reservation.py",
+      "bytes": 1897,
+      "sha256": "f8f5782706754be0314e85ab2ea9c5377b390557c77d39e8f8793f03abe6b09d",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/resident_selection.py",
+      "bytes": 2188,
+      "sha256": "ff246248ad2b27166b7fb5de0787fef1e076db0fb1d2cdb71e1d51168762e690",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/resource.py",
+      "bytes": 5882,
+      "sha256": "2610259bead3ce65c4679a3e79803c1317ec3e32234258f13d5ae898fd04d735",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/resource_layout.py",
+      "bytes": 14064,
+      "sha256": "d92659d997b152c7df9d8285d1418a0a4532ef46d5977eb295a52e6a31daeac2",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/retention.py",
+      "bytes": 2115,
+      "sha256": "e338514b8635c3d6ba0c85463b73be2f50ddfba0402d95ee59b8ecc8ce888360",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/signin.py",
+      "bytes": 10301,
+      "sha256": "1a1a798cf59cd8617d8769b9ab71585ed75f83b9bc089fa2729085d990b75a43",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/task_priority.py",
+      "bytes": 2589,
+      "sha256": "35eed088bde88b8cb23f894db1af176c14fa7b5ef61b2dd251973bab7adbc1b2",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/task_reward.py",
+      "bytes": 3765,
+      "sha256": "ffa4fc74694ab582a9c69c19d4d6e9ea86ab6d32dba9ef992ef29d935be0ebf5",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/task_reward_trigger.py",
+      "bytes": 3334,
+      "sha256": "ec3d80bf274ad967b5aef3b87edc0ca31e6921bd4f6dfaddd29b2d2b73a2c2d5",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/task_reward_vision.py",
+      "bytes": 4913,
+      "sha256": "bf5c94a5ee656ebebe6ba6e17d808dc71fd593138aaf7d7fec64388ed0fa0256",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/tax_harvest.py",
+      "bytes": 5883,
+      "sha256": "34eac5d505b8aae843138e61cfe33b635d6d28afe05483315c50ee27559c5ea2",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/tax_receipt.py",
+      "bytes": 4499,
+      "sha256": "cf2579355276fbed78daa465beaccb920f0aa638035e11c860d126f08afd58e9",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/transport.py",
+      "bytes": 30820,
+      "sha256": "d74a4dda93741e426b52cae15ea4f3c309f7628f358fb07a461b0fea137c47df",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/ui.py",
+      "bytes": 18173,
+      "sha256": "2bbee179ddd02c9bf51f9075ce4fe07440b39a1ff0d3b8f8117e57962f3beab8",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/vision.py",
+      "bytes": 4896,
+      "sha256": "68cf1c7db07f500ae8f097cc72f8c0d747c1d7353861ae13761f0b2d81a5c157",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/warehouse.py",
+      "bytes": 131755,
+      "sha256": "eacc62a4643e5c9a4ff347d133b606960e36221d6c7225094db341b5a43b8680",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/jiangnan/warehouse_inventory.py",
+      "bytes": 8471,
+      "sha256": "ba8f318f16d216885ba7d73b2b35d301c4b31f20d4595db8ba3b1eb387795e74",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/logger.py",
+      "bytes": 11898,
+      "sha256": "8e82b760216ca51ab95c0ddd8f3acf20e1895719d7bbfd17fa3490ea4e1787bd",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/logger.pyi",
+      "bytes": 1479,
+      "sha256": "842f5164ec8eb9cba3958f23497a3edc512d10934dac10285dc4bb4f3eca44fb",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/notify/__init__.py",
+      "bytes": 155,
+      "sha256": "a2b0300f31d49268a6c89454ebbea88ef6d2fe281a36ecd4174a91f21ef7a7b2",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/notify/notify.py",
+      "bytes": 2710,
+      "sha256": "5bf111e8e10b59e1af1c984cf1730c57c45f808ea68adcd701c53618b7baa810",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/ocr/ocr.py",
+      "bytes": 7587,
+      "sha256": "0e9bcf73324de4e99e336020689f09be656cce2a50d0dbd341a3ee30b8b9bcc6",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/submodule/submodule.py",
+      "bytes": 276,
+      "sha256": "6ece6c3aed5343e9680bc71319157e0758394b52d19342cd23fc07460d3fdecd",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/submodule/utils.py",
+      "bytes": 724,
+      "sha256": "3131696cd90147f65c5151bd45c6bdfd83183cfd34cceb074443b858125ef16b",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/__init__.py",
+      "bytes": 137,
+      "sha256": "de05251395ed34d22fa71ce7ae57a8d957a96cb3bd83ff6cc1dd59ee35c1d7b7",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/app.py",
+      "bytes": 81899,
+      "sha256": "f7967d3a1b88bd6373121ad92928b522d9d39bb6eddb0f861c2ebc91258e8940",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/base.py",
+      "bytes": 4196,
+      "sha256": "0b70ffac6a2ba686f1d470e22d35beec8b32fe8f283c1b8681e6f8333cc26e76",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/config.py",
+      "bytes": 644,
+      "sha256": "968f11639577ebeac9a2b43c82a62a3093692f71908c02ac5b0a825d279d7a63",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/fake_pil_module.py",
+      "bytes": 695,
+      "sha256": "26962e4b7cb84ad7219a325312c2a4378992c292b60dccd405b816bf91b5e685",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/fastapi.py",
+      "bytes": 5694,
+      "sha256": "6d617829f4323f7709c69870d246d793ce6d8e1c73a764168cebbed14331af08",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/lang.py",
+      "bytes": 1761,
+      "sha256": "1194a172e4f9630010e0eed3978f43be594c05ff6fccb753453522f5137570e6",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/patch.py",
+      "bytes": 4697,
+      "sha256": "eb23e404624bb1e9c131eabae7a11bcbc5311a4ccd32039734ef039ede4e4ce2",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/pin.py",
+      "bytes": 2697,
+      "sha256": "266e8361975d1009ec171e1f6f440a92bda2881917a761b63dfac01aea2c77ab",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/process_manager.py",
+      "bytes": 13486,
+      "sha256": "8559f75f30f956c947ec30f3449010ace3b5d7f60f36736d80b05be42489e3f1",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/remote_access.py",
+      "bytes": 7337,
+      "sha256": "6b7aa08512273ad8bb37d6adf984d386da5e4388a259f89d7027fb68cf5e0493",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/setting.py",
+      "bytes": 2470,
+      "sha256": "a5ca943bd76beaf28fd148d12bf5dc3cdcea355471f045f20c899d9061df00c2",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/task_priority.py",
+      "bytes": 2474,
+      "sha256": "09ea18c7c2d42b006cd296053c890052f1c77f82a971b950e897bfccc5f727ae",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/translate.py",
+      "bytes": 8014,
+      "sha256": "e2a99f9ecc033b66190f937a898ac7f6bf3c27ba028bca598d66957904c4957f",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/updater.py",
+      "bytes": 7120,
+      "sha256": "25f0a1c1debaac3d672895b12fc481d741d6ff581725f7ed3fcfa4b0bcb0ac1e",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/utils.py",
+      "bytes": 16359,
+      "sha256": "88e71fe24133cbd0a7ea67c532a6fb0fb864eb8ad2b2c78f030d1f993e60d79e",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "module/webui/widgets.py",
+      "bytes": 16913,
+      "sha256": "313e8a14d26574be11c28bb67195269c3e232c101543ad8f42967bbcaa823f0c",
+      "reason": "Jiangnan runtime or shared framework"
+    },
+    {
+      "path": "requirements-in.txt",
+      "bytes": 481,
+      "sha256": "cde1949c24309c7c80ec3a7f843f38ad73208827682665b3ea2af87ef005e620",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "requirements-ppocr.txt",
+      "bytes": 182,
+      "sha256": "b0e68e87eac9007563ca36571e5a91b4f7a4b672e0865158f732c36e426155c2",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 3926,
+      "sha256": "377eb71fad57f7feba9b6ba4e378b30a84a5411957d6c9163d29ca1debb22f9b",
+      "reason": "entry point, license, dependencies or clean configuration template"
+    },
+    {
+      "path": "start.bat",
+      "bytes": 565,
+      "sha256": "0c579c44ad547905d40ff62e81044fcf44ffdcb438de69f97c92bbc200aef679",
+      "reason": "publication instructions, verification or configuration tooling"
+    },
+    {
+      "path": "tools/build_canal_tiles.py",
+      "bytes": 1831,
+      "sha256": "99d291b10ba1d37a6b507731a7f750f194ba59facb3df50d63d1844a8182ff04",
+      "reason": "publication instructions, verification or configuration tooling"
+    },
+    {
+      "path": "tools/regenerate_config.py",
+      "bytes": 417,
+      "sha256": "8011c82d131810504fd04b98669d92548f654dc125f1067c9ce9c693f9123ecb",
+      "reason": "publication instructions, verification or configuration tooling"
+    },
+    {
+      "path": "tools/validate_release.py",
+      "bytes": 6970,
+      "sha256": "1c4203b0545a9667aa7e6f43837f8b1a0563193253c9aa459311286148ab4212",
+      "reason": "publication instructions, verification or configuration tooling"
+    }
+  ]
+}
